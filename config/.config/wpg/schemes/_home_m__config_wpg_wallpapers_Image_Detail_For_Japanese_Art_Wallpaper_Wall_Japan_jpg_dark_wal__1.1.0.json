@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/Image_Detail_For_Japanese_Art_Wallpaper_Wall_Japan.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#221812",
+        "foreground": "#d8c0b0",
+        "cursor": "#d8c0b0"
+    },
+    "colors": {
+        "color0": "#221812",
+        "color1": "#905239",
+        "color2": "#875C44",
+        "color3": "#95694F",
+        "color4": "#A57457",
+        "color5": "#A57860",
+        "color6": "#B1876A",
+        "color7": "#d8c0b0",
+        "color8": "#97867b",
+        "color9": "#905239",
+        "color10": "#875C44",
+        "color11": "#95694F",
+        "color12": "#A57457",
+        "color13": "#A57860",
+        "color14": "#B1876A",
+        "color15": "#d8c0b0"
+    }
+}

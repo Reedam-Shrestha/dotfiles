@@ -1,0 +1,680 @@
+{
+   "aboutDescription": {
+      "message": "Membantu pengguna mendapatkan tautan langsung dari 40+ situs web, termasuk Dailymotion.com, YouTube.com, VK.com dan lain-lain."
+   },
+   "aboutDescriptionLite": {
+      "message": "Membantu pengguna mendapatkan tautan langsung untuk mengunduh dari 40+ situs web, termasuk Dailymotion.com, VK.com dan lain-lain."
+   },
+   "aboutPage": {
+      "message": "Tentang"
+   },
+   "aboutSupported": {
+      "message": "Sumber daya yang didukung"
+   },
+   "aboutTitle": {
+      "message": "Bantuan SaveFrom.net"
+   },
+   "aboutVersion": {
+      "message": "Versi"
+   },
+   "activate": {
+      "message": "Aktifkan"
+   },
+   "activatePro": {
+      "message": "Aktifkan PRO"
+   },
+   "aliwizTopbarButton": {
+      "message": "Dapatkan gratis"
+   },
+   "aliwizTopbarTitle": {
+      "message": "Asisten Aliexpress menampilkan \u003Cb>harga terbaik\u003C/b> & \u003Cb>penjual terpercaya!\u003C/b>"
+   },
+   "are_you_sure_interrupt_download": {
+      "message": "Apakah Anda yakin ingin menghentikan unduhan?"
+   },
+   "authCheck": {
+      "message": "Memeriksa kredensial"
+   },
+   "beforeDownloadPopupWarn": {
+      "message": "Perhatian! Pengunduhan tidak dapat dibatalkan atau ditunda."
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "cancelDownload": {
+      "message": "Batalkan unduhan"
+   },
+   "close": {
+      "message": "Tutup"
+   },
+   "completed": {
+      "message": "Selesai"
+   },
+   "continue": {
+      "message": "Lanjutkan"
+   },
+   "conversionCompleted": {
+      "message": "Konversi selesai"
+   },
+   "copy": {
+      "message": "Salin"
+   },
+   "disable": {
+      "message": "Nonaktifkan"
+   },
+   "disableModule": {
+      "message": "Nonaktifkan di situs web ini"
+   },
+   "doNotClosePage": {
+      "message": "Jangan tutup halaman sampai file selesai diunduh"
+   },
+   "done": {
+      "message": "Selesai"
+   },
+   "dont_close_page": {
+      "message": "Jangan tutup halaman, \u003Cbr/> ini akan memerlukan beberapa menit"
+   },
+   "download": {
+      "message": "Unduh"
+   },
+   "downloadFromCurrentPage": {
+      "message": "Buka SaveFrom.net"
+   },
+   "downloadInfo": {
+      "message": "Informasi unduhan"
+   },
+   "downloadMP3Files": {
+      "message": "Unduh file audio"
+   },
+   "downloadPhotos": {
+      "message": "Unduh gambar"
+   },
+   "downloadPlaylist": {
+      "message": "Unduh daftar putar"
+   },
+   "downloadTitle": {
+      "message": "Klik tautan sambil menahan tombol Alt/Option atau Ctrl untuk mengunduh file."
+   },
+   "downloadWholePlaylist": {
+      "message": "Unduh seluruh daftar putar"
+   },
+   "download_button_and_click": {
+      "message": "dan klik"
+   },
+   "download_button_hold": {
+      "message": "Tahan"
+   },
+   "downloadingBox_button": {
+      "message": "Unduh"
+   },
+   "downloadingBox_description": {
+      "message": "Jika unduhan tidak dimulai, klik tombol Unduh"
+   },
+   "downloadingBox_fileName": {
+      "message": "Nama file"
+   },
+   "downloadingBox_status_complete": {
+      "message": "Selesai"
+   },
+   "downloadingBox_status_converting": {
+      "message": "Convertir"
+   },
+   "downloadingBox_status_loading": {
+      "message": "Sedang memuat..."
+   },
+   "downloadingBox_status_prepare": {
+      "message": "Mempersiapkan"
+   },
+   "enableDisableModule": {
+      "message": "Nyalakan/Matikan di situs ini"
+   },
+   "enableModule": {
+      "message": "Aktifkan di situs web ini"
+   },
+   "errors": {
+      "message": "Galat"
+   },
+   "extDescription": {
+      "message": "Unduh YouTube, Facebook, VK.com, dan 40+ situs dengan satu klik."
+   },
+   "extDescriptionLite": {
+      "message": "Unduh Facebook, VK.com, dan 40+ situs dengan satu klik."
+   },
+   "extName": {
+      "message": "Bantuan SaveFrom.net"
+   },
+   "extNameLite": {
+      "message": "Bantuan SaveFrom.net lite"
+   },
+   "filelist": {
+      "message": "Daftar file"
+   },
+   "filelistInstruction": {
+      "message": "['Untuk mengunduh semua file, salin daftar tautan dan tempelkan ke ',{a:{href:'http://en.wikipedia.org/wiki/Download_manager',text:'pengelola unduhan'}},'. Jika Anda tidak memiliki pengelola unduhan, kami menyarankan ',{a:{href:'http://www.freedownloadmanager.org/',text:'Free Download Manager'}},'.']"
+   },
+   "filelistTitle": {
+      "message": "Daftar file yang ditemukan"
+   },
+   "files": {
+      "message": "File"
+   },
+   "getFileSizeFailTitle": {
+      "message": "Gagal mendapatkan ukuran file. Mohon coba lagi."
+   },
+   "getFileSizeTitle": {
+      "message": "Dapatkan ukuran file"
+   },
+   "homePage": {
+      "message": "Laman beranda"
+   },
+   "howActivateHelperPro": {
+      "message": "Cara mengaktifkan Helper Pro"
+   },
+   "installFullVersion": {
+      "message": "Pasang versi lengkap"
+   },
+   "instruction": {
+      "message": "Instruksi penggunaan"
+   },
+   "kbps": {
+      "message": "kbps"
+   },
+   "lang": {
+      "message": "id"
+   },
+   "linksUpdated": {
+      "message": "Tautan diperbarui!"
+   },
+   "lmButtonTitle": {
+      "message": "Dapatkan tautan langsung"
+   },
+   "login": {
+      "message": "Masuk ke Helper Pro"
+   },
+   "loginAlreadyGmMessage": {
+      "message": "Anda sudah masuk, harap segarkan halaman"
+   },
+   "loginGmMessage": {
+      "message": "Buka halaman masuk"
+   },
+   "loginIfPro": {
+      "message": "Masuk jika Anda memiliki Pro"
+   },
+   "logout": {
+      "message": "Keluar"
+   },
+   "logoutAlreadyGmMessage": {
+      "message": "Anda sudah keluar, segarkan halaman"
+   },
+   "logoutGmMessage": {
+      "message": "Anda telah berhasil keluar"
+   },
+   "menuDisable": {
+      "message": "Nonaktifkan"
+   },
+   "menuDownloadFromCurrentPage": {
+      "message": "Unduh file dari laman saat ini dengan SaveFrom.net"
+   },
+   "menuDownloadMP3Files": {
+      "message": "Unduh semua file audio yang ada di laman saat ini"
+   },
+   "menuDownloadPhotos": {
+      "message": "Unduh semua gambar yang ada di laman saat ini"
+   },
+   "menuDownloadPlaylist": {
+      "message": "Buat dan unduh daftar putar berisi tautan ke file audio"
+   },
+   "menuEnable": {
+      "message": "Aktifkan"
+   },
+   "menuEnableExtension": {
+      "message": ""
+   },
+   "menuOpenPoll": {
+      "message": "Kami bekerja keras untuk jadi lebih baik. Tolong, bantu kami!"
+   },
+   "menuReportBug": {
+      "message": "Beri tahu kami jika Anda mengalami masalah"
+   },
+   "menuShowOptions": {
+      "message": "AKTIFKAN/NONAKTIFKAN sumber daya yang didukung dan opsi Bantuan"
+   },
+   "menuUpdateLinks": {
+      "message": "Tekan jika tombol Unduh tidak muncul"
+   },
+   "minimize": {
+      "message": "Minimalkan"
+   },
+   "minimizeDownloadPanel": {
+      "message": "Minimalkan jendela unduhan, kami akan memberi tahu Anda ketika video telah diunduh"
+   },
+   "more": {
+      "message": "Lainnya"
+   },
+   "msg_data_invalid": {
+      "message": "Data yang tidak valid telah dikirim, harap coba lagi"
+   },
+   "msg_no_premium": {
+      "message": "Anda belum mengaktifkan Pro"
+   },
+   "msg_not_authorized": {
+      "message": "Untuk menggunakan Pro, Anda perlu masuk"
+   },
+   "msg_quality_not_found": {
+      "message": "Tidak dapat menemukan kualitas yang ditentukan"
+   },
+   "msg_video_exists": {
+      "message": "Video sedang diunduh"
+   },
+   "msg_video_not_found": {
+      "message": "Tidak dapat menemukan video yang ditentukan"
+   },
+   "no": {
+      "message": "Tidak"
+   },
+   "noLinksFound": {
+      "message": "Tautan tidak ditemukan"
+   },
+   "noWarning": {
+      "message": "Jangan beri tahu"
+   },
+   "openPoll": {
+      "message": "Jadikan lebih baik"
+   },
+   "optionsAviaBarEnabled": {
+      "message": "Pencarian tiket pesawat murah"
+   },
+   "optionsBitrate": {
+      "message": "Langsung tampilkan bitrate"
+   },
+   "optionsDailymotion": {
+      "message": "Dailymotion"
+   },
+   "optionsDirectory": {
+      "message": "Nama direktori tempat file dari salah satu format yang terdaftar akan disimpan"
+   },
+   "optionsFacebook": {
+      "message": "Facebook"
+   },
+   "optionsFfmpegEnabled": {
+      "message": "Konverter untuk ffmpeg (versi alpha)"
+   },
+   "optionsFormats": {
+      "message": "Tentukan, dipisahkan oleh spasi, format-file yang akan disimpan dalam direktori yang telah ditentukan"
+   },
+   "optionsGmNativeDownload": {
+      "message": "Mode unduh lanjutan"
+   },
+   "optionsHandleLinks": {
+      "message": "Tangani tautan"
+   },
+   "optionsInstagram": {
+      "message": "Instagram"
+   },
+   "optionsMailru": {
+      "message": "Moy Mir"
+   },
+   "optionsMediaHostings": {
+      "message": "Ke mediahosting"
+   },
+   "optionsModules": {
+      "message": "Modul"
+   },
+   "optionsOdnoklassniki": {
+      "message": "Odnoklassniki"
+   },
+   "optionsRutube": {
+      "message": "Rutube"
+   },
+   "optionsSaveAsDialog": {
+      "message": "Selalu tanyakan lokasi penyimpanan berkas"
+   },
+   "optionsShowUmmyBtn": {
+      "message": "Perlihatkan tombol Ummy"
+   },
+   "optionsShowUmmyInfo": {
+      "message": "Tampilkan tips untuk Ummy Video Downloader"
+   },
+   "optionsSoundcloud": {
+      "message": "SoundCloud"
+   },
+   "optionsSovetnikEnabled": {
+      "message": "Penasihat"
+   },
+   "optionsTiktok": {
+      "message": "Tiktok"
+   },
+   "optionsTitle": {
+      "message": "Bantuan SaveFrom.net - Preferensi"
+   },
+   "optionsVimeo": {
+      "message": "Vimeo"
+   },
+   "optionsVkontakte": {
+      "message": "VK"
+   },
+   "optionsYTHideLinks": {
+      "message": "Sembunyikan tautan"
+   },
+   "optionsYoutube": {
+      "message": "YouTube"
+   },
+   "options_Actions_title": {
+      "message": "Aksi"
+   },
+   "options_Directory_title": {
+      "message": "Direktori"
+   },
+   "options_Formats_title": {
+      "message": "Format"
+   },
+   "options_button_add": {
+      "message": "Tambahkan"
+   },
+   "options_button_cancel": {
+      "message": "Batal"
+   },
+   "options_button_delete": {
+      "message": "Hapus"
+   },
+   "options_button_edit": {
+      "message": "Edit"
+   },
+   "options_button_reset": {
+      "message": "Atur ulang"
+   },
+   "options_button_save": {
+      "message": "Simpan"
+   },
+   "options_management": {
+      "message": "Manajemen Simpan (Urutkan file berdasarkan direktori)"
+   },
+   "options_no_type_msg": {
+      "message": "Tidak ada tipe yang ditetapkan"
+   },
+   "partnersLinksOnly": {
+      "message": "Tidak ditemukan tautan, gunakan produk afiliasi"
+   },
+   "playlist": {
+      "message": "Daftar putar"
+   },
+   "playlistInstruction": {
+      "message": "Untuk memutar daftar putar yang disimpan, sekarang bisa dibuka di pemutar musik."
+   },
+   "playlistTitle": {
+      "message": "Daftar putar"
+   },
+   "prepareDownload": {
+      "message": "Persiapan untuk mengunduh"
+   },
+   "pro": {
+      "message": "PRO"
+   },
+   "probannerAlreadyHave": {
+      "message": "Sudah punya PRO?"
+   },
+   "probannerDescription": {
+      "message": "Dapatkan yang terbaik dari Helper PRO hanya dengan"
+   },
+   "probannerFeature1": {
+      "message": "Unduh video dalam HD/4K"
+   },
+   "probannerFeature2": {
+      "message": "Simpan sebagai MP3 saja"
+   },
+   "probannerFeature3": {
+      "message": "Dukungan untuk 700+ situs"
+   },
+   "probannerFeature4": {
+      "message": "Akses di semua perangkat"
+   },
+   "probannerLoginLink": {
+      "message": "Masuk"
+   },
+   "probannerPrice": {
+      "message": "Rp 75.000/bulan"
+   },
+   "probannerTitle": {
+      "message": "Unduh tanpa batas dengan Savefrom Helper PRO!"
+   },
+   "probannerUpgradeButton": {
+      "message": "Dapatkan PRO"
+   },
+   "quality": {
+      "message": "Kualitas"
+   },
+   "qualityNote": {
+      "message": "Video terbaik yang tersedia akan diunduh jika tidak ada kualitas yang dipilih."
+   },
+   "readMore": {
+      "message": "Lainnya"
+   },
+   "reportBug": {
+      "message": "Laporkan bug"
+   },
+   "sendToButton": {
+      "message": "Kirim ke ponsel"
+   },
+   "sendToEmailButton": {
+      "message": "Kirim email"
+   },
+   "sendToEmailInputError": {
+      "message": "Galat"
+   },
+   "sendToEmailInputPlaceholder": {
+      "message": "Ketik email Anda di sini"
+   },
+   "sendToEmailText": {
+      "message": "Pekerjaan untuk fitur ini sedang berlangsung. Silakan kirimkan kami email Anda dan kami akan mengirimkan undangan saat fitur sudah siap."
+   },
+   "sendToEmailTextComplete": {
+      "message": "Terima kasih!"
+   },
+   "sendToEmailTitle": {
+      "message": "Terima kasih atas minat Anda!"
+   },
+   "sendToLinkGoBack": {
+      "message": "Kembali ke halaman unduhan video"
+   },
+   "sendToLoginButton": {
+      "message": "Masuk"
+   },
+   "sendToLoginText": {
+      "message": "Silakan Masuk dengan Akun Google untuk mentransfer video yang dipilih"
+   },
+   "sendToLoginTitle": {
+      "message": "Transfer video langsung ke ponsel Anda!"
+   },
+   "sendToTextOr": {
+      "message": "atau"
+   },
+   "shareIn": {
+      "message": "Bagikan di %w"
+   },
+   "showButton": {
+      "message": "Tampilkan tombol ekstensi"
+   },
+   "showHideButton": {
+      "message": "Tampilkan/tutup tbl ekstensi"
+   },
+   "showOptions": {
+      "message": "Setelan"
+   },
+   "size": {
+      "message": "ukuran"
+   },
+   "socialDesc": {
+      "message": "Dengan bantuan SaveFrom.net, Anda dapat mengunduh file dari YouTube.com, Facebook.com, VK.com, dan lebih dari 40 lainnya hanya dengan satu klik gratis"
+   },
+   "someFilesNeedConverted": {
+      "message": "Beberapa file perlu dikonversi, jangan tutup jendela sampai konversi selesai."
+   },
+   "somethingWentWrong": {
+      "message": "Ada yang salah. Coba lagi nanti."
+   },
+   "subtitles": {
+      "message": "Subtitel"
+   },
+   "success": {
+      "message": "Berhasil"
+   },
+   "televzrNotFound": {
+      "message": "Televzr tidak ditemukan"
+   },
+   "televzrNotFoundSubMessage": {
+      "message": "Coba unduh dan buka Televzr"
+   },
+   "titleDefault": {
+      "message": "Bantuan SaveFrom.net"
+   },
+   "titleDesabled": {
+      "message": "Bantuan SaveFrom.net nonaktif"
+   },
+   "tooltipHide": {
+      "message": "Jangan perlihatkan pesan ini lagi"
+   },
+   "try_pro_button": {
+      "message": "COBA PRO"
+   },
+   "tutorialTooltipConfirm": {
+      "message": "ok"
+   },
+   "tutorialTooltipHeader": {
+      "message": "Unduh video hanya dengan satu klik!"
+   },
+   "tutorialTooltipText": {
+      "message": "Klik tombol untuk memilih kualitas dan mengunduh video."
+   },
+   "tzDownloadStarted": {
+      "message": "Ditambahkan ke unduhan"
+   },
+   "tzPreparingToDownload": {
+      "message": "Persiapan untuk mengunduh"
+   },
+   "tzSearchApp": {
+      "message": "Cari Televzr"
+   },
+   "ummyMenuInfo": {
+      "message": "[{p:{text:'Pasang Ummy Video Downloader  dan unduh video favorit Anda dalam format HD atau MP3.'}},{p:{class:'center',append:[{a:{class:'green-btn-2 arrow',href:'{url}',target:'_blank',text:'Unduh'}}]}},{p:{append:['Setelah pemasangan, unduhan akan otomatis dimulai setiap kali Anda mengeklik ',{img:{src:'#'}}]}}]"
+   },
+   "ummyMenuItem": {
+      "message": "[{span:{}},' via Ummy']"
+   },
+   "ummySfTitle": {
+      "message": "HD atau MP3"
+   },
+   "ummyTooltipConfirm": {
+      "message": "['Apakah Anda sudah menginstal',{br:{}},{img:{}},' Ummy Video Downloader sebelumnya?']"
+   },
+   "updateLinks": {
+      "message": "Segarkan tautan"
+   },
+   "updateLinksNotification": {
+      "message": "Tautan diperbarui"
+   },
+   "updateTo": {
+      "message": "Perbarui ke %d"
+   },
+   "upgrade": {
+      "message": "Tingkatkan"
+   },
+   "video": {
+      "message": "Video"
+   },
+   "videoDownloaded": {
+      "message": "Video berhasil diunggah"
+   },
+   "videoDownloading": {
+      "message": "Mengunduh video"
+   },
+   "video_coming_ok": {
+      "message": "Lanjutkan"
+   },
+   "video_coming_soon": {
+      "message": "Video segera dimulai diunduh"
+   },
+   "vkDownloadAllPhotoAlbums": {
+      "message": "Unduh semua album"
+   },
+   "vkDownloadFromYoutube": {
+      "message": "['Mengunduh: buka ',{a:{href:'{url}',text:'laman video'}},' dan tekan tombol \"Unduh\" di atas pemutar']"
+   },
+   "vkDownloadPhotoAlbum": {
+      "message": "Unduh album"
+   },
+   "vkFileSizeByte": {
+      "message": "B"
+   },
+   "vkFileSizeGByte": {
+      "message": "GB"
+   },
+   "vkFileSizeKByte": {
+      "message": "kB"
+   },
+   "vkFileSizeMByte": {
+      "message": "MB"
+   },
+   "vkFileSizeTByte": {
+      "message": "TB"
+   },
+   "vkFoundFiles": {
+      "message": "File ditemukan: %d"
+   },
+   "vkFoundLinks": {
+      "message": "Tautan ditemukan"
+   },
+   "vkFoundOf": {
+      "message": "dari"
+   },
+   "vkFoundPhotos": {
+      "message": "Foto ditemukan"
+   },
+   "vkInfo": {
+      "message": "Info"
+   },
+   "vkInfoTitle": {
+      "message": "Ukuran file dan bitrate"
+   },
+   "vkKbps": {
+      "message": "kbps"
+   },
+   "vkListOfLinks": {
+      "message": "Daftar tautan"
+   },
+   "vkListOfLinksInstruction": {
+      "message": "['Untuk mengunduh semua foto, salin daftar tautan dan tempelkan ke ',{a:{href:'http://en.wikipedia.org/wiki/Download_manager',text:'pengelola unduhan'}},'. Jika Anda tidak memiliki pengelola unduhan, kami menyarankan ',{a:{href:'http://www.freedownloadmanager.org/',text:'Free Download Manager'}},'.']"
+   },
+   "vkListOfPhotos": {
+      "message": "Daftar foto"
+   },
+   "vkListOfPhotosInstruction": {
+      "message": "Klik foto untuk mengunduhnya."
+   },
+   "vkMp3LinksNotFound": {
+      "message": "Tautan atau file MP3 tidak ditemukan"
+   },
+   "vkNotAvailablePhotos": {
+      "message": "%d foto sementara ini tidak tersedia"
+   },
+   "vkPhotoLinksNotFound": {
+      "message": "Foto tidak ditemukan"
+   },
+   "vkShowAs": {
+      "message": "Tampilkan sebagai"
+   },
+   "vkTableOfThumbnails": {
+      "message": "Tabel gambar mini"
+   },
+   "warningPopupDesc": {
+      "message": "Opsi \"Selalu tanya saya di mana menyimpan file\" harus dinonaktifkan."
+   },
+   "warningPopupTitle": {
+      "message": "Periksa setelan browser"
+   },
+   "withoutAudio": {
+      "message": "tanpa audio"
+   },
+   "yes": {
+      "message": "Ya"
+   }
+}

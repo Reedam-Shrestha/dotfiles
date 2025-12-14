@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "css": [ "extension/styles/global.css" ],
+      "js": [ "extension/scripts/entrypoint.js" ],
+      "matches": [ "https://meet.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "This is an unofficial extension that allows You to make any video source fullscreen in a google meeting!",
+   "homepage_url": "https://github.com/angeloevangelista/google-meet-fullscreen",
+   "icons": {
+      "128": "extension/icons/128.png",
+      "16": "extension/icons/16.png",
+      "48": "extension/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqCD5rVyaEZpjAlzkZ4O+uEodJcGJf1CkntEF4VO0mpFGuby7yklNVLQqZjdB29SKnHqH7zBgpKRcJP8vjo+qNn7MwWRT/zZ3wHRfky6AylhLJPHNqr3wLJbAYBtHhnPXHRTEjhl9EWGqQHfdaGFCcoiaA3O2SSSe6TDapunBZc92Cw6l8mlET9ae0VsdF3G988fjMrowcOGtU1VAXW9l3LaW8KwFtmPdO/lvbWOLUPRpS1krCTlmfBuwwNnjZXDHk6g0+AMALxpWldrKXIHvZbUmgOGLY8LVMVClnIl8Dh9TiczSj7gOTIniR4Jy2Q7e9xsWF9xQi8AR0RYZ9A5XVwIDAQAB",
+   "manifest_version": 3,
+   "name": "Individual Fullscreen for Google Meet",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.8"
+}

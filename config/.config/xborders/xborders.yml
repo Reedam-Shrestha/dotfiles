@@ -1,0 +1,5 @@
+rules:
+  - match:
+      wm_class: "eww"
+      name: "Eww - control_center_window"
+    border: 0

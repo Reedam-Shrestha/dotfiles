@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/MuZxGwi-japanese-wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#281c0d",
+        "foreground": "#e9d6bf",
+        "cursor": "#e9d6bf"
+    },
+    "colors": {
+        "color0": "#281c0d",
+        "color1": "#A99260",
+        "color2": "#C5944D",
+        "color3": "#CA9856",
+        "color4": "#D0A35C",
+        "color5": "#D5A86B",
+        "color6": "#D5AB6C",
+        "color7": "#e9d6bf",
+        "color8": "#a39585",
+        "color9": "#A99260",
+        "color10": "#C5944D",
+        "color11": "#CA9856",
+        "color12": "#D0A35C",
+        "color13": "#D5A86B",
+        "color14": "#D5AB6C",
+        "color15": "#e9d6bf"
+    }
+}

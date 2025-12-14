@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/wmremove-transformed.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#13140d",
+        "foreground": "#abbcba",
+        "cursor": "#abbcba"
+    },
+    "colors": {
+        "color0": "#13140d",
+        "color1": "#8F7356",
+        "color2": "#688379",
+        "color3": "#938B6E",
+        "color4": "#A49875",
+        "color5": "#C9B074",
+        "color6": "#577D81",
+        "color7": "#abbcba",
+        "color8": "#778382",
+        "color9": "#8F7356",
+        "color10": "#688379",
+        "color11": "#938B6E",
+        "color12": "#A49875",
+        "color13": "#C9B074",
+        "color14": "#577D81",
+        "color15": "#abbcba"
+    }
+}

@@ -1,0 +1,127 @@
+{
+   "author": "Itproductdev Ltd",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/icon_19.png",
+         "38": "img/icon_38.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/vimeo_com.js" ],
+      "matches": [ "*://*.vimeo.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "include_globs": [ "http://dailymotion.*/*", "http://*.dailymotion.*/*", "https://dailymotion.*/*", "https://*.dailymotion.*/*" ],
+      "js": [ "includes/commons.js", "includes/dailymotion_com.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "*://accounts.youtube.com/*" ],
+      "js": [ "includes/commons.js", "includes/youtube_com.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/commons.js", "includes/soundcloud_com.js" ],
+      "matches": [ "*://*.soundcloud.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "*://queuev4.vk.com/*", "*://queuev4.vkontakte.ru/*" ],
+      "js": [ "includes/commons.js", "includes/vkontakte_ru.js" ],
+      "matches": [ "*://*.vk.com/*", "*://*.vkontakte.ru/*", "*://*.vkvideo.ru/*", "*://*.vk.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/commons.js", "includes/odnoklassniki_ru.js" ],
+      "matches": [ "*://*.ok.ru/*", "*://*.odnoklassniki.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/commons.js", "includes/mail_ru.js" ],
+      "matches": [ "*://my.mail.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/commons.js", "includes/facebook_com.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/commons.js", "includes/savefrom_net.js" ],
+      "matches": [ "*://*.savefrom.net/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/instagram_com.js" ],
+      "matches": [ "*://*.instagram.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/rutube_ru.js" ],
+      "matches": [ "*://*.rutube.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/tiktok_com.js" ],
+      "matches": [ "*://*.tiktok.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/yandex_music.js" ],
+      "matches": [ "*://music.yandex.ru/*", "*://music.yandex.by/*", "*://music.yandex.com/*", "*://music.yandex.ua/*", "*://music.yandex.kz/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/twitch_tv.js" ],
+      "matches": [ "*://*.twitch.tv/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/match_tv.js" ],
+      "matches": [ "*://matchtv.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "includes/commons.js", "includes/twitter_com.js" ],
+      "matches": [ "*://x.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/commons.js", "includes/oauth_helper_net.js" ],
+      "matches": [ "*://sf-helper.net/*", "*://oauth2.televzr.com/*" ]
+   }, {
+      "js": [ "includes/tab.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/astrology.js" ],
+      "matches": [ "*://www.astrology.com/*" ]
+   }, {
+      "js": [ "includes/astrologyvalley.js" ],
+      "matches": [ "*://astrologyvalley.com/*" ]
+   }, {
+      "js": [ "includes/horoscope.js" ],
+      "matches": [ "*://www.horoscope.com/us/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3rJs4qbCZ3h4UmbCFE1heek2F0KYoPyoliPsArS6mahQTQDgUDMOrD9OjKj2FLZsN7ENiMGLz8idl70FFyiFlnqzTzWmVXwo26LNTyJj94gf23uZTVP18QIhV4RZHneY9RwRwJ3A/cZnZ7ER1TOvkptRpVEeph62hbx7ZOC8+IVu3hOXdnX5C/g54uptsRzTV+gEMsze4SyJIksnPLK2CMFLy22UUqEuNk9UKDI9GxRHfmgZwRVkFhuiEaz4ZlZLCWF9TwJbctNHoofSSd8YM5zSr34nAGpg424lcCpt6NvkXgkJdpMOXDS3LCFepSkUoa01SoyGIfBEw6dVthp1HwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "__MSG_extName__",
+   "optional_permissions": [ "webRequestBlocking" ],
+   "options_page": "options.html",
+   "permissions": [ "tabs", "downloads", "storage", "\u003Call_urls>", "clipboardWrite", "webRequest" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "10.51",
+   "web_accessible_resources": [ "img/*", "_locales/*" ]
+}

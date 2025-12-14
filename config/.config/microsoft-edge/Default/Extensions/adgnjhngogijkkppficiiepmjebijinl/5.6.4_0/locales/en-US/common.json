@@ -1,0 +1,925 @@
+{
+    "accountSecurityView": {
+        "changePasswordButton": "Change password",
+        "changePasswordLabel": "Change password",
+        "currentPasswordLabel": "Current password",
+        "currentPasswordPlaceholder": "Current password ",
+        "newPasswordAgainPlaceholder": "New password again",
+        "newPasswordPlaceholder": "New password ",
+        "pageTitle": "Security settings",
+        "passwordChangeSuccess": "Password changed successfully",
+        "passwordLengthError": "Password must be at least 6 characters",
+        "passwordMismatchError": "The passwords are not the same",
+        "verifyPasswordLabel": "Verify password"
+    },
+    "accountSubscriptionView": {
+        "buySubscription": "Buy subscription",
+        "mustSelectWorkspace": "You must select a workspace to buy a subscription.",
+        "selectWorkspace": "Select workspace"
+    },
+    "accountView": {
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your email",
+        "firstNameLabel": "First Name",
+        "firstNamePlaceholder": "Your first name",
+        "lastNameLabel": "Last Name",
+        "lastNamePlaceholder": "Your last name",
+        "pageTitle": "Personal information",
+        "phoneLabel": "Phone",
+        "phonePlaceholder": "Your phone",
+        "saveChangesButton": "Save changes",
+        "snackbarErrorMessage": "Something went wrong",
+        "snackbarSuccessMessage": "Personal information updated",
+        "yourImageLabel": "Your image"
+    },
+    "accountWorkspacesView": {
+        "currentWorkspace": "Current workspace",
+        "editWorkspaceTooltip": "Edit workspace",
+        "editWorkspaceTooltipDisabled": "Only the owner can edit the workspace",
+        "newWorkspace": "New workspace",
+        "owner": "Owner",
+        "pageTitle": "Workspaces",
+        "switchWorkspace": "Switch workspace"
+    },
+    "addLink": {
+        "placeholderExample": "www.example.com",
+        "save": "Save",
+        "textToDisplay": "Text to display",
+        "url": "Url"
+    },
+    "adminBillingView": {
+        "address": "Address",
+        "amount": "Amount",
+        "billingPeriod": "Billing period",
+        "cancelled": "Cancelled",
+        "cancelSubscription": "Cancel Subscription",
+        "changePaymentMethod": "Change payment method",
+        "changePlan": "Change plan",
+        "companyName": "Company Name",
+        "currentPlan": "Current plan",
+        "documentTitle": "Billing",
+        "editInvoiceDetails": "Edit Invoice Details",
+        "editTeamSize": "Edit team size",
+        "endingWith": "ending with",
+        "expired": "Expired",
+        "expires": "Expires",
+        "fullName": "Full name",
+        "invoiceDetails": "Invoice details",
+        "invoices": "Invoices",
+        "motnhly": "Monthly",
+        "noSubscription": "You do not have a subscription yet",
+        "paymentMethod": "Payment method",
+        "renewalTime": "Renewal time",
+        "teamSize": "Team size",
+        "upgrade": "Upgrade",
+        "viewDownloadInvoices": "View and download all your invoices from once place.",
+        "viewInvoices": "View invoices",
+        "viewOldInvoices": "View old invoices",
+        "viewTitle": "Billing",
+        "yearly": "Yearly"
+    },
+    "advancedFilterRow": {
+        "where": "Where"
+    },
+    "blueticksForm": {
+        "addDescription": "Click to add description to your form",
+        "formLogoAlt": "Form logo",
+        "isHidden": "is hidden on this form",
+        "required": "Required",
+        "submit": "Submit",
+        "theColumn": "The column",
+        "unsupportedColumnsInfoFirstLine": "Some of the board's columns are not yet supported on our forms.",
+        "unsupportedColumnsInfoSecondLine": "Instead, try using other columns, of more general nature, such as text or number."
+    },
+    "boardListTable": {
+        "addButton": "Add",
+        "addMoreSeats": "Add more seats",
+        "addNewUserToBoard": "Add a new user to this board",
+        "cantRemoveOwner": "You can't remove owner",
+        "chooseTeamMember": "Choose team member",
+        "copyInviteLink": "Copy invite link",
+        "emailInvalidAlert": "Email is invalid",
+        "emailPlaceholder": "Email",
+        "inviteAsGuest": "Invite as guest",
+        "inviteAsMember": "Invite as member",
+        "nameEmail": "Name / Email",
+        "namePlaceholder": "Name",
+        "noMembersToAdd": "No members to add",
+        "notAllowedToShareBoard": "You are not allowed to share this board",
+        "pending": "Pending",
+        "permissions": "Permissions",
+        "removeUserFromBoard": "Remove user from board",
+        "resend": "Resend",
+        "selectTeamMember": "Select a team member",
+        "userLabel": "User",
+        "virtualMemberLabel": "Virtual Member",
+        "workspaceUserLabel": "Workspace user"
+    },
+    "boardMenuOptions": {
+        "deleteBoard": "Delete board",
+        "exportBoardToExcel": "Export board to Excel",
+        "import": "Import",
+        "openBoardInNewTab": "Open Board In New Tab",
+        "renameBoard": "Rename board"
+    },
+    "boardsPanel": {
+        "homeTooltip": "Home",
+        "myWork": "My work",
+        "newBoardButton": "New Board",
+        "searchPlaceholder": "Search boards..."
+    },
+    "boardsSelectors": {
+        "board": "Board"
+    },
+    "boardTabList": {
+        "addView": "Add view"
+    },
+    "btCheckboxList": {
+        "allColumns": "All Columns"
+    },
+    "btUploadLogo": {
+        "fileTooBigError": "You cannot upload files bigger than 4MB",
+        "fileTypeError": "Only image files can be uploaded",
+        "maxSizeText": "Max size: 4MB",
+        "uploadImageButtonText": "Upload image"
+    },
+    "columnContextMenuDialog": {
+        "delete": "Delete"
+    },
+    "columnHeaderBoardView": {
+        "titleCannotBeEdited": "This title cannot be edited"
+    },
+    "dateFormCell": {
+        "selectDate": "Select date"
+    },
+    "dropDown": {
+        "applyButton": "Apply",
+        "createNewLabelButton": "+ Create new label",
+        "createOrFindLabelsPlaceholder": "Create or find labels...",
+        "delete": "Delete",
+        "deleteLabelTooltip": "Can't delete label in use",
+        "editLabelsButton": "Edit Labels",
+        "labelOptionExists": "This label option exists",
+        "searchCreateLabels": "Search / create labels...",
+        "searchTasksPlaceholder": "Search tasks..."
+    },
+    "editableColumnHeaderCell": {
+        "tooltipTitle": "This title cannot be edited"
+    },
+    "editableOptions": {
+        "complexityPlaceholder": "Complexity",
+        "defaultLabelRemoveTooltip": "You cannot remove the default label",
+        "defaultLabelTooltip": "You cannot change the color of the default label",
+        "labelPlaceholder": "Label",
+        "newLabel": "New label",
+        "save": "Save"
+    },
+    "exportExcel": {
+        "exportButton": "Export",
+        "exportHeader": "Export to Excel",
+        "exportQuestion": "Would you like to export",
+        "subTaskPrefix": "Sub task",
+        "toExcelFile": "to an Excel file?"
+    },
+    "extraDataFiles": {
+        "download": "Download",
+        "dropHereToUpload": "Drop here to upload",
+        "dragAndDropFiles": "Drag and drop files here",
+        "orClickToUpload": "or click to browse",
+        "filesZip": "files as zip",
+        "generalFiles": "General files",
+        "tasksCellsFiles": "Tasks cells files",
+        "updatesFiles": "Updates files",
+        "uploadFiles": "Upload Files"
+    },
+    "extraDataMenu": {
+        "copiedUpdateLinkToClipboard": "Copied update link to clipboard",
+        "copyLink": "Copy link",
+        "deleteUpdate": "Delete update",
+        "editUpdate": "Edit update",
+        "pinToTop": "Pin to top",
+        "unpin": "Unpin"
+    },
+    "extraDataPanelChat": {
+        "filesLabel": "Files",
+        "updatesLabel": "Updates"
+    },
+    "extraPanelData": {
+        "nextTask": "Next task",
+        "previousTask": "Previous task"
+    },
+    "filesCell": {
+        "addFiles": "Add Files"
+    },
+    "filterSection": {
+        "advancedFilters": "Advanced filters",
+        "allItems": "all",
+        "clearAll": "Clear all",
+        "items": "items",
+        "ofItems": "of",
+        "quickFilters": "Quick filters",
+        "saveAsNewView": "Save as new view",
+        "showingItems": "Showing",
+        "switchTo": "switch to"
+    },
+    "forgotPassword": {
+        "accountEmail": "Account Email",
+        "backTo": "Back to the",
+        "emailIsRequired": "Email is required!",
+        "emailSent": "Email Sent",
+        "followInstructions": "Please follow the instructions in the email to reset your password",
+        "forgotPassword": "Forgot Password",
+        "insertEmail": "Enter your email address to receive a password reset link.",
+        "login": "Log In",
+        "page": "page",
+        "sendEmail": "SEND RESET LINK",
+        "title": "Forgot your password",
+        "yourEmail": "Your Email"
+    },
+    "formColumnCell": {
+        "addColumnDescription": "Add column description",
+        "required": "Required"
+    },
+    "formPreview": {
+        "formSent": "form Sent",
+        "loadingForm": "Loading Form...",
+        "notActiveFormMessage": "This form is not active",
+        "submitButtonText": "Submit",
+        "submitFailMessage": "You must fill every required fields before submitting the form"
+    },
+    "formSettingsDrawer": {
+        "customizeSuccessMessage": "Customize the displayed title and message for successful form submission",
+        "formSettings": "Form settings",
+        "groupForAnswersTitle": "Group for Answers",
+        "includeQuestionNamesInFormLabel": "Include question names in form",
+        "includeQuestionTooltip": "Include an input field for the generated item's name in your form",
+        "published": "Published",
+        "questionNamesTitle": "Question names",
+        "redirectLinkLabel": "Link",
+        "redirectLinkTitle": "Redirect Link",
+        "selectGroup": "Select group",
+        "selectPriorityList": "Select Priority List",
+        "selectToWhichGroup": "Select to which group answers will be assigned",
+        "sendToDifferentWebsite": "Send to a different website after form submission",
+        "successMessageContentLabel": "Message",
+        "successMessageContentPlaceholder": "Success message content",
+        "successMessageTitle": "Success Message",
+        "successMessageTitleLabel": "Title",
+        "successMessageTitlePlaceholder": "Success message title",
+        "unnamedGroup": "UnNamed Group"
+    },
+    "formShare": {
+        "copyButtonLabel": "Copy",
+        "copySuccessMessage": "Form link copied to clipboard",
+        "embedCopySuccessMessage": "Code line copied to clipboard",
+        "embedSectionLabel": "Embed",
+        "headerDescription": "Answers will generate a new task in your board",
+        "headerTitle": "Share your form with a private link",
+        "regenerateLinkButtonLabel": "Regenerate link",
+        "shareableLink": "Shareable link"
+    },
+    "formView": {
+        "colorButton": "Color",
+        "columnsButton": "Columns",
+        "editFormButton": "Edit Form",
+        "previewButton": "Preview",
+        "settingsButton": "Settings",
+        "shareButton": "Share"
+    },
+    "groupMenu": {
+        "addGroup": "Add Group",
+        "archive": "Archive",
+        "changeGroupColor": "Change group color",
+        "collapseAllGroups": "Collapse all groups",
+        "collapseAllSubitems": "Collapse all subitems",
+        "collapseThisGroup": "Collapse this group",
+        "delete": "Delete",
+        "deleteGroupPromptTitle": "Delete group",
+        "duplicateGroup": "Duplicate group",
+        "expandAllSubitems": "Expand all subitems",
+        "exportToExcel": "Export to excel",
+        "moveTo": "Move to",
+        "moveToBoard": "Move to board",
+        "moveToTop": "Move to top",
+        "newGroupName": "New Group",
+        "renameGroup": "Rename group",
+        "selectAllItems": "Select all items",
+        "uncollapseAllGroups": "Uncollapse all groups",
+        "uncollapseThisGroup": "Uncollapse this group"
+    },
+    "importExcelToBlueticks": {
+        "back": "Back",
+        "download": "Download",
+        "excelColumns": "Excel columns",
+        "excludeFirstRow": "Exclude first row from spreadsheet from import",
+        "existingBoardColumns": "Existing board columns",
+        "import": "Import",
+        "importItemsFromSpreadsheet": "Import items from a spreadsheet",
+        "itemName": "Item name",
+        "mapColumnsFromExcel": "Map the columns from Excel",
+        "newAudience": "New Audience",
+        "next": "Next",
+        "sampleExcelFile": "a sample excel file",
+        "toColumnsInBoard": "to the columns in this board",
+        "transferRecords": "Transfer records from a spreadsheet into items in this board",
+        "wonderingHowToGetStarted": "Wondering how you get started?",
+        "yourFileHasBeenUploadedSuccessfully": "Your file has been uploaded successfully"
+    },
+    "inviteUserModal": {
+        "addMockUsersInfo": "You can add mock users only for your internal use",
+        "approveOrDecline": "Here you can see, approve or decline all the requests from people who want to join your board.",
+        "clickHereToAccept": "Click here to accept the invitation",
+        "guests": "Guests",
+        "guestsCan": "can only create and update tasks.",
+        "hi": "Hi",
+        "invitationToCollaborate": "This is an invitation to collaborate on my board:",
+        "makeSureForExtension": "Make sure you have Blueticks extension installed, if not you can install it from here:",
+        "members": "Members",
+        "membersAndGuests": "Members & Guests",
+        "membersCan": "can add new columns and invite other people",
+        "mockUsers": "Mock users",
+        "newMockUser": "New mock user",
+        "requestsToJoin": "Requests to join",
+        "shareMyTaskBoard": "I want to share my task board with you.",
+        "users": "Users",
+        "virtualMembers": "Virtual Members",
+        "virtualMembersAre": "are for internal use only and will not receive any notifications.",
+        "workspaceMembers": "Workspace members",
+        "workspaceMembersAre": "are users that already exist in your workspace."
+    },
+    "kanbanSettingsDrawer": {
+        "customizeView": "Customize View",
+        "pickYourPickerLabel": "Pick Your Picker",
+        "unnamedColumn": "UnNamed"
+    },
+    "kanbanView": {
+        "columnsButton": "Columns",
+        "kanbanInfoText": " You <b>must</b> have a priority/status column in order to generate kanban view!",
+        "settingsButton": "Settings"
+    },
+    "loginForm": {
+        "dontHaveAccount": "I don't have an account?",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your Email",
+        "emailRequired": "Email is required!",
+        "forgotPassword": "Forgot your password?",
+        "header": "Log In",
+        "loginButton": "LOG IN",
+        "orContinueWith": "Or continue with",
+        "pageTitle": "Login",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Your Password",
+        "passwordRequired": "Password is required!",
+        "signUp": "Sign Up"
+    },
+    "mappedOptions": {
+        "editLabel": "Edit labels"
+    },
+    "moveGroupToBoardSelector": {
+        "searchPlaceholder": "Search board"
+    },
+    "moveTaskToBoard": {
+        "searchPlaceholder": "Search board"
+    },
+    "moveTaskToGroup": {
+        "searchGroup": "Search group"
+    },
+    "moveToMenu": {
+        "back": "Back",
+        "choose": "Choose",
+        "moveToBoard": "Move to board",
+        "moveToGroup": "Move to group"
+    },
+    "newComplexityColumnButton": {
+        "addColumn": "Add Complexity Column"
+    },
+    "newExtraData": {
+        "writeAnUpdate": "Write an update..."
+    },
+    "newFormButton": {
+        "formAfterSubmitMessage": "Thank you for your feedback",
+        "formAfterSubmitTitle": "Submitted successfully",
+        "newTaskDescription": "Name the new task",
+        "newTaskTitle": "Task Name"
+    },
+    "newPersonColumnButton": {
+        "addPersonColumn": "Add Person Column"
+    },
+    "newTaskGroupButton": {
+        "newGroup": "New Group"
+    },
+    "newWorkloadButton": {
+        "workload": "Workload"
+    },
+    "openFilterPanelButton": {
+        "filterButtonLabel": "Filter",
+        "filterTooltip": "Filter by anything"
+    },
+    "personButtonFilter": {
+        "noAssignedMembers": "No one is assigned to this board yet",
+        "personButton": "Person",
+        "tooltipTitle": "Filter by person"
+    },
+    "personPickerMappedOptions": {
+        "hold": "Hold",
+        "noResultsFound": "No results found",
+        "searchPerson": "Search person...",
+        "toPickMultiple": "to pick multiple"
+    },
+    "photoOrColorSelect": {
+        "cannotUploadBigFiles": "You cannot upload files bigger than 4MB",
+        "onlyImages": "Only image files can be uploaded",
+        "uploadImage": "Upload image"
+    },
+    "planSelection": {
+        "annually": "Annually",
+        "billedAnnually": "Billed Annually",
+        "billingPeriod": "Billing period",
+        "contactSales": "Contact Sales",
+        "currentPlan": "Current Plan",
+        "downgrade": "Downgrade",
+        "enterprise": "Enterprise",
+        "entitlementBranding": "White-label campaigns - no \"Powered by\" branding 🎯",
+        "entitlementMessages": "Unlimited messages",
+        "entitlementOffline": "Works when you're offline 🔥",
+        "entitlementTasks": "Unlimited tasks and boards",
+        "extensionPricing": [
+            {
+                "name": "Free",
+                "key": "Free",
+                "planKey": "free",
+                "limitations": [
+                    "<span>Schedule 1 message at a time </span>",
+                    "<span>Up to 2 boards</span>",
+                    "<span>Up to 10 tasks per board</span>",
+                    "<span>Unlimited campaigns <br /><u>with \"Powered by blueticks.co\" branding</u></span>",
+                    "<span>Scheduled messages will be <br /><u>sent only when WhatsApp Web is open and connected.</u></span>"
+                ],
+                "benefits": [],
+                "common": [
+                    "<span>Unlimited Email support</span>"
+                ]
+            },
+            {
+                "name": "Basic",
+                "key": "Scheduler",
+                "planKey": "Basic",
+                "limitations": [
+                    "<span>Up to 2 boards</span>",
+                    "<span>Up to 10 tasks per board</span>",
+                    "<span>Unlimited campaigns <br /><u>with \"Powered by blueticks.co\" branding</u></span>",
+                    "<span>Scheduled messages will be <br /><u>sent only when WhatsApp Web is open and connected.</u></span>"
+                ],
+                "benefits": [
+                    "<span><b>Schedule unlimited messages </b></span>"
+                ],
+                "common": [
+                    "<span>Unlimited Email support</span>"
+                ],
+                "tip": "*Ideal if you need to schedule unlimited messages and can keep WhatsApp Web active."
+            },
+            {
+                "best": false,
+                "name": "Standard",
+                "key": "Manager",
+                "planKey": "StandardNew",
+                "limitations": [
+                    "<span>Unlimited campaigns <br /><U>with \"Powered by blueticks.co\" branding</U></span>",
+                    "<span>Scheduled messages will be <br /><u>sent only when WhatsApp Web is open and connected.</u></span>"
+                ],
+                "benefits": [
+                    "<span><b>Schedule unlimited messages</b> </span>",
+                    "<span><b>Unlimited boards</b></span>",
+                    "<span><b>Unlimited tasks</b></span>"
+                ],
+                "common": [
+                    "<span>Unlimited Email support</span>"
+                ],
+                "tip": "*Perfect for those who want to manage both unlimited messages and tasks seamlessly."
+            },
+            {
+                "best": true,
+                "name": "Pro",
+                "key": "Campaigner",
+                "planKey": "Pro",
+                "limitations": [],
+                "benefits": [
+                    "<span><b>Schedule unlimited messages </b></span>",
+                    "<span><b>Unlimited boards</b></span>",
+                    "<span><b>Unlimited tasks</b></span>",
+                    "<span><b>Unlimited campaigns without \"Powered by blueticks.co\" branding</b></span>",
+                    "<span><b>Scheduled messages will be sent regardless of whether WhatsApp Web is closed or not.</b></span>"
+                ],
+                "common": [
+                    "<span>Unlimited Email support</span>"
+                ],
+                "tip": "*Best for advanced users who need to send campaigns without branding and prefer the flexibility to schedule messages without keeping their computer on."
+            }
+        ],
+        "freeLimitMessages": "Schedule 1 message at a time",
+        "freeLimitOffline": "Browser-Only Sending - Must keep WhatsApp Web open",
+        "freeLimitTasks": "Up to 2 boards, 10 tasks per board",
+        "loginToBuy": "LOGIN TO BUY",
+        "month": "month",
+        "monthly": "Monthly",
+        "mostPopular": "Most Popular",
+        "perMonth": "Per Month",
+        "taskPricing": [
+            {
+                "name": "Free Forever!",
+                "key": "Free",
+                "limitations": [
+                    "<span>Up to <b>2 boards</b></span>",
+                    "<span>Up to <b>10 tasks</b> per board</span>"
+                ],
+                "benefits": [],
+                "common": [
+                    "<span><b>Unlimited Email support</b></span>"
+                ]
+            },
+            {
+                "best": true,
+                "name": "Manager",
+                "key": "Manager",
+                "limitations": [],
+                "benefits": [
+                    "<span>Unlimited boards</span>",
+                    "<span>Unlimited tasks</span>"
+                ],
+                "common": [
+                    "<span><b>Unlimited Email support</b></span>"
+                ]
+            },
+            {
+                "best": false,
+                "name": "Enterprise",
+                "key": "Enterprise",
+                "limitations": [],
+                "benefits": [
+                    "<span>On premise installation</span>",
+                    "<span>Dedicated account manager</span>"
+                ],
+                "common": [
+                    "<span><b>Unlimited Email and Phone support</b></span>"
+                ],
+                "enterprise": true
+            }
+        ],
+        "teamSize": "Team size",
+        "update": "Update",
+        "upgrade": "Upgrade"
+    },
+    "pricing": {
+        "freeForever": "Forever!"
+    },
+    "priorityStatusFormCell": {
+        "empty": "Empty",
+        "label": "Label"
+    },
+    "quickFilterPanel": {
+        "allColumns": "All columns"
+    },
+    "recentBoards": {
+        "accentInvite": "Accept Invite",
+        "boardWorkspace": "Workspace",
+        "newBoard": "new board",
+        "pageTitleDefault": "Welcome",
+        "pendingInvites": "Pending Boards invites",
+        "recentBoardsTitle": "Recent Boards",
+        "welcomeGreeting": "👋 Hello"
+    },
+    "renderImportLastStep": {
+        "cardIllustrationAlt": "import type",
+        "chooseExistingGroup2Paragraph": "Choose existing group, ignores existing columns",
+        "chooseExistingGroupHeading": "Choose existing group",
+        "chooseExistingGroupParagraph": "Choose existing group and add excel items",
+        "chooseHowFileIsImportedDescription": "You can choose to create new group and all the items or choose an existing group to add the imported items",
+        "chooseHowFileIsImportedHeading": "Choose how file is imported",
+        "defaultCreateNewGroupHeading": "Create new group",
+        "defaultCreateNewGroupParagraph": "Creates new group and add the excel items"
+    },
+    "rowSuffixHeader": {
+        "addColumn": "Add new column"
+    },
+    "searchInput": {
+        "filterColumns": "Filter columns..."
+    },
+    "searchTasks": {
+        "searchTasks": "Search tasks...",
+        "searchAudience": "Search audience..."
+    },
+    "selectParentTask": {
+        "chooseParentTask": "Choose parent task",
+        "searchTaskPlaceholder": "Search task"
+    },
+    "signupForm": {
+        "continueWith": "Or continue with",
+        "emailError": "Email is required!",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your Email",
+        "existingAccount": "Already have an account?",
+        "firstNameError": "First name is required!",
+        "firstNameLabel": "First Name",
+        "firstNamePlaceholder": "First Name",
+        "formTitle": "Sign Up for Free",
+        "lastNameError": "Last name is required!",
+        "lastNameLabel": "Last Name",
+        "lastNamePlaceholder": "Last Name",
+        "loginLink": "Log In",
+        "passwordError": "Password is required!",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Your Password",
+        "signupButton": "Sign Up",
+        "termsAndConditions": "I have read and agree to the",
+        "termsLink": "Terms & Conditions",
+        "title": "Sign Up"
+    },
+    "signupStatus": {
+        "default": "SIGNUP",
+        "statusOne": "Initiating sign up process...",
+        "statusThree": "Constructing your first task board...",
+        "statusTwo": " Tailoring your workspace..."
+    },
+    "slateEditor": {
+        "addFiles": "Add files",
+        "cancel": "Cancel",
+        "save": "Save",
+        "update": "Update"
+    },
+    "smallUserMenu": {
+        "changeToDarkMode": "Change to dark mode",
+        "changeToLightMode": "Change to light mode",
+        "invitePeople": "Invite people",
+        "logOut": "Log out",
+        "ltr": "LTR",
+        "myAccount": "My account",
+        "rtl": "RTL",
+        "switchWorkspace": "Switch workspace",
+        "upgrade": "Upgrade"
+    },
+    "sortButton": {
+        "clearButton": "Clear",
+        "saveButton": "Save",
+        "sortTooltip": "Sort"
+    },
+    "tabsMoreButton": {
+        "more": "More",
+        "searchPlaceholder": "Search feature..."
+    },
+    "taskHeaderTab": {
+        "delete": "Delete",
+        "rename": "Rename"
+    },
+    "taskMenu": {
+        "addSubitemButtonText": "Add subitem",
+        "convertTo": "Convert to",
+        "convertToItemButtonText": "item",
+        "convertToSubitemButtonText": "subitem",
+        "copyNameButtonText": "Copy name",
+        "copyTaskLinkToClipboard": "Copied task link to clipboard",
+        "copyTaskUrlButtonText": "Copy task url",
+        "copyToClipboardConfirmation": "Copied to clipboard",
+        "createNewItemBelowButtonText": "Create new item below",
+        "deleteButtonText": "Delete",
+        "duplicateButtonText": "Duplicate",
+        "itemsWithSubitemsCannotBeConvertedTooltip": "Items with subitems cannot be converted",
+        "moveToBoardButtonText": "Move to board",
+        "moveToButtonText": "Move to",
+        "moveToGroupButtonText": "Move to group",
+        "moveToTopButtonText": "Move to top",
+        "newItem": "new item 😍",
+        "newSubitem": "new subitem 🙂",
+        "openButtonText": "Open",
+        "promptDeleteActionTitle": "Delete task?"
+    },
+    "tasksHeader": {
+        "activity": "Activity",
+        "boardOptions": "Board options",
+        "shareBoard": "Share Board",
+        "upgrade": "upgrade"
+    },
+    "tasksPanelHeader": {
+        "columns": "Columns",
+        "export": "Export",
+        "exportDataTooltip": "Export data to Excel",
+        "exportToExcel": "Export to Excel",
+        "hideColumnsTooltip": "Hide columns",
+        "import": "Import",
+        "importDataTooltip": "Import from Excel"
+    },
+    "taskUpdateModal": {
+        "group": "Group",
+        "inBoard": "in"
+    },
+    "taskView": {
+        "creatingBoard": "Creating your first Board..."
+    },
+    "thankYouView": {
+        "confirmationMessage": "We've sent you a confirmation and a receipt of your purchase.",
+        "documentTitle": "Thank you",
+        "getStartedButton": "Get started",
+        "successfully": "Successfully",
+        "updated": "updated",
+        "yourAccount": "your account"
+    },
+    "timelineCell": {
+        "setDates": "Set Dates"
+    },
+    "timelineFormCell": {
+        "endDate": "End Date",
+        "startDate": "Start Date"
+    },
+    "toggleDarkMode": {
+        "darkMode": "Dark mode",
+        "lightMode": "Light mode",
+        "switchTo": "Switch to"
+    },
+    "userCapacity": {
+        "editCapacity": "Edit capacity",
+        "editCapacityPlaceholder": "Edit Capacity "
+    },
+    "userManagementFilter": {
+        "filterButton": "Filter",
+        "filterTooltip": "Filter by type and status",
+        "userStatusActive": "Active",
+        "userStatusDisabled": "Disabled",
+        "userStatusHeader": "User Status",
+        "userStatusPending": "Pending",
+        "userTypeGuest": "Guest",
+        "userTypeHeader": "User Type",
+        "userTypeMember": "Member",
+        "userTypeOwner": "Owner"
+    },
+    "userManagementHeader": {
+        "cancelButton": "Cancel",
+        "emailAddressLabel": "Email Address",
+        "guestsFree": "guests (free)",
+        "invite": "invite",
+        "inviteButton": "Invite",
+        "inviteDialogDescription": "Enter the user's email address",
+        "inviteDialogTitle": "Invite user to ",
+        "members": "members",
+        "searchMembersPlaceholder": "Search members...",
+        "seatLimitExceeded": "Seat limit exceeded",
+        "snackbarAddMoreSeats": "Add more seats",
+        "upgrade": "Upgrade",
+        "workspace": "workspace"
+    },
+    "userManagementView": {
+        "members": "Members",
+        "title": "User Management"
+    },
+    "workloadSettingsDrawer": {
+        "complexityColumnTitle": "Complexity column",
+        "complexityColumnTooltip": "Select complexity options for the tasks",
+        "defaultCapacityTitle": "Default capacity",
+        "defaultCapacityTooltip": "Default capacity for all people",
+        "drawerTitle": "Workload settings",
+        "membersTitle": "Members",
+        "membersTooltip": "Manage person column options",
+        "newMockUserButton": "New mock user",
+        "optionsTitle": "Options",
+        "optionsTooltip": "Manage complexity column options",
+        "personColumnTitle": "Person column",
+        "personColumnTooltip": "Select person options for the tasks",
+        "unnamedGroup": "UnNamed Group"
+    },
+    "workloadView": {
+        "columnsButton": "Columns",
+        "complexityAndPersonRequired": " You <b>must</b> have a complexity <b>and</b> a person column in order to generate workload view!",
+        "complexityRequired": " You <b>must</b> have a complexity column in order to generate workload view!",
+        "personRequired": " You <b>must</b> have a person column in order to generate workload view!",
+        "settingsButton": "Settings"
+    },
+    "workspace": {
+        "addWorkspace": "Add workspace",
+        "browseAll": "Browse all",
+        "myWorkspaces": "My workspaces",
+        "title": "Workspaces"
+    },
+    "workspaceUsersMembers": {
+        "copyInviteLink": "Copy invite link",
+        "emptyStateDescription": "Start by inviting team members to collaborate on your workspace.",
+        "emptyStateTitle": "No members found",
+        "headerActions": "Actions",
+        "headerEmail": "Email",
+        "headerName": "Name",
+        "headerStatus": "Status",
+        "headerType": "Type",
+        "inviteLinkCopied": "Invite link copied to clipboard!",
+        "inviteLinkCopyError": "Failed to copy invite link",
+        "inviteResent": "Invite resent and link copied to clipboard!",
+        "inviteResendError": "Failed to resend invite",
+        "removeUserPrompt": "Remove",
+        "resendInvite": "Resend invite",
+        "statusInactive": "Inactive",
+        "statusPending": "Pending"
+    },
+    "sideBar": {
+        "adminBilling": "Admin Billing",
+        "api": "API",
+        "backToTasks": "Back to tasks",
+        "buySubscription": "Buy Subscription",
+        "creditsUsage": "Credits & Usage",
+        "engineManagement": "Engine Management",
+        "logout": "Logout",
+        "myAccount": "My account",
+        "personalInformation": "Personal information",
+        "security": "Security",
+        "userManagement": "User Management",
+        "workspaces": "Workspaces"
+    },
+    "enginesManagement": {
+        "pageTitle": "WhatsApp Engines Management",
+        "pageDescription": "Manage your WhatsApp session engines and browser connections",
+        "deployNewEngine": "Deploy New Engine",
+        "deployNewEngineTitle": "Deploy New WhatsApp Engine",
+        "deployNewEngineDescription": "Create a new session engine with dedicated Kubernetes pod and persistent storage.",
+        "storage": "Storage",
+        "memory": "Memory",
+        "cpu": "CPU",
+        "nodePool": "Node Pool",
+        "gatewayPool": "Gateway Pool",
+        "engineSettingsNote": "Engine settings are optimized and managed automatically.",
+        "deployEngine": "Deploy Engine",
+        "totalEngines": "Total Engines",
+        "connected": "Connected",
+        "startingUp": "Starting Up",
+        "needsAttention": "Needs Attention",
+        "errorLoadingEngines": "Error Loading Engines",
+        "errorLoadingEnginesDescription": "Failed to load engines. Please try refreshing the page.",
+        "noEnginesConnected": "No Engines Connected",
+        "noEnginesConnectedDescription": "Connect WhatsApp Web in your browser or deploy a gateway engine to start sending messages.",
+        "connectEngineInstructions": "You can connect WhatsApp Web through your browser extension or deploy a dedicated gateway engine.",
+        "deployFirstEngine": "Deploy Your First Engine",
+        "connectedEngines": "Connected Engines",
+        "connectedEnginesDescription": "Your active WhatsApp engines and browser connections",
+        "engine": "Engine",
+        "status": "Status",
+        "connection": "Connection",
+        "lastSeen": "Last Seen",
+        "actions": "Actions",
+        "readOnly": "Read Only",
+        "legacyReadOnly": "Legacy Engine",
+        "legacyWarning": "Upgrade recommended",
+        "restartEngine": "Restart Engine",
+        "deleteEngine": "Delete Engine",
+        "podBased": "Pod-based",
+        "legacy": "Legacy",
+        "pod": "Pod",
+        "node": "Node",
+        "pool": "Pool",
+        "qrCodeTitle": "WhatsApp QR Code",
+        "qrCodeDescription": "Scan this QR code with your WhatsApp mobile app to connect your session.",
+        "qrCodeNotAvailable": "QR code not available",
+        "qrCodeGenerating": "The QR code is being generated...",
+        "qrCodeInstructions1": "Open WhatsApp on your phone",
+        "qrCodeInstructions2": "Go to Settings → Linked Devices → Link a Device",
+        "qrCodeInstructions3": "Point your camera at this screen to scan the code",
+        "statusLabels": {
+            "connected": "Connected",
+            "qrcode": "QR Code Ready",
+            "initializing": "Starting Up",
+            "browser_started": "Browser Started",
+            "navigating": "Loading WhatsApp",
+            "waiting_for_whatsapp_page": "Waiting for WhatsApp",
+            "logout": "Logged Out",
+            "unpaired": "Needs Pairing",
+            "syncing": "Syncing Data",
+            "disconnected": "Disconnected",
+            "error": "Error"
+        },
+        "confirmDelete": "Are you sure you want to delete this engine? This will destroy the pod and PVC.",
+        "deleteEngineTitle": "Delete Engine",
+        "deleteEngineError": "Failed to delete engine",
+        "restartEngineError": "Failed to restart engine",
+        "createEngineError": "Failed to create engine",
+        "unauthorizedCreate": "Unauthorized: User must be authenticated to create engines",
+        "allowedEngines": "Allowed Engines",
+        "currentEngines": "Current Engines",
+        "subscriptionRequired": "Subscription Required",
+        "subscriptionRequiredDescription": "You need an active subscription with offline-socket entitlement to create engines.",
+        "engineLimitReached": "Engine Limit Reached",
+        "engineLimitReachedDescription": "You have reached your engine limit ({{current}}/{{allowed}}). Upgrade your subscription to create more engines.",
+        "offlineEngineTitle": "Work Offline with Blueticks",
+        "offlineEngineDescription": "Want Blueticks to work even when you're offline? Upgrade now!",
+        "offlineEngineUpgrade": "Upgrade Plan",
+        "offlineEngineLearnMore": "Learn more about offline engines"
+    },
+    "welcome": {
+        "title": "Welcome to Blueticks!",
+        "subtitle": "Get started by connecting to WhatsApp to send your first scheduled message.",
+        "chooseConnection": "Choose your connection method:",
+        "chromeExtension": "Chrome Extension",
+        "chromeExtensionDesc": "Free • Works with WhatsApp Web • Requires browser to be open",
+        "chromeExtensionDetails": "Perfect for personal use. Install the extension and keep WhatsApp Web open to send messages.",
+        "installExtension": "Install Extension",
+        "whatsappGateway": "WhatsApp Gateway",
+        "whatsappGatewayDesc": "Pro Plan • 24/7 offline sending • No browser required",
+        "whatsappGatewayDetails": "Ideal for businesses. Send messages even when your computer is off.",
+        "setupGateway": "Setup Gateway",
+        "skip": "Skip for now, I'll set this up later",
+        "videoTitle": "Watch: Engine Types Explained",
+        "videoDescription": "See the difference"
+    }
+}

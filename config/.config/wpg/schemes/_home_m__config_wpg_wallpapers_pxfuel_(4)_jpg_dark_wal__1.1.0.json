@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/pxfuel_(4).jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#22211b",
+        "foreground": "#ece8e1",
+        "cursor": "#ece8e1"
+    },
+    "colors": {
+        "color0": "#22211b",
+        "color1": "#CBB59A",
+        "color2": "#BCC2BC",
+        "color3": "#D4C8B3",
+        "color4": "#E4CFB4",
+        "color5": "#D8D4C7",
+        "color6": "#E5DCCB",
+        "color7": "#ece8e1",
+        "color8": "#a5a29d",
+        "color9": "#CBB59A",
+        "color10": "#BCC2BC",
+        "color11": "#D4C8B3",
+        "color12": "#E4CFB4",
+        "color13": "#D8D4C7",
+        "color14": "#E5DCCB",
+        "color15": "#ece8e1"
+    }
+}

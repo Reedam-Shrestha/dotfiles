@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/InbvZ2f-japanese-wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#20170c",
+        "foreground": "#e5d3b8",
+        "cursor": "#e5d3b8"
+    },
+    "colors": {
+        "color0": "#20170c",
+        "color1": "#C99956",
+        "color2": "#CCA05A",
+        "color3": "#D0A35D",
+        "color4": "#D6AE6E",
+        "color5": "#D9AE6F",
+        "color6": "#BDAE8C",
+        "color7": "#e5d3b8",
+        "color8": "#a09380",
+        "color9": "#C99956",
+        "color10": "#CCA05A",
+        "color11": "#D0A35D",
+        "color12": "#D6AE6E",
+        "color13": "#D9AE6F",
+        "color14": "#BDAE8C",
+        "color15": "#e5d3b8"
+    }
+}

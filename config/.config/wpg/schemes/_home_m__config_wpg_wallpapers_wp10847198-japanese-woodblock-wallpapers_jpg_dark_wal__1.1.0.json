@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/wp10847198-japanese-woodblock-wallpapers.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#201f1e",
+        "foreground": "#eee5d2",
+        "cursor": "#eee5d2"
+    },
+    "colors": {
+        "color0": "#201f1e",
+        "color1": "#4B688E",
+        "color2": "#7393A6",
+        "color3": "#A7998A",
+        "color4": "#A3A59C",
+        "color5": "#CEC1AD",
+        "color6": "#D5CCB4",
+        "color7": "#eee5d2",
+        "color8": "#a6a093",
+        "color9": "#4B688E",
+        "color10": "#7393A6",
+        "color11": "#A7998A",
+        "color12": "#A3A59C",
+        "color13": "#CEC1AD",
+        "color14": "#D5CCB4",
+        "color15": "#eee5d2"
+    }
+}

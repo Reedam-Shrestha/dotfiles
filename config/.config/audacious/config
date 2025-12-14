@@ -1,0 +1,15 @@
+
+[audacious]
+shuffle=TRUE
+
+[audqt]
+icon_theme=audacious-flat-dark
+theme=dark
+
+[pipewire]
+volume_left=100
+volume_right=100
+
+[qtui]
+player_height=701
+player_width=1336

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/FNSOY1g-japanese-wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#020101",
+        "foreground": "#eedbc3",
+        "cursor": "#eedbc3"
+    },
+    "colors": {
+        "color0": "#020101",
+        "color1": "#AC813E",
+        "color2": "#B28C53",
+        "color3": "#B69664",
+        "color4": "#C59B60",
+        "color5": "#CFA972",
+        "color6": "#DEB988",
+        "color7": "#eedbc3",
+        "color8": "#a69988",
+        "color9": "#AC813E",
+        "color10": "#B28C53",
+        "color11": "#B69664",
+        "color12": "#C59B60",
+        "color13": "#CFA972",
+        "color14": "#DEB988",
+        "color15": "#eedbc3"
+    }
+}

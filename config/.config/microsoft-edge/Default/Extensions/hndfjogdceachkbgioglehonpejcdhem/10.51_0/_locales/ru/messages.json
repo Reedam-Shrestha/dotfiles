@@ -1,0 +1,680 @@
+{
+   "aboutDescription": {
+      "message": "Позволяет получать прямые ссылки для скачивания с более чем 40 сайтов, среди которых  VK.com, YouTube.com и другие."
+   },
+   "aboutDescriptionLite": {
+      "message": "Позволяет получать прямые ссылки для скачивания с более чем 40 сайтов, среди которых  VK.com, Vimeo и другие."
+   },
+   "aboutPage": {
+      "message": "О расширении"
+   },
+   "aboutSupported": {
+      "message": "Поддерживаемые ресурсы"
+   },
+   "aboutTitle": {
+      "message": "SaveFrom.net помощник"
+   },
+   "aboutVersion": {
+      "message": "Версия"
+   },
+   "activate": {
+      "message": "Активировать"
+   },
+   "activatePro": {
+      "message": "Активировать PRO"
+   },
+   "aliwizTopbarButton": {
+      "message": "Показать"
+   },
+   "aliwizTopbarTitle": {
+      "message": "Покажем \u003Cb>надежных продавцов\u003C/b> и \u003Cb>лучшие цены\u003C/b> на Aliexpress!"
+   },
+   "are_you_sure_interrupt_download": {
+      "message": "Вы уверены, что хотите прервать загрузку?"
+   },
+   "authCheck": {
+      "message": "Проверка учетных данных"
+   },
+   "beforeDownloadPopupWarn": {
+      "message": "Внимание: отменить или приостановить закачку будет невозможно."
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "cancelDownload": {
+      "message": "Отменить загрузку"
+   },
+   "close": {
+      "message": "Закрыть"
+   },
+   "completed": {
+      "message": "Завершено"
+   },
+   "continue": {
+      "message": "Продолжить"
+   },
+   "conversionCompleted": {
+      "message": "Конвертация завершена"
+   },
+   "copy": {
+      "message": "Копировать"
+   },
+   "disable": {
+      "message": "Выключить"
+   },
+   "disableModule": {
+      "message": "Отключить на этом сайте"
+   },
+   "doNotClosePage": {
+      "message": "Не закрывайте страницу, пока файл не будет загружен!"
+   },
+   "done": {
+      "message": "Готово"
+   },
+   "dont_close_page": {
+      "message": "Не закрывайте страницу, \u003Cbr/>это займет несколько минут"
+   },
+   "download": {
+      "message": "Скачать"
+   },
+   "downloadFromCurrentPage": {
+      "message": "Перейти на SaveFrom.net"
+   },
+   "downloadInfo": {
+      "message": "Информация о скачивании"
+   },
+   "downloadMP3Files": {
+      "message": "Скачать аудио файлы"
+   },
+   "downloadPhotos": {
+      "message": "Скачать фотографии"
+   },
+   "downloadPlaylist": {
+      "message": "Скачать плейлист"
+   },
+   "downloadTitle": {
+      "message": "Нажмите на ссылку, удерживая клавишу Alt или Ctrl, чтобы сохранить файл."
+   },
+   "downloadWholePlaylist": {
+      "message": "Скачать весь плейлист"
+   },
+   "download_button_and_click": {
+      "message": "и кликните"
+   },
+   "download_button_hold": {
+      "message": "Зажмите"
+   },
+   "downloadingBox_button": {
+      "message": "Скачать"
+   },
+   "downloadingBox_description": {
+      "message": "Если загрузка не началась, нажмите на кнопку скачать"
+   },
+   "downloadingBox_fileName": {
+      "message": "Название файла"
+   },
+   "downloadingBox_status_complete": {
+      "message": "Завершено"
+   },
+   "downloadingBox_status_converting": {
+      "message": "Конвертация"
+   },
+   "downloadingBox_status_loading": {
+      "message": "Загрузка..."
+   },
+   "downloadingBox_status_prepare": {
+      "message": "Подготовка"
+   },
+   "enableDisableModule": {
+      "message": "Вкл/Выкл на этом сайте"
+   },
+   "enableModule": {
+      "message": "Включить на этом сайте"
+   },
+   "errors": {
+      "message": "Ошибки"
+   },
+   "extDescription": {
+      "message": "Скачивайте с Вконтакте, YouTube, Одноклассники и еще 40 сайтов за 1 клик."
+   },
+   "extDescriptionLite": {
+      "message": "Скачивайте с Вконтакте, Одноклассники и еще 40 сайтов за 1 клик."
+   },
+   "extName": {
+      "message": "SaveFrom.net помощник"
+   },
+   "extNameLite": {
+      "message": "SaveFrom.net помощник lite"
+   },
+   "filelist": {
+      "message": "Список файлов"
+   },
+   "filelistInstruction": {
+      "message": "['Чтобы скачать все файлы, скопируйте список ссылок и вставьте его в ',{a:{href:'http://ru.wikipedia.org/wiki/Менеджер_загрузок',text:'менеджер закачек'}},'. Если у вас не установлен менеджер закачек, рекомендуем установить ',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'.']"
+   },
+   "filelistTitle": {
+      "message": "Список найденных файлов"
+   },
+   "files": {
+      "message": "Файлы"
+   },
+   "getFileSizeFailTitle": {
+      "message": "Не удалось определить размер файла. Попробуйте повторить попытку."
+   },
+   "getFileSizeTitle": {
+      "message": "Определить размер файла"
+   },
+   "homePage": {
+      "message": "Домашняя страница"
+   },
+   "howActivateHelperPro": {
+      "message": "Как активировать Helper Pro"
+   },
+   "installFullVersion": {
+      "message": "Установить полную версию"
+   },
+   "instruction": {
+      "message": "Инструкция"
+   },
+   "kbps": {
+      "message": "кб/с"
+   },
+   "lang": {
+      "message": "ru"
+   },
+   "linksUpdated": {
+      "message": "Ссылки обновлены!"
+   },
+   "lmButtonTitle": {
+      "message": "Получи прямую ссылку"
+   },
+   "login": {
+      "message": "Войти в Helper Pro"
+   },
+   "loginAlreadyGmMessage": {
+      "message": "Вы уже вошли в систему, обновите страницу"
+   },
+   "loginGmMessage": {
+      "message": "Перейти на страницу входа"
+   },
+   "loginIfPro": {
+      "message": "Войдите, если у вас Pro"
+   },
+   "logout": {
+      "message": "Выйти"
+   },
+   "logoutAlreadyGmMessage": {
+      "message": "Вы уже вышли из системы, обновите страницу"
+   },
+   "logoutGmMessage": {
+      "message": "Вы успешно вышли из системы"
+   },
+   "menuDisable": {
+      "message": "Выключить"
+   },
+   "menuDownloadFromCurrentPage": {
+      "message": "Скачать файлы с текущей страницы с помощью сервиса SaveFrom.net"
+   },
+   "menuDownloadMP3Files": {
+      "message": "Скачать все найденные на странице аудиофайлы"
+   },
+   "menuDownloadPhotos": {
+      "message": "Скачать все найденные на странице фотографии"
+   },
+   "menuDownloadPlaylist": {
+      "message": "Формирует и скачивает плейлист с ссылками на аудиофайлы"
+   },
+   "menuEnable": {
+      "message": "Включить"
+   },
+   "menuEnableExtension": {
+      "message": ""
+   },
+   "menuOpenPoll": {
+      "message": "Пожалуйста, оцените качество расширения \"SaveFrom.net помощник\""
+   },
+   "menuReportBug": {
+      "message": "Дайте нам знать, если возникли проблемы"
+   },
+   "menuShowOptions": {
+      "message": "Вкл./откл. поддерживаемые ресурсы и возможности помощника"
+   },
+   "menuUpdateLinks": {
+      "message": "Нажмите, если ссылка для скачивания не появляется"
+   },
+   "minimize": {
+      "message": "Свернуть"
+   },
+   "minimizeDownloadPanel": {
+      "message": "Сверните окно загрузки, мы сообщим вам, когда видео будет загружено"
+   },
+   "more": {
+      "message": "Ещё"
+   },
+   "msg_data_invalid": {
+      "message": "Отправлены неверные данные, попробуйте еще раз"
+   },
+   "msg_no_premium": {
+      "message": "Вы не активировали Pro"
+   },
+   "msg_not_authorized": {
+      "message": "Чтобы использовать pro, вам необходимо войти в систему"
+   },
+   "msg_quality_not_found": {
+      "message": "Не удалось найти указанное качество"
+   },
+   "msg_video_exists": {
+      "message": "Видео уже скачивается"
+   },
+   "msg_video_not_found": {
+      "message": "Не удалось найти указанное видео"
+   },
+   "no": {
+      "message": "Нет"
+   },
+   "noLinksFound": {
+      "message": "Не удалось найти ссылки"
+   },
+   "noWarning": {
+      "message": "Не предупреждать"
+   },
+   "openPoll": {
+      "message": "Стать лучше"
+   },
+   "optionsAviaBarEnabled": {
+      "message": "Советник Дешевых Авиабилетов"
+   },
+   "optionsBitrate": {
+      "message": "Показывать битрейт сразу"
+   },
+   "optionsDailymotion": {
+      "message": "Dailymotion"
+   },
+   "optionsDirectory": {
+      "message": "Имя директории, в которую будут сохранены файлы в одном из перечисленных форматов"
+   },
+   "optionsFacebook": {
+      "message": "Facebook"
+   },
+   "optionsFfmpegEnabled": {
+      "message": "Конвертер для ffmpeg (Alpha version)"
+   },
+   "optionsFormats": {
+      "message": "Укажите через пробел форматы файлов, которые будут сохранены в указанной директории"
+   },
+   "optionsGmNativeDownload": {
+      "message": "Расширенный режим закачки"
+   },
+   "optionsHandleLinks": {
+      "message": "Обрабатывать ссылки"
+   },
+   "optionsInstagram": {
+      "message": "Instagram"
+   },
+   "optionsMailru": {
+      "message": "Мой мир"
+   },
+   "optionsMediaHostings": {
+      "message": "На медиахостинги"
+   },
+   "optionsModules": {
+      "message": "Модули"
+   },
+   "optionsOdnoklassniki": {
+      "message": "Одноклассники"
+   },
+   "optionsRutube": {
+      "message": "Rutube"
+   },
+   "optionsSaveAsDialog": {
+      "message": "Всегда выдавать запрос на сохранение файлов"
+   },
+   "optionsShowUmmyBtn": {
+      "message": "Отображать кнопку Ummy"
+   },
+   "optionsShowUmmyInfo": {
+      "message": "Показывать подсказки для Ummy Video Downloader"
+   },
+   "optionsSoundcloud": {
+      "message": "SoundCloud"
+   },
+   "optionsSovetnikEnabled": {
+      "message": "Советник"
+   },
+   "optionsTiktok": {
+      "message": "Tiktok"
+   },
+   "optionsTitle": {
+      "message": "SaveFrom.net помощник - Настройки"
+   },
+   "optionsVimeo": {
+      "message": "Vimeo"
+   },
+   "optionsVkontakte": {
+      "message": "Вконтакте"
+   },
+   "optionsYTHideLinks": {
+      "message": "Скрывать ссылки"
+   },
+   "optionsYoutube": {
+      "message": "YouTube"
+   },
+   "options_Actions_title": {
+      "message": "Действия"
+   },
+   "options_Directory_title": {
+      "message": "Директория"
+   },
+   "options_Formats_title": {
+      "message": "Форматы"
+   },
+   "options_button_add": {
+      "message": "Добавить"
+   },
+   "options_button_cancel": {
+      "message": "Отменить"
+   },
+   "options_button_delete": {
+      "message": "Удалить"
+   },
+   "options_button_edit": {
+      "message": "Изменить"
+   },
+   "options_button_reset": {
+      "message": "Сбросить"
+   },
+   "options_button_save": {
+      "message": "Сохранить"
+   },
+   "options_management": {
+      "message": "Управление сохранением (сортировка файлов по каталогам)"
+   },
+   "options_no_type_msg": {
+      "message": "Типы не определены"
+   },
+   "partnersLinksOnly": {
+      "message": "Ссылки не найдены, воспользуйтесь партнерскими продуктами"
+   },
+   "playlist": {
+      "message": "Плейлист"
+   },
+   "playlistInstruction": {
+      "message": "Сохраненный плейлист можно открыть в плеере для  воспроизведения."
+   },
+   "playlistTitle": {
+      "message": "Плейлист"
+   },
+   "prepareDownload": {
+      "message": "Подготовка к загрузке"
+   },
+   "pro": {
+      "message": "PRO"
+   },
+   "probannerAlreadyHave": {
+      "message": "Уже есть PRO?"
+   },
+   "probannerDescription": {
+      "message": "Получите максимум от Helper PRO всего за"
+   },
+   "probannerFeature1": {
+      "message": "Скачивайте видео в HD/4K"
+   },
+   "probannerFeature2": {
+      "message": "Сохраняйте только как MP3"
+   },
+   "probannerFeature3": {
+      "message": "Поддержка 700+ сайтов"
+   },
+   "probannerFeature4": {
+      "message": "Доступ на всех устройствах"
+   },
+   "probannerLoginLink": {
+      "message": "Войти"
+   },
+   "probannerPrice": {
+      "message": "₽399/месяц"
+   },
+   "probannerTitle": {
+      "message": "Скачивайте без ограничений с Savefrom Helper PRO!"
+   },
+   "probannerUpgradeButton": {
+      "message": "Получить PRO"
+   },
+   "quality": {
+      "message": "Качество"
+   },
+   "qualityNote": {
+      "message": "Если видео в нужном качестве нет, скачается лучшее из возможного."
+   },
+   "readMore": {
+      "message": "Подробнее..."
+   },
+   "reportBug": {
+      "message": "Сообщить об ошибке"
+   },
+   "sendToButton": {
+      "message": "На телефон"
+   },
+   "sendToEmailButton": {
+      "message": "Оставить емейл"
+   },
+   "sendToEmailInputError": {
+      "message": "Ошибка"
+   },
+   "sendToEmailInputPlaceholder": {
+      "message": "Введите ваш емейл"
+   },
+   "sendToEmailText": {
+      "message": "Работа над этой функцией все еще кипит. Оставьте, пожалуйста, ваш email и мы вышлем эксклюзивное приглашение, как только запустим сервис!"
+   },
+   "sendToEmailTextComplete": {
+      "message": "Спасибо!"
+   },
+   "sendToEmailTitle": {
+      "message": "Благодарим за интерес к нашим сервисам!"
+   },
+   "sendToLinkGoBack": {
+      "message": "Вернуться к скачиванию видео"
+   },
+   "sendToLoginButton": {
+      "message": "Войти"
+   },
+   "sendToLoginText": {
+      "message": "Пожалуйста, авторизуйтесь через Google, чтобы отправить выбранное видео"
+   },
+   "sendToLoginTitle": {
+      "message": "Скачайте видео сразу в ваш телефон!"
+   },
+   "sendToTextOr": {
+      "message": "или"
+   },
+   "shareIn": {
+      "message": "Поделиться в %w"
+   },
+   "showButton": {
+      "message": "Показывать кнопку расширения"
+   },
+   "showHideButton": {
+      "message": "Показ./скр. кнопку расширения"
+   },
+   "showOptions": {
+      "message": "Настройки"
+   },
+   "size": {
+      "message": "размер"
+   },
+   "socialDesc": {
+      "message": "SaveFrom.net помощник помогает бесплатно скачивать с VK.com, YouTube.com, Odnoklassniki.ru и более 40 других сайтов в 1 клик"
+   },
+   "someFilesNeedConverted": {
+      "message": "Некоторые файлы необходимо конвертировать, не закрывайте окно до завершения операции"
+   },
+   "somethingWentWrong": {
+      "message": "Что-то пошло не так. Попробуйте позже"
+   },
+   "subtitles": {
+      "message": "Субтитры"
+   },
+   "success": {
+      "message": "Успешно"
+   },
+   "televzrNotFound": {
+      "message": "Televzr не найден"
+   },
+   "televzrNotFoundSubMessage": {
+      "message": "Попробуйте скачать и открыть Televzr"
+   },
+   "titleDefault": {
+      "message": "SaveFrom.net помощник"
+   },
+   "titleDesabled": {
+      "message": "SaveFrom.net помощник выключен"
+   },
+   "tooltipHide": {
+      "message": "Больше не показывать это сообщение"
+   },
+   "try_pro_button": {
+      "message": "ПОПРОБОВАТЬ PRO"
+   },
+   "tutorialTooltipConfirm": {
+      "message": "понятно"
+   },
+   "tutorialTooltipHeader": {
+      "message": "Скачивайте видео в один клик!"
+   },
+   "tutorialTooltipText": {
+      "message": "Нажмите кнопку, чтобы выбрать качество и скачать видео."
+   },
+   "tzDownloadStarted": {
+      "message": "Добавлено в Загрузки"
+   },
+   "tzPreparingToDownload": {
+      "message": "Подготовка к загрузке"
+   },
+   "tzSearchApp": {
+      "message": "Поиск Televzr"
+   },
+   "ummyMenuInfo": {
+      "message": "[{p:{append:['Скачивайте HD и MP3 с помощью бесплатной программы', {br:{}}, 'Ummy Video Downloader!']}},{p:{class:'center',append:[{a:{class:'green-btn-2 arrow',href:'{url}',target:'_blank',text:'Установить'}}]}},{p:{append:['После установки скачивание будет начинаться автоматически', {br:{}}, 'при клике на ',{img:{src:'#'}}]}}]"
+   },
+   "ummyMenuItem": {
+      "message": "[{span:{}},' с помощью Ummy']"
+   },
+   "ummySfTitle": {
+      "message": "HD или MP3"
+   },
+   "ummyTooltipConfirm": {
+      "message": "['Вы уже установили',{br:{}},{img:{}},' Ummy Video Downloader?']"
+   },
+   "updateLinks": {
+      "message": "Обновить ссылки"
+   },
+   "updateLinksNotification": {
+      "message": "Ссылки обновлены"
+   },
+   "updateTo": {
+      "message": "Обновить до %d"
+   },
+   "upgrade": {
+      "message": "Обновить"
+   },
+   "video": {
+      "message": "Видео"
+   },
+   "videoDownloaded": {
+      "message": "Видео успешно загружено"
+   },
+   "videoDownloading": {
+      "message": "Загрузка видео"
+   },
+   "video_coming_ok": {
+      "message": "Понятно"
+   },
+   "video_coming_soon": {
+      "message": "Видео скоро начнет скачиваться"
+   },
+   "vkDownloadAllPhotoAlbums": {
+      "message": "Скачать все альбомы"
+   },
+   "vkDownloadFromYoutube": {
+      "message": "['Скачать: откройте ',{a:{href:'{url}',text:'страницу видео ролика'}},' и нажмите кнопку \"Скачать\" над плеером']"
+   },
+   "vkDownloadPhotoAlbum": {
+      "message": "Скачать альбом"
+   },
+   "vkFileSizeByte": {
+      "message": "Б"
+   },
+   "vkFileSizeGByte": {
+      "message": "ГБ"
+   },
+   "vkFileSizeKByte": {
+      "message": "кБ"
+   },
+   "vkFileSizeMByte": {
+      "message": "МБ"
+   },
+   "vkFileSizeTByte": {
+      "message": "ТБ"
+   },
+   "vkFoundFiles": {
+      "message": "Найдено файлов: %d"
+   },
+   "vkFoundLinks": {
+      "message": "Найдено ссылок"
+   },
+   "vkFoundOf": {
+      "message": "из"
+   },
+   "vkFoundPhotos": {
+      "message": "Найдено фотографий"
+   },
+   "vkInfo": {
+      "message": "Параметры"
+   },
+   "vkInfoTitle": {
+      "message": "Размер файла и битрейт"
+   },
+   "vkKbps": {
+      "message": "кб/с"
+   },
+   "vkListOfLinks": {
+      "message": "Список ссылок"
+   },
+   "vkListOfLinksInstruction": {
+      "message": "['Чтобы скачать все фотографии, скопируйте список ссылок и вставьте его в ',{a:{href:'http://ru.wikipedia.org/wiki/Менеджер_загрузок',text:'менеджер закачек'}},'. Если у вас не установлен менеджер закачек, рекомендуем установить ',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'.']"
+   },
+   "vkListOfPhotos": {
+      "message": "Список фотографий"
+   },
+   "vkListOfPhotosInstruction": {
+      "message": "Чтобы скачать фотографию, щелкните на ней левой кнопкой мыши."
+   },
+   "vkMp3LinksNotFound": {
+      "message": "Не найдены ссылки на MP3 файлы"
+   },
+   "vkNotAvailablePhotos": {
+      "message": "%d фото временно не доступно"
+   },
+   "vkPhotoLinksNotFound": {
+      "message": "Не найдены ссылки на фотографии"
+   },
+   "vkShowAs": {
+      "message": "Показать как"
+   },
+   "vkTableOfThumbnails": {
+      "message": "Таблицу эскизов"
+   },
+   "warningPopupDesc": {
+      "message": "Выбор папки при скачивании должен быть отключен."
+   },
+   "warningPopupTitle": {
+      "message": "Проверьте настройки браузера"
+   },
+   "withoutAudio": {
+      "message": "без аудио"
+   },
+   "yes": {
+      "message": "Да"
+   }
+}

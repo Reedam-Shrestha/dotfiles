@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/56288.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#050404",
+        "foreground": "#e6e0d1",
+        "cursor": "#e6e0d1"
+    },
+    "colors": {
+        "color0": "#050404",
+        "color1": "#9D8E74",
+        "color2": "#C4AA7B",
+        "color3": "#AA9C87",
+        "color4": "#B7A98F",
+        "color5": "#C7B89D",
+        "color6": "#D6CAB0",
+        "color7": "#e6e0d1",
+        "color8": "#a19c92",
+        "color9": "#9D8E74",
+        "color10": "#C4AA7B",
+        "color11": "#AA9C87",
+        "color12": "#B7A98F",
+        "color13": "#C7B89D",
+        "color14": "#D6CAB0",
+        "color15": "#e6e0d1"
+    }
+}

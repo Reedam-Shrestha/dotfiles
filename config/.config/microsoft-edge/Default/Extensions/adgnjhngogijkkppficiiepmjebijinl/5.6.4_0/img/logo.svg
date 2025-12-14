@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130.723" height="130.723" viewBox="0 0 130.723 130.723">
+  <g id="logo" transform="translate(-239.976 -11.63)">
+    <path id="Path_1537" data-name="Path 1537" d="M65.362,0A65.362,65.362,0,1,1,0,65.362,65.362,65.362,0,0,1,65.362,0Z" transform="translate(239.976 11.63)" fill="#53bdeb"/>
+    <path id="Path_816" data-name="Path 816" d="M2738.263,3495.245s4.719,34.61,48.093,44.948" transform="translate(-2490.645 -3404.359)" fill="none" stroke="#fff" stroke-width="2"/>
+    <path id="Path_817" data-name="Path 817" d="M2786.357,3540.193s-4.719-34.61-48.093-44.948" transform="translate(-2425.126 -3477.438)" fill="none" stroke="#fff" stroke-width="2"/>
+    <g id="Group_1543" data-name="Group 1543" transform="translate(261.213 54.229)">
+      <path id="ic_done_24px" d="M23.992,44.578,8.548,29.134,3.4,34.282,23.992,54.875,68.119,10.748,62.971,5.6Z" transform="translate(-3.4 -5.6)" fill="#fff"/>
+      <path id="ic_done_24px-2" data-name="ic_done_24px" d="M22.229,44.578l-2.7-2.663-5.148,5.148,7.851,7.811L66.355,10.748,61.207,5.6Z" transform="translate(16.934 -5.6)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+/* [data-testid='chatlist-header'] {
+    margin-top: 49px
+}
+
+[data-testid='conversation-header'] {
+    margin-top: 49px
+}
+
+[role='listitem']:hover .GroupedActionsButton {
+    display: flex !important;
+}
+
+[role='listitem']:hover [data-testid='cell-frame-primary-detail'] {
+    display: none !important;
+}
+
+[role='listitem']:hover .LabelContainer {
+    display: none !important;
+} */

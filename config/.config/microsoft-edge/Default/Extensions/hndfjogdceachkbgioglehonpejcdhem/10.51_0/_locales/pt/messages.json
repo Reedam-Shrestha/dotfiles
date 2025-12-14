@@ -1,0 +1,680 @@
+{
+   "aboutDescription": {
+      "message": "Permite obter links diretos para download de mais de 40 sites, incluindo VK.com, YouTube.com e outros."
+   },
+   "aboutDescriptionLite": {
+      "message": "Permite obter links diretos para download de mais de 40 sites, incluindo VK.com, Vimeo e outros."
+   },
+   "aboutPage": {
+      "message": "Sobre a extensão"
+   },
+   "aboutSupported": {
+      "message": "Recursos suportados"
+   },
+   "aboutTitle": {
+      "message": "Assistente SaveFrom.net"
+   },
+   "aboutVersion": {
+      "message": "Versão"
+   },
+   "activate": {
+      "message": "Ativar"
+   },
+   "activatePro": {
+      "message": "Ativar PRO"
+   },
+   "aliwizTopbarButton": {
+      "message": "Mostrar"
+   },
+   "aliwizTopbarTitle": {
+      "message": "Mostraremos \u003Cb>vendedores confiáveis\u003C/b> e \u003Cb>melhores preços\u003C/b> no Aliexpress!"
+   },
+   "are_you_sure_interrupt_download": {
+      "message": "Tem certeza de que deseja interromper o download?"
+   },
+   "authCheck": {
+      "message": "Verificação de autenticação"
+   },
+   "beforeDownloadPopupWarn": {
+      "message": "Atenção: não será possível cancelar ou pausar o download."
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cancelDownload": {
+      "message": "Cancelar download"
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "completed": {
+      "message": "Concluído"
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "conversionCompleted": {
+      "message": "Conversão concluída"
+   },
+   "copy": {
+      "message": "Copiar"
+   },
+   "disable": {
+      "message": "Desativar"
+   },
+   "disableModule": {
+      "message": "Desativar neste site"
+   },
+   "doNotClosePage": {
+      "message": "Não feche a página até que o arquivo seja baixado!"
+   },
+   "done": {
+      "message": "Concluído"
+   },
+   "dont_close_page": {
+      "message": "Não feche a página, \u003Cbr/>isso levará alguns minutos"
+   },
+   "download": {
+      "message": "Baixar"
+   },
+   "downloadFromCurrentPage": {
+      "message": "Ir para o SaveFrom.net"
+   },
+   "downloadInfo": {
+      "message": "Informações de download"
+   },
+   "downloadMP3Files": {
+      "message": "Baixar arquivos de áudio"
+   },
+   "downloadPhotos": {
+      "message": "Baixar fotos"
+   },
+   "downloadPlaylist": {
+      "message": "Baixar lista de reprodução"
+   },
+   "downloadTitle": {
+      "message": "Clique no link enquanto mantém pressionada a tecla Alt ou Ctrl para salvar o arquivo."
+   },
+   "downloadWholePlaylist": {
+      "message": "Baixar a lista de reprodução inteira"
+   },
+   "download_button_and_click": {
+      "message": "e clique"
+   },
+   "download_button_hold": {
+      "message": "Pressione"
+   },
+   "downloadingBox_button": {
+      "message": "Download"
+   },
+   "downloadingBox_description": {
+      "message": "Se o download não iniciar, clique no botão de download"
+   },
+   "downloadingBox_fileName": {
+      "message": "Nome do arquivo"
+   },
+   "downloadingBox_status_complete": {
+      "message": "Concluído"
+   },
+   "downloadingBox_status_converting": {
+      "message": "Convertendo"
+   },
+   "downloadingBox_status_loading": {
+      "message": "Carregando..."
+   },
+   "downloadingBox_status_prepare": {
+      "message": "Preparar"
+   },
+   "enableDisableModule": {
+      "message": "Ativar/Desativar neste site"
+   },
+   "enableModule": {
+      "message": "Ativar neste site"
+   },
+   "errors": {
+      "message": "Erros"
+   },
+   "extDescription": {
+      "message": "Baixe do VKontakte, YouTube, Odnoklassniki e mais 40 sites com apenas 1 clique."
+   },
+   "extDescriptionLite": {
+      "message": "Baixe do VKontakte, Odnoklassniki e mais 40 sites com apenas 1 clique."
+   },
+   "extName": {
+      "message": "Assistente SaveFrom.net"
+   },
+   "extNameLite": {
+      "message": "Assistente SaveFrom.net Lite"
+   },
+   "filelist": {
+      "message": "Lista de arquivos"
+   },
+   "filelistInstruction": {
+      "message": "['Para baixar todos os arquivos, copie a lista de links e cole-a em um ',{a:{href:'http://en.wikipedia.org/wiki/Download_manager',text:'gerenciador de downloads'}},'. Se você não tiver um gerenciador de downloads instalado, recomendamos instalar o ',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'.']"
+   },
+   "filelistTitle": {
+      "message": "Lista de arquivos encontrados"
+   },
+   "files": {
+      "message": "Arquivos"
+   },
+   "getFileSizeFailTitle": {
+      "message": "Não foi possível determinar o tamanho do arquivo. Tente novamente."
+   },
+   "getFileSizeTitle": {
+      "message": "Determinar o tamanho do arquivo"
+   },
+   "homePage": {
+      "message": "Página inicial"
+   },
+   "howActivateHelperPro": {
+      "message": "Como ativar o Helper Pro"
+   },
+   "installFullVersion": {
+      "message": "Instalar a versão completa"
+   },
+   "instruction": {
+      "message": "Instrução"
+   },
+   "kbps": {
+      "message": "kbps"
+   },
+   "lang": {
+      "message": "pt"
+   },
+   "linksUpdated": {
+      "message": "Links atualizados!"
+   },
+   "lmButtonTitle": {
+      "message": "Obter link direto"
+   },
+   "login": {
+      "message": "Entrar no Helper Pro"
+   },
+   "loginAlreadyGmMessage": {
+      "message": "Você já está logado, atualize a página"
+   },
+   "loginGmMessage": {
+      "message": "Ir para a página de login"
+   },
+   "loginIfPro": {
+      "message": "Faça login se você for Pro"
+   },
+   "logout": {
+      "message": "Sair"
+   },
+   "logoutAlreadyGmMessage": {
+      "message": "Você já saiu do sistema, atualize a página"
+   },
+   "logoutGmMessage": {
+      "message": "Você saiu do sistema com sucesso"
+   },
+   "menuDisable": {
+      "message": "Desativar"
+   },
+   "menuDownloadFromCurrentPage": {
+      "message": "Baixar arquivos da página atual usando o serviço SaveFrom.net"
+   },
+   "menuDownloadMP3Files": {
+      "message": "Baixar todos os arquivos de áudio encontrados na página"
+   },
+   "menuDownloadPhotos": {
+      "message": "Baixar todas as fotos encontradas na página"
+   },
+   "menuDownloadPlaylist": {
+      "message": "Cria e baixa uma lista de reprodução com links para arquivos de áudio"
+   },
+   "menuEnable": {
+      "message": "Ativar"
+   },
+   "menuEnableExtension": {
+      "message": ""
+   },
+   "menuOpenPoll": {
+      "message": "Avalie a qualidade da extensão SaveFrom.net"
+   },
+   "menuReportBug": {
+      "message": "Informe-nos se você encontrar problemas"
+   },
+   "menuShowOptions": {
+      "message": "Ativar/Desativar recursos e opções de assistência"
+   },
+   "menuUpdateLinks": {
+      "message": "Clique se o link de download não aparecer"
+   },
+   "minimize": {
+      "message": "Minimizar"
+   },
+   "minimizeDownloadPanel": {
+      "message": "Minimize a janela de download, notificaremos você quando o vídeo estiver baixado"
+   },
+   "more": {
+      "message": "Mais"
+   },
+   "msg_data_invalid": {
+      "message": "Dados inválidos enviados, tente novamente"
+   },
+   "msg_no_premium": {
+      "message": "Você não ativou o Pro"
+   },
+   "msg_not_authorized": {
+      "message": "Para usar o Pro, você precisa fazer login no sistema"
+   },
+   "msg_quality_not_found": {
+      "message": "Não foi possível encontrar a qualidade especificada"
+   },
+   "msg_video_exists": {
+      "message": "O vídeo já está sendo baixado"
+   },
+   "msg_video_not_found": {
+      "message": "Não foi possível encontrar o vídeo especificado"
+   },
+   "no": {
+      "message": "Não"
+   },
+   "noLinksFound": {
+      "message": "Não foram encontrados links"
+   },
+   "noWarning": {
+      "message": "Não avisar"
+   },
+   "openPoll": {
+      "message": "Torne-se melhor"
+   },
+   "optionsAviaBarEnabled": {
+      "message": "Pesquisa de passagens aéreas baratas"
+   },
+   "optionsBitrate": {
+      "message": "Mostrar taxa de bits imediatamente"
+   },
+   "optionsDailymotion": {
+      "message": "Dailymotion"
+   },
+   "optionsDirectory": {
+      "message": "Nome do diretório onde os arquivos serão salvos em um dos formatos listados"
+   },
+   "optionsFacebook": {
+      "message": "Facebook"
+   },
+   "optionsFfmpegEnabled": {
+      "message": "Conversor para ffmpeg (versão Alpha)"
+   },
+   "optionsFormats": {
+      "message": "Especifique os formatos de arquivo separados por espaço que serão salvos no diretório especificado"
+   },
+   "optionsGmNativeDownload": {
+      "message": "Modo de download avançado"
+   },
+   "optionsHandleLinks": {
+      "message": "Manipular links"
+   },
+   "optionsInstagram": {
+      "message": "Instagram"
+   },
+   "optionsMailru": {
+      "message": "Moi Mir"
+   },
+   "optionsMediaHostings": {
+      "message": "Em hospedagens de mídia"
+   },
+   "optionsModules": {
+      "message": "Módulos"
+   },
+   "optionsOdnoklassniki": {
+      "message": "Odnoklassniki"
+   },
+   "optionsRutube": {
+      "message": "Rutube"
+   },
+   "optionsSaveAsDialog": {
+      "message": "Sempre perguntar onde salvar os arquivos"
+   },
+   "optionsShowUmmyBtn": {
+      "message": "Exibir botão Ummy"
+   },
+   "optionsShowUmmyInfo": {
+      "message": "Mostrar dicas para o Ummy Video Downloader"
+   },
+   "optionsSoundcloud": {
+      "message": "SoundCloud"
+   },
+   "optionsSovetnikEnabled": {
+      "message": "Conselheiro"
+   },
+   "optionsTiktok": {
+      "message": "Tiktok"
+   },
+   "optionsTitle": {
+      "message": "Assistente SaveFrom.net - Opções"
+   },
+   "optionsVimeo": {
+      "message": "Vimeo"
+   },
+   "optionsVkontakte": {
+      "message": "VKontakte"
+   },
+   "optionsYTHideLinks": {
+      "message": "Ocultar links"
+   },
+   "optionsYoutube": {
+      "message": "YouTube"
+   },
+   "options_Actions_title": {
+      "message": "Ações"
+   },
+   "options_Directory_title": {
+      "message": "Diretório"
+   },
+   "options_Formats_title": {
+      "message": "Formatos"
+   },
+   "options_button_add": {
+      "message": "Adicionar"
+   },
+   "options_button_cancel": {
+      "message": "Cancelar"
+   },
+   "options_button_delete": {
+      "message": "Excluir"
+   },
+   "options_button_edit": {
+      "message": "Editar"
+   },
+   "options_button_reset": {
+      "message": "Redefinir"
+   },
+   "options_button_save": {
+      "message": "Salvar"
+   },
+   "options_management": {
+      "message": "Gerenciamento de download (classificação de arquivos em pastas)"
+   },
+   "options_no_type_msg": {
+      "message": "Tipos não definidos"
+   },
+   "partnersLinksOnly": {
+      "message": "Links não encontrados, utilize produtos parceiros"
+   },
+   "playlist": {
+      "message": "Lista de reprodução"
+   },
+   "playlistInstruction": {
+      "message": "A lista de reprodução salva pode ser aberta em um player para reprodução."
+   },
+   "playlistTitle": {
+      "message": "Lista de reprodução"
+   },
+   "prepareDownload": {
+      "message": "Preparando para download"
+   },
+   "pro": {
+      "message": "PRO"
+   },
+   "probannerAlreadyHave": {
+      "message": "Já tem PRO?"
+   },
+   "probannerDescription": {
+      "message": "Obtenha o máximo do Helper PRO por apenas"
+   },
+   "probannerFeature1": {
+      "message": "Baixe vídeos em HD/4K"
+   },
+   "probannerFeature2": {
+      "message": "Salvar apenas como MP3"
+   },
+   "probannerFeature3": {
+      "message": "Suporte para mais de 700 sites"
+   },
+   "probannerFeature4": {
+      "message": "Acesso em todos os dispositivos"
+   },
+   "probannerLoginLink": {
+      "message": "Entrar"
+   },
+   "probannerPrice": {
+      "message": "R$ 24,99/mês"
+   },
+   "probannerTitle": {
+      "message": "Baixe sem limites com Savefrom Helper PRO!"
+   },
+   "probannerUpgradeButton": {
+      "message": "Obter PRO"
+   },
+   "quality": {
+      "message": "Qualidade"
+   },
+   "qualityNote": {
+      "message": "Se o vídeo na qualidade desejada não estiver disponível, o melhor disponível será baixado."
+   },
+   "readMore": {
+      "message": "Leia mais..."
+   },
+   "reportBug": {
+      "message": "Reportar um erro"
+   },
+   "sendToButton": {
+      "message": "Enviar para o telefone"
+   },
+   "sendToEmailButton": {
+      "message": "Deixar email"
+   },
+   "sendToEmailInputError": {
+      "message": "Erro"
+   },
+   "sendToEmailInputPlaceholder": {
+      "message": "Digite seu email"
+   },
+   "sendToEmailText": {
+      "message": "Estamos trabalhando duro nessa funcionalidade. Deixe seu email e enviaremos um convite exclusivo assim que o serviço for lançado!"
+   },
+   "sendToEmailTextComplete": {
+      "message": "Obrigado!"
+   },
+   "sendToEmailTitle": {
+      "message": "Obrigado pelo seu interesse em nossos serviços!"
+   },
+   "sendToLinkGoBack": {
+      "message": "Voltar para o download do vídeo"
+   },
+   "sendToLoginButton": {
+      "message": "Entrar"
+   },
+   "sendToLoginText": {
+      "message": "Por favor, faça login com o Google para enviar o vídeo selecionado"
+   },
+   "sendToLoginTitle": {
+      "message": "Baixe vídeos diretamente para o seu telefone!"
+   },
+   "sendToTextOr": {
+      "message": "ou"
+   },
+   "shareIn": {
+      "message": "Compartilhar no %w"
+   },
+   "showButton": {
+      "message": "Mostrar botão da extensão"
+   },
+   "showHideButton": {
+      "message": "Mostrar/Ocultar botão da extensão"
+   },
+   "showOptions": {
+      "message": "Opções"
+   },
+   "size": {
+      "message": "tamanho"
+   },
+   "socialDesc": {
+      "message": "O Assistente SaveFrom.net ajuda a baixar gratuitamente de VK.com, YouTube.com, Odnoklassniki.ru e mais de 40 outros sites com apenas 1 clique"
+   },
+   "someFilesNeedConverted": {
+      "message": "Alguns arquivos precisam ser convertidos, não feche a janela até que a operação esteja concluída"
+   },
+   "somethingWentWrong": {
+      "message": "Algo deu errado. Tente novamente mais tarde"
+   },
+   "subtitles": {
+      "message": "Legendas"
+   },
+   "success": {
+      "message": "Sucesso"
+   },
+   "televzrNotFound": {
+      "message": "Televzr não encontrado"
+   },
+   "televzrNotFoundSubMessage": {
+      "message": "Tente baixar e abrir o Televzr"
+   },
+   "titleDefault": {
+      "message": "Assistente SaveFrom.net"
+   },
+   "titleDesabled": {
+      "message": "Assistente SaveFrom.net desativado"
+   },
+   "tooltipHide": {
+      "message": "Não mostrar mais esta mensagem"
+   },
+   "try_pro_button": {
+      "message": "TENTAR PRO"
+   },
+   "tutorialTooltipConfirm": {
+      "message": "ok"
+   },
+   "tutorialTooltipHeader": {
+      "message": "Baixe vídeos com um clique!"
+   },
+   "tutorialTooltipText": {
+      "message": "Clique no botão para selecionar a qualidade e baixar o vídeo."
+   },
+   "tzDownloadStarted": {
+      "message": "Adicionado aos Downloads"
+   },
+   "tzPreparingToDownload": {
+      "message": "Preparando para download"
+   },
+   "tzSearchApp": {
+      "message": "Procurando Televzr"
+   },
+   "ummyMenuInfo": {
+      "message": "[{p:{append:['Baixe HD e MP3 gratuitamente com o programa gratuito', {br:{}}, 'Ummy Video Downloader!']}},{p:{class:'center',append:[{a:{class:'green-btn-2 arrow',href:'{url}',target:'_blank',text:'Instalar'}}]}},{p:{append:['Após a instalação, o download começará automaticamente ao clicar em ',{img:{src:'#'}}]}}]"
+   },
+   "ummyMenuItem": {
+      "message": "[{span:{}},' com o Ummy']"
+   },
+   "ummySfTitle": {
+      "message": "HD ou MP3"
+   },
+   "ummyTooltipConfirm": {
+      "message": "['Você já instalou o',{br:{}},{img:{}},' Ummy Video Downloader?']"
+   },
+   "updateLinks": {
+      "message": "Atualizar links"
+   },
+   "updateLinksNotification": {
+      "message": "Links atualizados"
+   },
+   "updateTo": {
+      "message": "Atualizar para %d"
+   },
+   "upgrade": {
+      "message": "Atualizar"
+   },
+   "video": {
+      "message": "Vídeo"
+   },
+   "videoDownloaded": {
+      "message": "Vídeo baixado com sucesso"
+   },
+   "videoDownloading": {
+      "message": "Baixando vídeo"
+   },
+   "video_coming_ok": {
+      "message": "Entendi"
+   },
+   "video_coming_soon": {
+      "message": "O vídeo começará em breve a ser baixado"
+   },
+   "vkDownloadAllPhotoAlbums": {
+      "message": "Baixar todos os álbuns"
+   },
+   "vkDownloadFromYoutube": {
+      "message": "['Baixar: abra a ',{a:{href:'{url}',text:'página do vídeo'}},' e clique no botão \"Baixar\" acima do player']"
+   },
+   "vkDownloadPhotoAlbum": {
+      "message": "Baixar álbum"
+   },
+   "vkFileSizeByte": {
+      "message": "B"
+   },
+   "vkFileSizeGByte": {
+      "message": "GB"
+   },
+   "vkFileSizeKByte": {
+      "message": "kB"
+   },
+   "vkFileSizeMByte": {
+      "message": "MB"
+   },
+   "vkFileSizeTByte": {
+      "message": "TB"
+   },
+   "vkFoundFiles": {
+      "message": "Arquivos encontrados: %d"
+   },
+   "vkFoundLinks": {
+      "message": "Links encontrados"
+   },
+   "vkFoundOf": {
+      "message": "de"
+   },
+   "vkFoundPhotos": {
+      "message": "Fotos encontradas"
+   },
+   "vkInfo": {
+      "message": "Configurações"
+   },
+   "vkInfoTitle": {
+      "message": "Tamanho do arquivo e taxa de bits"
+   },
+   "vkKbps": {
+      "message": "kbps"
+   },
+   "vkListOfLinks": {
+      "message": "Lista de links"
+   },
+   "vkListOfLinksInstruction": {
+      "message": "['Para baixar todas as fotos, copie a lista de links e cole-a em um ',{a:{href:'http://en.wikipedia.org/wiki/Download_manager',text:'gerenciador de downloads'}},'. Se você não tiver um gerenciador de downloads instalado, recomendamos instalar o ',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'.']"
+   },
+   "vkListOfPhotos": {
+      "message": "Lista de fotos"
+   },
+   "vkListOfPhotosInstruction": {
+      "message": "Para baixar uma foto, clique nela com o botão esquerdo do mouse."
+   },
+   "vkMp3LinksNotFound": {
+      "message": "Links para arquivos MP3 não encontrados"
+   },
+   "vkNotAvailablePhotos": {
+      "message": "%d fotos temporariamente indisponíveis"
+   },
+   "vkPhotoLinksNotFound": {
+      "message": "Links para fotos não encontrados"
+   },
+   "vkShowAs": {
+      "message": "Mostrar como"
+   },
+   "vkTableOfThumbnails": {
+      "message": "Tabela de miniaturas"
+   },
+   "warningPopupDesc": {
+      "message": "A opção de escolher a pasta durante o download deve estar desativada."
+   },
+   "warningPopupTitle": {
+      "message": "Verifique as configurações do navegador"
+   },
+   "withoutAudio": {
+      "message": "sem áudio"
+   },
+   "yes": {
+      "message": "Sim"
+   }
+}

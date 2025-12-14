@@ -1,0 +1,1850 @@
+/*
+  Step 2: Centralized color variables
+  - Common tokens
+  - Component tokens (calendar-, dialog-, toggle- prefixes)
+  Light mode under html; dark overrides under .dark
+*/
+
+html {
+  /* Common */
+  --color-bg: #f5f8fb;
+  --page-header-bg: var(--color-bg);
+
+  --color-always-white: #ffffff;
+
+  --color-surface: #ffffff;
+  --color-text: #1a202c;
+  /* darker text for better contrast */
+  --color-text-muted: #4a5568;
+  /* darker muted text for better readability */
+  --color-text-strong: #2d3748;
+  /* stronger body text with better contrast */
+  --color-text-subtle: #4a5568;
+  /* improved subtle text contrast */
+  --color-text-inverse: #ffffff;
+  --color-border: #e5e7eb;
+  /* slate-200 */
+  --color-primary: #003750;
+  /* brand */
+  --color-primary-contrast: #ffffff;
+  --color-accent: #53bdeb;
+  /* accent/selection */
+  --color-accent-contrast: #ffffff;
+
+  /* CTA Button Colors for Light Mode */
+  --cta-button-bg: #2563eb;
+  /* blue-600 - stronger contrast for light mode */
+  --cta-button-text: #ffffff;
+  --cta-button-hover-bg: #1d4ed8;
+  /* blue-700 - darker on hover */
+  --cta-button-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+
+  /* Selected Plan Text Color for Light Mode */
+  --selected-plan-text-color: #ffffff;
+  --color-link: #0ea5e9;
+  /* sky-500 */
+  --color-link-hover: #0284c7;
+  /* sky-600 */
+  --color-danger: #ef4444;
+  /* red-500 */
+  --color-surface-muted: #f1f3f4;
+  /* subtle bg */
+  --color-surface-accent: #e8f9fd;
+  /* accent-tinted surface */
+
+  /* Toggle button */
+  --toggle-icon-btn-bg: #e8f9fd;
+  --toggle-icon-color: #003750;
+
+  /* FAB (Floating Action Button) */
+  --fab-bg: linear-gradient(66.67deg, #259ae9 0%, #6dd1f1 100%);
+  --fab-text: #ffffff;
+  --fab-hover-bg: linear-gradient(66.67deg, #2089d1 0%, #5bc0e0 100%);
+
+  /* Calendar */
+  --calendar-bg: #ffffff;
+  --calendar-event-color: #3c4043;
+  --calendar-header: #70757a;
+  --calendar-today-label-bg: #53bdeb;
+  --calendar-event-hover-bg: #f1f3f4;
+  --calendar-campaign-icon-bg: #dbeafe;
+  --calendar-date-badge-bg: #dbeafe;
+  --calendar-date-badge-text: #3b82f6;
+  --calendar-outside-day: #9ca3af;
+  /* gray-400 - muted color for days outside current month */
+
+  /* Dialog */
+  --dialog-bg: #ffffff;
+  --dialog-text: #7a7a7a;
+  --dialog-border: #e2e8f0;
+  --dialog-title: #7a7a7a;
+
+  /* Tasks */
+  --tasks-board-bg: var(--color-bg);
+  --tasks-row-bg: #ffffff;
+  --tasks-row-hover-bg: #f4fcfd;
+  --tasks-row-active-bg: #e9f5f7;
+  --tasks-group-bg: var(--color-bg);
+  --tasks-cell-border: #c9ccd4;
+  --tasks-text: #003750;
+  --tasks-text-muted: #869ca8;
+  --tasks-text-secondary: #7a7a7a;
+  --tasks-button-bg: #53bdeb;
+  --tasks-button-text: #ffffff;
+  --tasks-button-hover-bg: #259ae9;
+  --tasks-menu-bg: #ffffff;
+  --tasks-menu-border: #ebeff8;
+  --tasks-menu-hover-bg: #eee;
+  --tasks-shadow: #131c21;
+  --tasks-input-border: #ddd;
+  --tasks-notification-bg: #daf6fc;
+  --tasks-notification-border: #deeef2;
+
+  --tasks-notification-unread: #0088cc;
+  --tasks-picker-bg: #e8f9fd;
+  --tasks-picker-selected: #c4f5ff;
+  --tasks-footer-bg: #ddf9ff;
+  --tasks-danger: #f73737;
+  --background-list-item-active: #e8f9fd;
+  --background-item-menu-hover: white;
+
+  /* Calendar Event Colors */
+  --calendar-color-tomato: #D50000;
+  --calendar-color-flamingo: #E67C73;
+  --calendar-color-tangerine: #F4511E;
+  --calendar-color-banana: #F6BF26;
+  --calendar-color-sage: #33B679;
+  --calendar-color-basil: #0B8043;
+  --calendar-color-peacock: #039BE5;
+  --calendar-color-blueberry: #3F51B5;
+  --calendar-color-lavender: #7986CB;
+  --calendar-color-grape: #8E24AA;
+  --calendar-color-graphite: #616161;
+  --calendar-color-amethyst: #B39DDB;
+
+  /* Extension/Bulk Dashboard */
+  --bulk-bg: #ffffff;
+  --bulk-border: #e0e0e0;
+  --bulk-text: #333333;
+  --bulk-text-secondary: #666666;
+  --bulk-accent: #1976d2;
+  --bulk-success: #4caf50;
+  --bulk-warning: #ff9800;
+  --bulk-error: #f44336;
+
+  /* Bulk Management Tabs */
+  --bulk-tab-active: #2563eb;
+  --bulk-tab-inactive: #93c5fd;
+
+  /* Bulk Button */
+  --bulk-button-bg: #eff6ff;
+  --bulk-button-text: #2563eb;
+  --bulk-button-hover: #dbeafe;
+
+  /* Labels Feature */
+  --label-bg: #f5f5f5;
+  --label-border: #e0e0e0;
+  --label-text: #333333;
+  --label-hover: #eeeeee;
+
+  /* WhatsApp Message */
+  --whatsapp-bg: #ffffff;
+  --whatsapp-border: #e0e0e0;
+  --whatsapp-text: #333333;
+  --whatsapp-bubble-sent: #dcf8c6;
+  --whatsapp-bubble-received: #ffffff;
+
+  /* Contact Avatars */
+  --contact-avatar-bg: #dfe5e7;
+  --contact-avatar-fill: #ffffff;
+
+  /* Common Status Colors */
+  --status-error: #eb5757;
+  --status-warning: #f39c12;
+  --status-success: #27ae60;
+  --status-info: #3498db;
+  --status-muted: #d1d7db;
+
+  /* Workspace Users Members Component - Light Mode */
+  --danger-bg: #fef2f2;
+  /* red-50 - light red background */
+  --danger-color: #dc2626;
+  /* red-600 - better contrast than red-500 */
+  --danger-hover-bg: #fee2e2;
+  /* red-100 - lighter red on hover */
+  --danger-hover-color: #b91c1c;
+  /* red-700 - darker red on hover */
+  --disabled-bg: #f9fafb;
+  /* gray-50 - light gray background */
+  --disabled-color: #9ca3af;
+  /* gray-400 - better contrast than gray-500 */
+  --primary-bg: #dbeafe;
+  /* blue-100 - light blue background */
+  --primary-color: #2563eb;
+  /* blue-600 - better contrast */
+  --primary-hover-bg: #bfdbfe;
+  /* blue-200 - lighter blue on hover */
+  --primary-hover-color: #1d4ed8;
+  /* blue-700 - darker blue on hover */
+  --input-bg: #f9fafb;
+  /* gray-50 - light gray background */
+  --border-hover: #d1d5db;
+  /* gray-300 - darker border on hover */
+
+  /* Chat/Communication */
+  --chat-bg: #f8f9fa;
+  --chat-border: #dee2e6;
+  --chat-text: #495057;
+  --chat-bubble: #007bff;
+  --chat-bubble-text: #ffffff;
+
+  /* Form Controls */
+  --form-bg: #ffffff;
+  --form-border: #ced4da;
+  --form-text: #495057;
+  --form-placeholder: #6c757d;
+  --form-focus: #80bdff;
+  --form-error: #dc3545;
+
+  /* Sidebar/Navigation */
+  --nav-bg: linear-gradient(to bottom, #eff6ff, #ffffff);
+  --nav-border: #e2e8f0;
+  --nav-text: #495057;
+  --nav-link: #007bff;
+  --nav-link-hover: #0056b3;
+  --nav-active: #e9ecef;
+
+  /* Modal/Dialog */
+  --modal-bg: #ffffff;
+  --modal-border: #dee2e6;
+  --modal-shadow: rgba(0, 0, 0, 0.125);
+  --modal-backdrop: rgba(0, 0, 0, 0.5);
+
+  /* Notification */
+  --notification-bg: #d4edda;
+  --notification-border: #c3e6cb;
+  --notification-text: #155724;
+  --notification-error-bg: #f8d7da;
+  --notification-error-border: #f5c6cb;
+  --notification-error-text: #721c24;
+
+  /* Date/Time Badge - Light Mode */
+  --date-badge-bg: rgba(232, 245, 253, 0.8);
+  --date-badge-text: #1976d2;
+  --date-badge-border: rgba(25, 118, 210, 0.2);
+  --date-badge-icon: #1976d2;
+
+  /* Status Badge - Light Mode */
+  --status-badge-bg: #f5f5f5;
+  --status-badge-text: #333333;
+  --status-badge-border: #e0e0e0;
+  --status-badge-pending-bg: #d9d9d9;
+
+
+  /* Brand Colors - Light Mode */
+  --brand-primary: #013750;
+  --brand-primary-light: #1976d2;
+  --brand-text: #013750;
+
+  /* Switch Workspace Button - Light Mode */
+  --switch-workspace-bg: #e8f9fd;
+  --switch-workspace-text: #66bdee;
+
+  /* Legacy variables for compatibility */
+  --billing-btn-bg: #f8f9fa;
+  --link-text-color: #003750;
+  --background-default: #ffffff;
+
+  /* Upgrade button colors */
+  --upgrade-button-color: #f671b4;
+  --upgrade-button-hover: #e91e63;
+
+  /* Bot List Component - Light Mode */
+  --bot-list-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-list-subtitle: #475569;
+  /* slate-600 - better contrast than gray-600 */
+  --bot-list-card-bg: #ffffff;
+  --bot-list-card-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-list-card-shadow: rgba(0, 0, 0, 0.1);
+  --bot-list-card-hover-shadow: rgba(0, 0, 0, 0.15);
+  --bot-list-bot-name: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-list-bot-description: #475569;
+  /* slate-600 - better contrast */
+  --bot-list-stat-label: #475569;
+  /* slate-600 - better contrast */
+  --bot-list-stat-value: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-list-icon: #64748b;
+  /* slate-500 - better contrast */
+  --bot-list-divider: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-list-version: #2563eb;
+  /* blue-600 - brand color */
+  --bot-list-edit-hover: #2563eb;
+  /* blue-600 - brand color */
+  --bot-list-delete-hover: #dc2626;
+  /* red-600 - danger color */
+  --bot-list-loading-text: #475569;
+  /* slate-600 - better contrast */
+  --bot-list-empty-text: #64748b;
+  /* slate-500 - better contrast */
+  --bot-list-button-primary: #2563eb;
+  /* blue-600 - brand color */
+  --bot-list-button-primary-hover: #1d4ed8;
+  /* blue-700 - darker hover */
+  --bot-list-button-primary-text: #ffffff;
+  --bot-list-status-published-bg: #eff6ff;
+  /* blue-50 - light background */
+  --bot-list-status-published-text: #1d4ed8;
+  /* blue-700 - dark text */
+  --bot-list-status-draft-bg: #f1f5f9;
+  /* slate-100 - light background */
+  --bot-list-status-draft-text: #475569;
+  /* slate-600 - dark text */
+  --bot-list-toggle-on: #2563eb;
+  /* blue-600 - brand color */
+  --bot-list-toggle-off: #cbd5e1;
+  /* slate-300 - light gray */
+  --bot-list-toggle-thumb: #ffffff;
+  --bot-list-bot-icon-bg: #eff6ff;
+  /* blue-50 - light background */
+  --bot-list-bot-icon: #2563eb;
+  /* blue-600 - brand color */
+  --bot-list-modal-bg: #ffffff;
+  --bot-list-modal-text: #475569;
+  /* slate-600 - better contrast */
+  --bot-list-modal-button-cancel: #64748b;
+  /* slate-500 - muted */
+  --bot-list-modal-button-cancel-hover: #475569;
+  /* slate-600 - darker */
+  --bot-list-modal-button-delete: #dc2626;
+  /* red-600 - danger */
+  --bot-list-modal-button-delete-hover: #b91c1c;
+  /* red-700 - darker */
+  --bot-list-select-bg: #ffffff;
+  --bot-list-select-border: #cbd5e1;
+  /* slate-300 - better contrast */
+  --bot-list-select-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-list-select-arrow: #64748b;
+  /* slate-500 - better contrast */
+
+  /* Bot Detail Component - Light Mode */
+  --bot-detail-bg: #f8fafc;
+  /* slate-50 - light background */
+  --bot-detail-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-detail-subtitle: #475569;
+  /* slate-600 - better contrast */
+  --bot-detail-card-bg: #ffffff;
+  --bot-detail-card-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-detail-card-shadow: rgba(0, 0, 0, 0.1);
+  --bot-detail-stat-label: #475569;
+  /* slate-600 - better contrast */
+  --bot-detail-stat-value: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-detail-stat-icon-bg-emerald: #eff6ff;
+  /* blue-50 - light background */
+  --bot-detail-stat-icon-emerald: #2563eb;
+  /* blue-600 - brand color */
+  --bot-detail-stat-icon-bg-blue: #dbeafe;
+  /* blue-50 - light background */
+  --bot-detail-stat-icon-blue: #2563eb;
+  /* blue-600 - brand color */
+  --bot-detail-stat-icon-bg-purple: #f3e8ff;
+  /* purple-50 - light background */
+  --bot-detail-stat-icon-purple: #7c3aed;
+  /* purple-600 - brand color */
+  --bot-detail-button-primary: #2563eb;
+  /* blue-600 - brand color */
+  --bot-detail-button-primary-hover: #1d4ed8;
+  /* blue-700 - darker hover */
+  --bot-detail-button-primary-text: #ffffff;
+  --bot-detail-button-ghost: #64748b;
+  /* slate-500 - muted */
+  --bot-detail-button-ghost-hover: #475569;
+  /* slate-600 - darker */
+  --bot-detail-error-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-detail-error-text: #64748b;
+  /* slate-500 - better contrast */
+  --bot-detail-loading-icon: #64748b;
+  /* slate-500 - better contrast */
+
+  /* Sessions List Component - Light Mode */
+  --sessions-list-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --sessions-list-empty-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --sessions-list-empty-text: #64748b;
+  /* slate-500 - better contrast */
+  --sessions-list-header-bg: #f8fafc;
+  /* slate-50 - light background */
+  --sessions-list-header-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --sessions-list-header-text: #475569;
+  /* slate-600 - better contrast */
+  --sessions-list-row-bg: #ffffff;
+  --sessions-list-row-hover-bg: #f8fafc;
+  /* slate-50 - light background */
+  --sessions-list-row-border: #f1f5f9;
+  /* slate-100 - light border */
+  --sessions-list-avatar-bg: #e2e8f0;
+  /* slate-200 - light background */
+  --sessions-list-avatar-text: #64748b;
+  /* slate-500 - better contrast */
+  --sessions-list-phone-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --sessions-list-time-text: #64748b;
+  /* slate-500 - better contrast */
+  --sessions-list-version-bg: #f1f5f9;
+  /* slate-100 - light background */
+  --sessions-list-version-text: #475569;
+  /* slate-600 - better contrast */
+  --sessions-list-active-badge-bg: #eff6ff;
+  /* blue-50 - light background */
+  --sessions-list-active-badge-text: #1d4ed8;
+  /* blue-700 - dark text */
+  --sessions-list-pagination-text: #64748b;
+  /* slate-500 - better contrast */
+  --sessions-list-pagination-button: #475569;
+  /* slate-600 - better contrast */
+  --sessions-list-pagination-button-hover: #374151;
+  /* slate-700 - darker */
+
+  /* Deployments Sidebar Component - Light Mode */
+  --deployments-sidebar-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --deployments-sidebar-header-bg: #f8fafc;
+  /* slate-50 - light background */
+  --deployments-sidebar-header-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --deployments-sidebar-header-text: #475569;
+  /* slate-600 - better contrast */
+  --deployments-sidebar-item-bg: #ffffff;
+  --deployments-sidebar-item-hover-bg: #f8fafc;
+  /* slate-50 - light background */
+  --deployments-sidebar-item-selected-bg: #e8f9fd;
+  /* accent-tinted surface */
+  --deployments-sidebar-item-border: #f1f5f9;
+  /* slate-100 - light border */
+  --deployments-sidebar-version-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --deployments-sidebar-date-text: #64748b;
+  /* slate-500 - better contrast */
+  --deployments-sidebar-sessions-text: #475569;
+  /* slate-600 - better contrast */
+  --deployments-sidebar-active-badge-bg: #eff6ff;
+  /* blue-50 - light background */
+  --deployments-sidebar-active-badge-text: #1d4ed8;
+  /* blue-700 - dark text */
+
+  /* Bot Build View Component - Light Mode */
+  --bot-build-bg: #ffffff;
+  --bot-build-toolbar-bg: #f8fafc;
+  /* slate-50 - light background */
+  --bot-build-toolbar-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-header-bg: #f1f5f9;
+  /* slate-100 - light background */
+  --bot-build-header-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-title-input-bg: #eff6ff;
+  /* blue-50 - light background */
+  --bot-build-title-input-border: #2563eb;
+  /* blue-600 - brand color */
+  --bot-build-title-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-title-hover-border: #2563eb;
+  /* blue-600 - brand color */
+  --bot-build-status-text: #64748b;
+  /* slate-500 - better contrast */
+  --bot-build-status-warning: #f59e0b;
+  /* amber-500 - warning color */
+  --bot-build-status-error: #ef4444;
+  /* red-500 - error color */
+  --bot-build-button-primary: #2563eb;
+  /* blue-600 - brand color */
+  --bot-build-button-primary-hover: #1d4ed8;
+  /* blue-700 - darker hover */
+  --bot-build-button-primary-text: #ffffff;
+  --bot-build-button-secondary: #64748b;
+  /* slate-500 - muted */
+  --bot-build-button-secondary-hover: #475569;
+  /* slate-600 - darker */
+  --bot-build-button-secondary-text: #ffffff;
+  --bot-build-button-ghost: #64748b;
+  /* slate-500 - muted */
+  --bot-build-button-ghost-hover: #475569;
+  /* slate-600 - darker */
+  --bot-build-button-ghost-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-back-button: #64748b;
+  /* slate-500 - muted */
+  --bot-build-back-button-hover: #475569;
+  /* slate-600 - darker */
+  --bot-build-back-button-hover-bg: #f1f5f9;
+  /* slate-100 - light background */
+  --bot-build-node-button-bg: #ffffff;
+  --bot-build-node-button-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-node-button-hover: #f8fafc;
+  /* slate-50 - light background */
+  --bot-build-node-button-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-node-button-secondary-text: #64748b;
+  /* slate-500 - better contrast */
+  --bot-build-flow-bg: #ffffff;
+  --bot-build-flow-grid: #f1f5f9;
+  /* slate-100 - light grid */
+  --bot-build-flow-controls-bg: #ffffff;
+  --bot-build-flow-controls-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-flow-controls-text: #64748b;
+  /* slate-500 - better contrast */
+  --bot-build-flow-controls-hover: #475569;
+  /* slate-600 - darker */
+  --bot-build-minimap-bg: #ffffff;
+  --bot-build-minimap-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-minimap-node: #64748b;
+  /* slate-500 - better contrast */
+  --bot-build-minimap-node-selected: #2563eb;
+  /* blue-600 - brand color */
+  --bot-build-connection-line: #64748b;
+  /* slate-500 - better contrast */
+  --bot-build-connection-line-selected: #2563eb;
+  /* blue-600 - brand color */
+  --bot-build-menu-bg: #ffffff;
+  --bot-build-menu-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-menu-shadow: rgba(0, 0, 0, 0.1);
+  --bot-build-menu-item-hover: #f8fafc;
+  /* slate-50 - light background */
+  --bot-build-menu-item-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-modal-bg: #ffffff;
+  --bot-build-modal-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --bot-build-modal-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-modal-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --bot-build-modal-button-cancel: #64748b;
+  /* slate-500 - muted */
+  --bot-build-modal-button-cancel-hover: #475569;
+  /* slate-600 - darker */
+  --bot-build-modal-button-confirm: #2563eb;
+  /* blue-600 - brand color */
+  --bot-build-modal-button-confirm-hover: #1d4ed8;
+  /* blue-700 - darker */
+  --bot-build-modal-button-confirm-text: #ffffff;
+
+  /* Credits & Usage Component - Light Mode */
+  --credits-bg: #ffffff;
+  --credits-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --credits-subtitle: #475569;
+  /* slate-600 - better contrast */
+  --credits-card-bg: #ffffff;
+  --credits-card-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --credits-card-shadow: rgba(0, 0, 0, 0.1);
+  --credits-remaining-title: #0f172a;
+  /* slate-900 - strong contrast */
+  --credits-remaining-value: #2563eb;
+  /* blue-600 - brand color */
+  --credits-remaining-value-zero: #dc2626;
+  /* red-600 - danger color for zero credits */
+  --credits-progress-bg: #f1f5f9;
+  /* slate-100 - light background */
+  --credits-progress-fill: #2563eb;
+  /* blue-600 - brand color */
+  --credits-progress-fill-warning: #f59e0b;
+  /* amber-500 - warning color */
+  --credits-progress-fill-danger: #dc2626;
+  /* red-600 - danger color */
+  --credits-text-muted: #475569;
+  /* slate-600 - better contrast */
+  --credits-text-subtle: #64748b;
+  /* slate-500 - better contrast */
+  --credits-link: #2563eb;
+  /* blue-600 - brand color */
+  --credits-link-hover: #1d4ed8;
+  /* blue-700 - darker hover */
+  --credits-alert-danger-bg: #fef2f2;
+  /* red-50 - light red background */
+  --credits-alert-danger-border: #fecaca;
+  /* red-200 - light red border */
+  --credits-alert-danger-text: #dc2626;
+  /* red-600 - better contrast */
+  --credits-alert-danger-title: #991b1b;
+  /* red-800 - strong contrast */
+  --credits-alert-warning-bg: #fffbeb;
+  /* amber-50 - light amber background */
+  --credits-alert-warning-border: #fed7aa;
+  /* amber-200 - light amber border */
+  --credits-alert-warning-text: #d97706;
+  /* amber-600 - better contrast */
+  --credits-alert-warning-title: #92400e;
+  /* amber-800 - strong contrast */
+  --credits-tab-active-bg: #e8f9fd;
+  /* light blue background for active tab */
+  --credits-tab-active-text: #4dbdeb;
+  /* emerald-700 - dark text */
+  --credits-tab-inactive-bg: #f8fafc;
+  /* light gray background for inactive tab */
+  --credits-tab-inactive-text: #8fa8b8;
+  /* slate-500 - better contrast */
+  --credits-select-bg: #ffffff;
+  --credits-select-border: #e2e8f0;
+  /* slate-200 - better contrast for light mode */
+  --credits-select-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --credits-select-arrow: #64748b;
+  /* slate-500 - better contrast */
+  --credits-select-content-bg: #ffffff;
+  /* white background for dropdown */
+  --credits-select-content-border: #e2e8f0;
+  /* slate-200 - border for dropdown */
+  --credits-select-item-bg: #ffffff;
+  /* white background for items */
+  --credits-select-item-hover-bg: #f8fafc;
+  /* slate-50 - hover background for items */
+  --credits-select-item-text: #0f172a;
+  /* slate-900 - text color for items */
+  --credits-select-item-hover-text: #0f172a;
+  /* slate-900 - hover text color */
+  --credits-no-data-text: #475569;
+  /* slate-600 - better contrast */
+  --credits-debug-bg: #f8fafc;
+  /* slate-50 - light background */
+  --credits-debug-border: #e2e8f0;
+  /* slate-200 - better contrast */
+  --credits-debug-text: #475569;
+  /* slate-600 - better contrast */
+  --credits-button-primary: #2563eb;
+  /* blue-600 - brand color */
+  --credits-button-primary-hover: #1d4ed8;
+  /* blue-700 - darker hover */
+  --credits-button-primary-text: #ffffff;
+  --credits-button-primary-bg: #2563eb;
+  /* blue-600 - brand color */
+  --credits-button-primary-border: #2563eb;
+  /* blue-600 - brand color */
+  --credits-button-primary-hover-bg: #1d4ed8;
+  /* blue-700 - darker hover */
+  --credits-button-primary-hover-border: #1d4ed8;
+  /* blue-700 - darker hover */
+  --credits-button-primary-hover-text: #ffffff;
+  --credits-button-secondary: #64748b;
+  /* slate-500 - muted */
+  --credits-button-secondary-hover: #475569;
+  /* slate-600 - darker */
+  --credits-button-secondary-text: #ffffff;
+  --credits-button-secondary-bg: #64748b;
+  /* slate-500 - muted */
+  --credits-button-secondary-border: #64748b;
+  /* slate-500 - muted */
+  --credits-button-secondary-hover-bg: #475569;
+  /* slate-600 - darker */
+  --credits-button-secondary-hover-border: #475569;
+  /* slate-600 - darker */
+  --credits-button-secondary-hover-text: #ffffff;
+  --credits-button-outline: #64748b;
+  /* slate-500 - muted */
+  --credits-button-outline-hover: #475569;
+  /* slate-600 - darker */
+  --credits-button-outline-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --credits-button-outline-border: #cbd5e1;
+  /* slate-300 - better contrast */
+  --credits-button-outline-bg: transparent;
+  --credits-button-outline-hover-bg: #f1f5f9;
+  /* slate-100 - light background */
+  --credits-button-outline-hover-text: #0f172a;
+  /* slate-900 - strong contrast */
+  --credits-button-outline-hover-border: #cbd5e1;
+  /* slate-300 - better contrast */
+  --credits-export-button-bg: #ffffff;
+
+  /* Admin API Component - Light Mode */
+  --admin-api-info-box-bg: rgba(255, 255, 255, 0.5);
+  --admin-api-info-box-text: var(--color-primary);
+  --admin-api-info-box-link: var(--color-accent);
+  --admin-api-copy-button-text: var(--color-always-white);
+  --admin-api-copy-button-bg: var(--color-accent);
+  --admin-api-copy-button-hover-bg: var(--color-accent);
+  --admin-api-copy-button-border: var(--color-accent);
+  --admin-api-copy-button-hover-border: var(--color-accent);
+  --admin-api-tab-active: var(--color-accent);
+  --admin-api-tab-inactive: var(--color-text-muted);
+  --admin-api-tab-indicator: var(--color-accent);
+  --admin-api-button-text: var(--color-always-white);
+  --admin-api-warning-text: #dc2626;
+  --admin-api-placeholder-text: #6c757d;
+
+  /* Add Credits Modal Component - Light Mode */
+  --add-credits-modal-bg: #ffffff;
+  --add-credits-modal-border: #e2e8f0;
+  --add-credits-modal-shadow: rgba(0, 0, 0, 0.1);
+  --add-credits-modal-title: #0f172a;
+  --add-credits-modal-description: #475569;
+  --add-credits-modal-subscription-bg: #f8fafc;
+  --add-credits-modal-subscription-border: #e2e8f0;
+  --add-credits-modal-subscription-title: #0f172a;
+  --add-credits-modal-subscription-value: #059669;
+  --add-credits-modal-subscription-label: #64748b;
+  --add-credits-modal-alert-info-bg: #eff6ff;
+  --add-credits-modal-alert-info-border: #bfdbfe;
+  --add-credits-modal-alert-info-text: #1e40af;
+  --add-credits-modal-alert-warning-bg: #fffbeb;
+  --add-credits-modal-alert-warning-border: #fed7aa;
+  --add-credits-modal-alert-warning-text: #d97706;
+  --add-credits-modal-alert-error-bg: #fef2f2;
+  --add-credits-modal-alert-error-border: #fecaca;
+  --add-credits-modal-alert-error-text: #dc2626;
+  --add-credits-modal-billing-toggle-bg: #f1f5f9;
+  --add-credits-modal-billing-toggle-active-bg: #ffffff;
+  --add-credits-modal-billing-toggle-active-text: #0f172a;
+  --add-credits-modal-billing-toggle-inactive-text: #64748b;
+  --add-credits-modal-plan-card-bg: #ffffff;
+  --add-credits-modal-plan-card-border: #e2e8f0;
+  --add-credits-modal-plan-card-selected-bg: #eff6ff;
+  --add-credits-modal-plan-card-selected-border: #3b82f6;
+  --add-credits-modal-plan-card-hover-border: #cbd5e1;
+  --add-credits-modal-plan-name: #0f172a;
+  --add-credits-modal-plan-credits: #64748b;
+  --add-credits-modal-plan-price: #0f172a;
+  --add-credits-modal-plan-period: #64748b;
+  --add-credits-modal-popular-badge-bg: #3b82f6;
+  --add-credits-modal-popular-badge-text: #ffffff;
+  --add-credits-modal-package-card-bg: #ffffff;
+  --add-credits-modal-package-card-border: #e2e8f0;
+  --add-credits-modal-package-card-selected-bg: #eff6ff;
+  --add-credits-modal-package-card-selected-border: #3b82f6;
+  --add-credits-modal-package-card-hover-border: #cbd5e1;
+  --add-credits-modal-package-credits: #0f172a;
+  --add-credits-modal-package-price: #0f172a;
+  --add-credits-modal-package-per-credit: #64748b;
+  --add-credits-modal-package-description: #64748b;
+  --add-credits-modal-package-save: #059669;
+  --add-credits-modal-section-title: #0f172a;
+  --add-credits-modal-button-cancel-bg: transparent;
+  --add-credits-modal-button-cancel-border: #cbd5e1;
+  --add-credits-modal-button-cancel-text: #0f172a;
+  --add-credits-modal-button-cancel-hover-bg: #f1f5f9;
+  --add-credits-modal-button-primary-bg: #3b82f6;
+  --add-credits-modal-button-primary-text: #ffffff;
+  --add-credits-modal-button-primary-hover-bg: #2563eb;
+  --add-credits-modal-button-disabled-bg: #f1f5f9;
+  --add-credits-modal-button-disabled-text: #9ca3af;
+  --add-credits-modal-loading-text: #64748b;
+  --add-credits-modal-shimmer-bg: #f1f5f9;
+
+  /* Campaign Finish Section - Light Mode */
+  --campaign-finish-title-bg: #eff6ff;
+  --campaign-finish-title-text: #2563eb;
+  --campaign-finish-audience-label-bg: #eff6ff;
+  --campaign-finish-audience-label-border: rgba(0, 0, 0, 0.1);
+  --campaign-finish-audience-label-text: #2563eb;
+  --campaign-finish-divider: #d9d9d9;
+  --campaign-finish-no-message-bg: #eff6ff;
+  --campaign-finish-no-message-text: #2563eb;
+
+  /* Campaign Footer Panel - Light Mode */
+  --campaign-footer-panel-bg: #ffffff;
+  --campaign-footer-panel-border: #e5e7eb;
+
+  /* team inbox light mode */
+  --team-inbox-neutral-icons: #4a5568;
+  --team-inbox-active-color: #53bdeb;
+  --team-inbox-active-BG-color: rgba(83, 189, 235, 0.15);
+  --team-inbox-active-BG-color-hover: rgba(83, 189, 235, 0.2);
+  --team-inbox-BG-color-hover: rgba(0, 0, 0, 0.04);
+  --team-inbox-timestamp-color: rgba(26, 32, 44, 0.6);
+  --team-inbox-scrollbar-thumb: rgba(0, 0, 0, 0.2);
+  --team-inbox-scrollbar-thumb-hover: rgba(0, 0, 0, 0.3);
+
+  /* Subscription Plan Component - Light Mode */
+  --subscription-plan-free-bg: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  --subscription-plan-free-border: #e5e7eb;
+  --subscription-plan-free-text: #6b7280;
+  --subscription-plan-free-icon: #6b7280;
+  --subscription-plan-free-button: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  --subscription-plan-free-button-hover: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  --subscription-plan-basic-bg: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  --subscription-plan-basic-border: #93c5fd;
+  --subscription-plan-basic-text: #2563eb;
+  --subscription-plan-basic-icon: #2563eb;
+  --subscription-plan-basic-button: #2563eb;
+  --subscription-plan-basic-button-hover: #1d4ed8;
+  --subscription-plan-standard-bg: linear-gradient(135deg, #e9d5ff 0%, #ddd6fe 100%);
+  --subscription-plan-standard-border: #c4b5fd;
+  --subscription-plan-standard-text: #7c3aed;
+  --subscription-plan-standard-icon: #7c3aed;
+  --subscription-plan-standard-button: #7c3aed;
+  --subscription-plan-standard-button-hover: #6d28d9;
+  --subscription-plan-pro-bg: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  --subscription-plan-pro-border: #fbbf24;
+  --subscription-plan-pro-text: #d97706;
+  --subscription-plan-pro-icon: #d97706;
+  --subscription-plan-pro-feature-text: #92400e;
+  --subscription-plan-pro-button: #d97706;
+  --subscription-plan-pro-button-hover: #b45309;
+  --subscription-plan-button-shadow: rgba(0, 0, 0, 0.1);
+  --sidebar-header-bg: transparent;
+}
+
+.dark {
+  /* Common - professional dark mode with proper contrast */
+  --color-bg: #1e293b;
+  /* slate-800 - better contrast with cards */
+  --color-surface: #0f172a;
+  /* slate-900 - darker for elevated surfaces */
+  --color-text: #f1f5f9;
+  /* slate-100 - excellent readability */
+  --color-text-muted: #cbd5e1;
+  /* slate-300 - clear muted text */
+  --color-text-strong: #ffffff;
+  /* strong white text */
+  --color-text-subtle: #94a3b8;
+  /* slate-400 - subtle text */
+  --color-text-inverse: #0f172a;
+  --color-border: #334155;
+  /* slate-700 - proper border color */
+  --color-primary: #38bdf8;
+  /* sky-400 - better for dark mode */
+  --color-primary-contrast: #0f172a;
+  --color-accent: #38bdf8;
+  /* consistent accent color */
+  --color-accent-contrast: #0f172a;
+
+  /* CTA Button Colors for Dark Mode */
+  --cta-button-bg: #53bdeb;
+  /* keep the original light blue for dark mode */
+  --cta-button-text: #ffffff;
+  --cta-button-hover-bg: #259ae9;
+  /* slightly darker blue on hover */
+  --cta-button-shadow: 0 4px 6px rgba(83, 189, 235, 0.3);
+
+  /* Selected Plan Text Color for Dark Mode */
+  --selected-plan-text-color: #ffffff;
+  --color-link: #7dd3fc;
+  --color-link-hover: #38bdf8;
+  --color-danger: #ff6b6b;
+  /* slightly softer red for dark mode */
+  --color-surface-muted: #1a4a5a;
+  /* hover/selected tint */
+  --color-surface-accent: #1e5568;
+
+
+  /* --color-always-white: #ffffff; */
+
+
+  /* Toggle button */
+  --toggle-icon-btn-bg: #0e3a48;
+  --toggle-icon-color: #ffffff;
+
+  /* FAB (Floating Action Button) */
+  --fab-bg: linear-gradient(66.67deg, #4dbdeb 0%, #38bdf8 100%);
+  --fab-text: #0b2f3a;
+  --fab-hover-bg: linear-gradient(66.67deg, #38bdf8 0%, #0ea5e9 100%);
+
+  /* Calendar */
+  --calendar-bg: #1e293b;
+  --calendar-event-color: #ffffff;
+  --calendar-header: #96aab9;
+  --calendar-today-label-bg: #4dbdeb;
+  --calendar-event-hover-bg: #1a4a5a;
+  --calendar-campaign-icon-bg: #1a4a5a;
+  --calendar-date-badge-bg: #1a4a5a;
+  --calendar-date-badge-text: #479d4e;
+  --calendar-outside-day: #6b7280;
+  /* gray-500 - darker muted color for dark mode */
+
+  /* Dialog */
+  --dialog-bg: #103847;
+  --dialog-text: #ffffff;
+  /* improved white text for better contrast */
+  --dialog-border: #1e4e5e;
+  --dialog-title: #ffffff;
+  /* improved white title for better contrast */
+
+  /* Tasks */
+  --tasks-board-bg: var(--color-bg);
+  --tasks-row-bg: #1e293b;
+  --tasks-row-hover-bg: #334155;
+  --tasks-row-active-bg: #475569;
+  --tasks-group-bg: var(--color-bg);
+  --tasks-cell-border: #334155;
+  --tasks-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --tasks-text-muted: #94a3b8;
+  /* improved muted text contrast */
+  --tasks-text-secondary: #cbd5e1;
+  /* improved secondary text contrast */
+  --tasks-button-bg: #38bdf8;
+  --tasks-button-text: #0f172a;
+  --tasks-button-hover-bg: #0ea5e9;
+  --tasks-menu-bg: #0f172a;
+  --tasks-menu-border: #334155;
+  --tasks-menu-hover-bg: #1e293b;
+  --tasks-shadow: rgba(0, 0, 0, 0.5);
+  --tasks-input-border: #334155;
+  --tasks-notification-bg: #1e293b;
+  --tasks-notification-border: #334155;
+  
+  /* Page Header */
+  --page-header-bg: var(--color-bg);
+  --tasks-notification-unread: #38bdf8;
+  --tasks-picker-bg: #1e293b;
+  --tasks-picker-selected: #334155;
+  --tasks-footer-bg: #1e293b;
+  --tasks-danger: #ef4444;
+  --background-list-item-active: #1e293b;
+  --background-item-menu-hover: #334155;
+
+  /* Calendar Event Colors - keeping same for both modes */
+  --calendar-color-tomato: #D50000;
+  --calendar-color-flamingo: #E67C73;
+  --calendar-color-tangerine: #F4511E;
+  --calendar-color-banana: #F6BF26;
+  --calendar-color-sage: #33B679;
+  --calendar-color-basil: #0B8043;
+  --calendar-color-peacock: #039BE5;
+  --calendar-color-blueberry: #3F51B5;
+  --calendar-color-lavender: #7986CB;
+  --calendar-color-grape: #8E24AA;
+  --calendar-color-graphite: #616161;
+  --calendar-color-amethyst: #B39DDB;
+
+  /* Extension/Bulk Dashboard */
+  --bulk-bg: #0f172a;
+  --bulk-border: #334155;
+  --bulk-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --bulk-text-secondary: #94a3b8;
+  /* improved secondary text contrast */
+  --bulk-accent: #38bdf8;
+  --bulk-success: #3b82f6;
+  --bulk-warning: #f59e0b;
+  --bulk-error: #ef4444;
+
+  /* Bulk Management Tabs */
+  --bulk-tab-active: #3b82f6;
+  /* blue for dark mode */
+  --bulk-tab-inactive: #93c5fd;
+  /* lighter blue for dark mode */
+
+  /* Bulk Button */
+  --bulk-button-bg: #1e293b;
+  /* darker background for dark mode */
+  --bulk-button-text: #60a5fa;
+  /* lighter blue text for dark mode */
+  --bulk-button-hover: #334155;
+  /* darker hover for dark mode */
+
+  /* Labels Feature */
+  --label-bg: #1e293b;
+  --label-border: #334155;
+  --label-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --label-hover: #334155;
+
+  /* WhatsApp Message */
+  --whatsapp-bg: #0f172a;
+  --whatsapp-border: #334155;
+  --whatsapp-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --whatsapp-bubble-sent: #1e293b;
+  --whatsapp-bubble-received: #334155;
+
+  /* Contact Avatars */
+  --contact-avatar-bg: #475569;
+  --contact-avatar-fill: #94a3b8;
+
+  /* Common Status Colors */
+  --status-error: #f87171;
+  --status-warning: #fbbf24;
+  --status-success: #34d399;
+  --status-info: #60a5fa;
+  --status-muted: #6b7280;
+
+  /* Workspace Users Members Component - Dark Mode */
+  --danger-bg: #450a0a;
+  /* dark red background for better contrast */
+  --danger-color: #f87171;
+  /* red-400 - lighter red for better visibility */
+  --danger-hover-bg: #7f1d1d;
+  /* darker red background on hover */
+  --danger-hover-color: #fca5a5;
+  /* red-300 - lighter red on hover */
+  --disabled-bg: #374151;
+  /* gray-700 - dark gray background */
+  --disabled-color: #6b7280;
+  /* gray-500 - better contrast for disabled state */
+  --primary-bg: #1e3a8a;
+  /* blue-900 - dark blue background */
+  --primary-color: #60a5fa;
+  /* blue-400 - lighter blue for better visibility */
+  --primary-hover-bg: #1e40af;
+  /* blue-800 - darker blue on hover */
+  --primary-hover-color: #93c5fd;
+  /* blue-300 - lighter blue on hover */
+  --input-bg: #1e293b;
+  /* gray-700 - dark gray background */
+  --border-hover: #475569;
+  /* gray-600 - lighter border on hover */
+
+  /* Chat/Communication */
+  --chat-bg: #0f172a;
+  --chat-border: #334155;
+  --chat-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --chat-bubble: #38bdf8;
+  --chat-bubble-text: #0f172a;
+
+  /* Form Controls */
+  --form-bg: #0f172a;
+  --form-border: #334155;
+  --form-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --form-placeholder: #94a3b8;
+  /* improved placeholder contrast */
+  --form-focus: #38bdf8;
+  --form-error: #ef4444;
+
+  /* Sidebar/Navigation */
+  --nav-bg: linear-gradient(to bottom, #1e293b, #0f172a);
+  --nav-border: #334155;
+  --nav-text: #f1f5f9;
+  /* improved white text for better contrast */
+  --nav-link: #38bdf8;
+  --nav-link-hover: #0ea5e9;
+  --nav-active: #1e293b;
+  --sidebar-header-bg: transparent;
+
+  /* Modal/Dialog */
+  --modal-bg: #103847;
+  --modal-border: #1e4e5e;
+  --modal-shadow: rgba(0, 0, 0, 0.5);
+  --modal-backdrop: rgba(0, 0, 0, 0.7);
+
+  /* Notification */
+  --notification-bg: #143f4e;
+  --notification-border: #1e4e5e;
+  --notification-text: #34d399;
+  --notification-error-bg: #2d1b1b;
+  /* darker red background for errors */
+  --notification-error-border: #ff6b6b;
+  --notification-error-text: #ff9999;
+  /* lighter red text for better contrast */
+
+  /* Date/Time Badge - Dark Mode with improved contrast */
+  --date-badge-bg: #1e5568;
+  /* darker blue background for better contrast */
+  --date-badge-text: #ffffff;
+  /* white text for maximum contrast */
+  --date-badge-border: #38bdf8;
+  /* brighter blue border */
+  --date-badge-icon: #ffffff;
+  /* white icon for maximum contrast */
+
+  /* Status Badge - Dark Mode with improved contrast */
+  --status-badge-bg: #374151;
+  /* darker gray background */
+  --status-badge-text: #ffffff;
+  /* white text for maximum contrast */
+  --status-badge-border: #4b5563;
+  /* medium gray border */
+  --status-badge-pending-bg: #1d262c;
+  /* darker gray background for pending */
+
+  /* Brand Colors - Dark Mode with improved contrast */
+  --brand-primary: #4dbdeb;
+  /* bright blue for better visibility */
+  --brand-primary-light: #38bdf8;
+  /* lighter blue variant */
+  --brand-text: #ffffff;
+  /* white text for maximum contrast */
+
+  /* Switch Workspace Button - Dark Mode */
+  --switch-workspace-bg: #1a4a5a;
+  /* darker background for dark mode */
+  --switch-workspace-text: #4dbdeb;
+  /* lighter blue text for dark mode */
+
+  /* Legacy variables for compatibility - dark mode */
+  --billing-btn-bg: #1a4a5a;
+  --link-text-color: #4dbdeb;
+  --background-default: #0b2f3a;
+
+  /* Upgrade button colors - dark mode */
+  --upgrade-button-color: #f671b4;
+  --upgrade-button-hover: #ff4081;
+
+  /* Bot List Component - Dark Mode */
+  --bot-list-title: #ffffff;
+  /* white - maximum contrast */
+  --bot-list-subtitle: #b0c4d3;
+  /* light muted text */
+  --bot-list-card-bg: #103847;
+  /* surface color */
+  --bot-list-card-border: #1e4e5e;
+  /* border color */
+  --bot-list-card-shadow: rgba(0, 0, 0, 0.3);
+  --bot-list-card-hover-shadow: rgba(0, 0, 0, 0.4);
+  --bot-list-bot-name: #ffffff;
+  /* white - maximum contrast */
+  --bot-list-bot-description: #b0c4d3;
+  /* light muted text */
+  --bot-list-stat-label: #b0c4d3;
+  /* light muted text */
+  --bot-list-stat-value: #ffffff;
+  /* white - maximum contrast */
+  --bot-list-icon: #8fa8b8;
+  /* subtle text */
+  --bot-list-divider: #1e4e5e;
+  /* border color */
+  --bot-list-version: #4dbdeb;
+  /* accent color */
+  --bot-list-edit-hover: #4dbdeb;
+  /* accent color */
+  --bot-list-delete-hover: #ff6b6b;
+  /* danger color */
+  --bot-list-loading-text: #b0c4d3;
+  /* light muted text */
+  --bot-list-empty-text: #8fa8b8;
+  /* subtle text */
+  --bot-list-button-primary: #4dbdeb;
+  /* accent color */
+  --bot-list-button-primary-hover: #38bdf8;
+  /* lighter accent */
+  --bot-list-button-primary-text: #0b2f3a;
+  /* dark text on light bg */
+  --bot-list-status-published-bg: #1a4a5a;
+  /* dark surface */
+  --bot-list-status-published-text: #4dbdeb;
+  /* accent color */
+  --bot-list-status-draft-bg: #143f4e;
+  /* darker surface */
+  --bot-list-status-draft-text: #b0c4d3;
+  /* light muted text */
+  --bot-list-toggle-on: #4dbdeb;
+  /* accent color */
+  --bot-list-toggle-off: #374151;
+  /* dark gray */
+  --bot-list-toggle-thumb: #ffffff;
+  /* white thumb */
+  --bot-list-bot-icon-bg: #1a4a5a;
+  /* dark surface */
+  --bot-list-bot-icon: #4dbdeb;
+  /* accent color */
+  --bot-list-modal-bg: #103847;
+  /* surface color */
+  --bot-list-modal-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-list-modal-button-cancel: #8fa8b8;
+  /* subtle text */
+  --bot-list-modal-button-cancel-hover: #b0c4d3;
+  /* lighter text */
+  --bot-list-modal-button-delete: #ff6b6b;
+  /* danger color */
+  --bot-list-modal-button-delete-hover: #ff9999;
+  /* lighter danger */
+  --bot-list-select-bg: #103847;
+  /* surface color */
+  --bot-list-select-border: #1e4e5e;
+  /* border color */
+  --bot-list-select-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-list-select-arrow: #8fa8b8;
+  /* subtle text */
+
+  /* Bot Detail Component - Dark Mode */
+  --bot-detail-bg: #0b2f3a;
+  /* deep teal base */
+  --bot-detail-title: #ffffff;
+  /* white - maximum contrast */
+  --bot-detail-subtitle: #b0c4d3;
+  /* light muted text */
+  --bot-detail-card-bg: #103847;
+  /* surface color */
+  --bot-detail-card-border: #1e4e5e;
+  /* border color */
+  --bot-detail-card-shadow: rgba(0, 0, 0, 0.3);
+  --bot-detail-stat-label: #b0c4d3;
+  /* light muted text */
+  --bot-detail-stat-value: #ffffff;
+  /* white - maximum contrast */
+  --bot-detail-stat-icon-bg-emerald: #1a4a5a;
+  /* dark surface */
+  --bot-detail-stat-icon-emerald: #4dbdeb;
+  /* accent color */
+  --bot-detail-stat-icon-bg-blue: #1a4a5a;
+  /* dark surface */
+  --bot-detail-stat-icon-blue: #4dbdeb;
+  /* accent color */
+  --bot-detail-stat-icon-bg-purple: #1a4a5a;
+  /* dark surface */
+  --bot-detail-stat-icon-purple: #4dbdeb;
+  /* accent color */
+  --bot-detail-button-primary: #4dbdeb;
+  /* accent color */
+  --bot-detail-button-primary-hover: #38bdf8;
+  /* lighter accent */
+  --bot-detail-button-primary-text: #0b2f3a;
+  /* dark text on light bg */
+  --bot-detail-button-ghost: #8fa8b8;
+  /* subtle text */
+  --bot-detail-button-ghost-hover: #b0c4d3;
+  /* lighter text */
+  --bot-detail-error-title: #ffffff;
+  /* white - maximum contrast */
+  --bot-detail-error-text: #8fa8b8;
+  /* subtle text */
+  --bot-detail-loading-icon: #8fa8b8;
+  /* subtle text */
+
+  /* Sessions List Component - Dark Mode */
+  --sessions-list-title: #ffffff;
+  /* white - maximum contrast */
+  --sessions-list-empty-title: #ffffff;
+  /* white - maximum contrast */
+  --sessions-list-empty-text: #8fa8b8;
+  /* subtle text */
+  --sessions-list-header-bg: #0b2f3a;
+  /* deep teal base */
+  --sessions-list-header-border: #1e4e5e;
+  /* border color */
+  --sessions-list-header-text: #b0c4d3;
+  /* light muted text */
+  --sessions-list-row-bg: #103847;
+  /* surface color */
+  --sessions-list-row-hover-bg: #1a4a5a;
+  /* hover surface */
+  --sessions-list-row-border: #1e4e5e;
+  /* border color */
+  --sessions-list-avatar-bg: #3b4a54;
+  /* dark avatar background */
+  --sessions-list-avatar-text: #8696a0;
+  /* avatar text */
+  --sessions-list-phone-text: #ffffff;
+  /* white - maximum contrast */
+  --sessions-list-time-text: #8fa8b8;
+  /* subtle text */
+  --sessions-list-version-bg: #1a4a5a;
+  /* dark surface */
+  --sessions-list-version-text: #b0c4d3;
+  /* light muted text */
+  --sessions-list-active-badge-bg: #1a4a5a;
+  /* dark surface */
+  --sessions-list-active-badge-text: #4dbdeb;
+  /* accent color */
+  --sessions-list-pagination-text: #8fa8b8;
+  /* subtle text */
+  --sessions-list-pagination-button: #b0c4d3;
+  /* light muted text */
+  --sessions-list-pagination-button-hover: #ffffff;
+  /* white - maximum contrast */
+
+  /* Deployments Sidebar Component - Dark Mode */
+  --deployments-sidebar-title: #ffffff;
+  /* white - maximum contrast */
+  --deployments-sidebar-header-bg: #0b2f3a;
+  /* deep teal base */
+  --deployments-sidebar-header-border: #1e4e5e;
+  /* border color */
+  --deployments-sidebar-header-text: #b0c4d3;
+  /* light muted text */
+  --deployments-sidebar-item-bg: #103847;
+  /* surface color */
+  --deployments-sidebar-item-hover-bg: #1a4a5a;
+  /* hover surface */
+  --deployments-sidebar-item-selected-bg: #1e5568;
+  /* selected surface */
+  --deployments-sidebar-item-border: #1e4e5e;
+  /* border color */
+  --deployments-sidebar-version-text: #ffffff;
+  /* white - maximum contrast */
+  --deployments-sidebar-date-text: #8fa8b8;
+  /* subtle text */
+  --deployments-sidebar-sessions-text: #b0c4d3;
+  /* light muted text */
+  --deployments-sidebar-active-badge-bg: #1a4a5a;
+  /* dark surface */
+  --deployments-sidebar-active-badge-text: #4dbdeb;
+  /* accent color */
+
+  /* Bot Build View Component - Dark Mode */
+  --bot-build-bg: #0b2f3a;
+  /* deep teal base */
+  --bot-build-toolbar-bg: #103847;
+  /* surface color */
+  --bot-build-toolbar-border: #1e4e5e;
+  /* border color */
+  --bot-build-header-bg: #1a4a5a;
+  /* dark surface */
+  --bot-build-header-border: #1e4e5e;
+  /* border color */
+  --bot-build-title: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-title-input-bg: #1a4a5a;
+  /* dark surface */
+  --bot-build-title-input-border: #4dbdeb;
+  /* accent color */
+  --bot-build-title-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-title-hover-border: #4dbdeb;
+  /* accent color */
+  --bot-build-status-text: #8fa8b8;
+  /* subtle text */
+  --bot-build-status-warning: #fbbf24;
+  /* amber-400 - warning color */
+  --bot-build-status-error: #f87171;
+  /* red-400 - error color */
+  --bot-build-button-primary: #4dbdeb;
+  /* accent color */
+  --bot-build-button-primary-hover: #38bdf8;
+  /* lighter accent */
+  --bot-build-button-primary-text: #0b2f3a;
+  /* dark text on light bg */
+  --bot-build-button-secondary: #8fa8b8;
+  /* subtle text */
+  --bot-build-button-secondary-hover: #b0c4d3;
+  /* light muted text */
+  --bot-build-button-secondary-text: #0b2f3a;
+  /* dark text on light bg */
+  --bot-build-button-ghost: #8fa8b8;
+  /* subtle text */
+  --bot-build-button-ghost-hover: #b0c4d3;
+  /* light muted text */
+  --bot-build-button-ghost-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-back-button: #8fa8b8;
+  /* subtle text */
+  --bot-build-back-button-hover: #b0c4d3;
+  /* light muted text */
+  --bot-build-back-button-hover-bg: #1a4a5a;
+  /* dark surface */
+  --bot-build-node-button-bg: #103847;
+  /* surface color */
+  --bot-build-node-button-border: #1e4e5e;
+  /* border color */
+  --bot-build-node-button-hover: #1a4a5a;
+  /* dark surface */
+  --bot-build-node-button-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-node-button-secondary-text: #8fa8b8;
+  /* subtle text */
+  --bot-build-flow-bg: #0b2f3a;
+  /* deep teal base */
+  --bot-build-flow-grid: #1a4a5a;
+  /* dark surface grid */
+  --bot-build-flow-controls-bg: #103847;
+  /* surface color */
+  --bot-build-flow-controls-border: #1e4e5e;
+  /* border color */
+  --bot-build-flow-controls-text: #8fa8b8;
+  /* subtle text */
+  --bot-build-flow-controls-hover: #b0c4d3;
+  /* light muted text */
+  --bot-build-minimap-bg: #103847;
+  /* surface color */
+  --bot-build-minimap-border: #1e4e5e;
+  /* border color */
+  --bot-build-minimap-node: #8fa8b8;
+  /* subtle text */
+  --bot-build-minimap-node-selected: #4dbdeb;
+  /* accent color */
+  --bot-build-connection-line: #8fa8b8;
+  /* subtle text */
+  --bot-build-connection-line-selected: #4dbdeb;
+  /* accent color */
+  --bot-build-menu-bg: #103847;
+  /* surface color */
+  --bot-build-menu-border: #1e4e5e;
+  /* border color */
+  --bot-build-menu-shadow: rgba(0, 0, 0, 0.3);
+  --bot-build-menu-item-hover: #1a4a5a;
+  /* dark surface */
+  --bot-build-menu-item-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-modal-bg: #103847;
+  /* surface color */
+  --bot-build-modal-border: #1e4e5e;
+  /* border color */
+  --bot-build-modal-text: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-modal-title: #ffffff;
+  /* white - maximum contrast */
+  --bot-build-modal-button-cancel: #8fa8b8;
+  /* subtle text */
+  --bot-build-modal-button-cancel-hover: #b0c4d3;
+  /* light muted text */
+  --bot-build-modal-button-confirm: #4dbdeb;
+  /* accent color */
+  --bot-build-modal-button-confirm-hover: #38bdf8;
+  /* lighter accent */
+  --bot-build-modal-button-confirm-text: #0b2f3a;
+  /* dark text on light bg */
+
+  /* Credits & Usage Component - Dark Mode */
+  --credits-bg: #0b2f3a;
+  /* deep teal base */
+  --credits-title: #ffffff;
+  /* white - maximum contrast */
+  --credits-subtitle: #b0c4d3;
+  /* light muted text */
+  --credits-card-bg: #103847;
+  /* surface color */
+  --credits-card-border: #1e4e5e;
+  /* border color */
+  --credits-card-shadow: rgba(0, 0, 0, 0.3);
+  --credits-remaining-title: #ffffff;
+  /* white - maximum contrast */
+  --credits-remaining-value: #4dbdeb;
+  /* accent color */
+  --credits-remaining-value-zero: #ff6b6b;
+  /* danger color for zero credits */
+  --credits-progress-bg: #1a4a5a;
+  /* dark surface */
+  --credits-progress-fill: #4dbdeb;
+  /* accent color */
+  --credits-progress-fill-warning: #fbbf24;
+  /* amber-400 - warning color */
+  --credits-progress-fill-danger: #ff6b6b;
+  /* danger color */
+  --credits-text-muted: #b0c4d3;
+  /* light muted text */
+  --credits-text-subtle: #8fa8b8;
+  /* subtle text */
+  --credits-link: #4dbdeb;
+  /* accent color */
+  --credits-link-hover: #38bdf8;
+  /* lighter accent */
+  --credits-alert-danger-bg: #2d1b1b;
+  /* dark red background */
+  --credits-alert-danger-border: #ff6b6b;
+  /* danger color border */
+  --credits-alert-danger-text: #ff9999;
+  /* lighter red text for better contrast */
+  --credits-alert-danger-title: #ffffff;
+  /* white - maximum contrast */
+  --credits-alert-warning-bg: #2d2b1b;
+  /* dark amber background */
+  --credits-alert-warning-border: #fbbf24;
+  /* amber-400 - warning color border */
+  --credits-alert-warning-text: #fcd34d;
+  /* amber-300 - lighter amber text */
+  --credits-alert-warning-title: #ffffff;
+  /* white - maximum contrast */
+  --credits-tab-active-bg: #1a4a5a;
+  /* dark surface */
+  --credits-tab-active-text: #4dbdeb;
+  /* accent color */
+  --credits-tab-inactive-bg: #103847;
+  /* surface color */
+  --credits-tab-inactive-text: #8fa8b8;
+  /* subtle text */
+  --credits-select-bg: #103847;
+  /* surface color */
+  --credits-select-border: #1e4e5e;
+  /* border color */
+  --credits-select-text: #ffffff;
+  /* white - maximum contrast */
+  --credits-select-arrow: #b0c4d3;
+  /* lighter arrow for better visibility */
+  --credits-select-content-bg: #103847;
+  /* surface color for dropdown */
+  --credits-select-content-border: #1e4e5e;
+  /* border color for dropdown */
+  --credits-select-item-bg: #103847;
+  /* surface color for items */
+  --credits-select-item-hover-bg: #1a4a5a;
+  /* dark surface - hover background for items */
+  --credits-select-item-text: #ffffff;
+  /* white text color for items */
+  --credits-select-item-hover-text: #ffffff;
+  /* white hover text color */
+  --credits-no-data-text: #b0c4d3;
+  /* light muted text */
+  --credits-debug-bg: #1a4a5a;
+  /* dark surface */
+  --credits-debug-border: #1e4e5e;
+  /* border color */
+  --credits-debug-text: #b0c4d3;
+  /* light muted text */
+  --credits-button-primary: #4dbdeb;
+  /* accent color */
+  --credits-button-primary-hover: #38bdf8;
+  /* lighter accent */
+  --credits-button-primary-text: #0b2f3a;
+  /* dark text on light bg */
+  --credits-button-primary-bg: #4dbdeb;
+  /* accent color */
+  --credits-button-primary-border: #4dbdeb;
+  /* accent color */
+  --credits-button-primary-hover-bg: #38bdf8;
+  /* lighter accent */
+  --credits-button-primary-hover-border: #38bdf8;
+  /* lighter accent */
+  --credits-button-primary-hover-text: #0b2f3a;
+  /* dark text on light bg */
+  --credits-button-secondary: #8fa8b8;
+  /* subtle text */
+  --credits-button-secondary-hover: #b0c4d3;
+  /* light muted text */
+  --credits-button-secondary-text: #0b2f3a;
+  /* dark text on light bg */
+  --credits-button-secondary-bg: #8fa8b8;
+  /* subtle text */
+  --credits-button-secondary-border: #8fa8b8;
+  /* subtle text */
+  --credits-button-secondary-hover-bg: #b0c4d3;
+  /* light muted text */
+  --credits-button-secondary-hover-border: #b0c4d3;
+  /* light muted text */
+  --credits-button-secondary-hover-text: #0b2f3a;
+  /* dark text on light bg */
+  --credits-button-outline: #8fa8b8;
+  /* subtle text */
+  --credits-button-outline-hover: #b0c4d3;
+  /* light muted text */
+  --credits-button-outline-text: #ffffff;
+  /* white - maximum contrast */
+  --credits-button-outline-border: #1e4e5e;
+  /* border color */
+  --credits-button-outline-bg: transparent;
+  --credits-button-outline-hover-bg: #1a4a5a;
+  /* dark surface */
+  --credits-button-outline-hover-text: #ffffff;
+  /* white - maximum contrast */
+  --credits-button-outline-hover-border: #1e4e5e;
+  /* border color */
+  --credits-export-button-bg: #020817;
+
+  /* Add Credits Modal Component - Dark Mode */
+  --add-credits-modal-bg: #103847;
+  --add-credits-modal-border: #1e4e5e;
+  --add-credits-modal-shadow: rgba(0, 0, 0, 0.3);
+  --add-credits-modal-title: #ffffff;
+  --add-credits-modal-description: #b0c4d3;
+  --add-credits-modal-subscription-bg: #1a4a5a;
+  --add-credits-modal-subscription-border: #1e4e5e;
+  --add-credits-modal-subscription-title: #ffffff;
+  --add-credits-modal-subscription-value: #4dbdeb;
+  --add-credits-modal-subscription-label: #8fa8b8;
+  --add-credits-modal-alert-info-bg: #1e3a8a;
+  --add-credits-modal-alert-info-border: #3b82f6;
+  --add-credits-modal-alert-info-text: #93c5fd;
+  --add-credits-modal-alert-warning-bg: #2d2b1b;
+  --add-credits-modal-alert-warning-border: #fbbf24;
+  --add-credits-modal-alert-warning-text: #fcd34d;
+  --add-credits-modal-alert-error-bg: #2d1b1b;
+  --add-credits-modal-alert-error-border: #ff6b6b;
+  --add-credits-modal-alert-error-text: #ff9999;
+  --add-credits-modal-billing-toggle-bg: #1a4a5a;
+  --add-credits-modal-billing-toggle-active-bg: #103847;
+  --add-credits-modal-billing-toggle-active-text: #ffffff;
+  --add-credits-modal-billing-toggle-inactive-text: #8fa8b8;
+  --add-credits-modal-plan-card-bg: #103847;
+  --add-credits-modal-plan-card-border: #1e4e5e;
+  --add-credits-modal-plan-card-selected-bg: #1e3a8a;
+  --add-credits-modal-plan-card-selected-border: #3b82f6;
+  --add-credits-modal-plan-card-hover-border: #374151;
+  --add-credits-modal-plan-name: #ffffff;
+  --add-credits-modal-plan-credits: #8fa8b8;
+  --add-credits-modal-plan-price: #ffffff;
+  --add-credits-modal-plan-period: #8fa8b8;
+  --add-credits-modal-popular-badge-bg: #3b82f6;
+  --add-credits-modal-popular-badge-text: #ffffff;
+  --add-credits-modal-package-card-bg: #103847;
+  --add-credits-modal-package-card-border: #1e4e5e;
+  --add-credits-modal-package-card-selected-bg: #1e3a8a;
+  --add-credits-modal-package-card-selected-border: #3b82f6;
+  --add-credits-modal-package-card-hover-border: #374151;
+  --add-credits-modal-package-credits: #ffffff;
+  --add-credits-modal-package-price: #ffffff;
+  --add-credits-modal-package-per-credit: #8fa8b8;
+  --add-credits-modal-package-description: #8fa8b8;
+  --add-credits-modal-package-save: #4dbdeb;
+  --add-credits-modal-section-title: #ffffff;
+  --add-credits-modal-button-cancel-bg: transparent;
+  --add-credits-modal-button-cancel-border: #1e4e5e;
+  --add-credits-modal-button-cancel-text: #ffffff;
+  --add-credits-modal-button-cancel-hover-bg: #1a4a5a;
+  --add-credits-modal-button-primary-bg: #3b82f6;
+  --add-credits-modal-button-primary-text: #ffffff;
+  --add-credits-modal-button-primary-hover-bg: #2563eb;
+  --add-credits-modal-button-disabled-bg: #1a4a5a;
+  --add-credits-modal-button-disabled-text: #6b7280;
+  --add-credits-modal-loading-text: #8fa8b8;
+  --add-credits-modal-shimmer-bg: #1a4a5a;
+
+  /* Admin API Component - Dark Mode */
+  --admin-api-info-box-bg: rgba(26, 74, 90, 0.8);
+  --admin-api-info-box-text: #ffffff;
+  --admin-api-info-box-link: #4dbdeb;
+  --admin-api-copy-button-text: var(--color-always-white);
+  --admin-api-copy-button-bg: #4dbdeb;
+  --admin-api-copy-button-hover-bg: #38bdf8;
+  --admin-api-copy-button-border: #4dbdeb;
+  --admin-api-copy-button-hover-border: #38bdf8;
+  --admin-api-tab-active: #4dbdeb;
+  --admin-api-tab-inactive: #8fa8b8;
+  --admin-api-tab-indicator: #4dbdeb;
+  --admin-api-button-text: var(--color-always-white);
+  --admin-api-warning-text: #ff6b6b;
+  --admin-api-placeholder-text: #e5e7eb;
+
+  /* Campaign Finish Section - Dark Mode */
+  --campaign-finish-title-bg: #1c2b1b;
+  --campaign-finish-title-text: #17761d;
+  --campaign-finish-audience-label-bg: #1c2b1b;
+  --campaign-finish-audience-label-border: rgba(23, 118, 29, 0.3);
+  --campaign-finish-audience-label-text: #17761d;
+  --campaign-finish-divider: #1e4e5e;
+  --campaign-finish-no-message-bg: #1c2b1b;
+  --campaign-finish-no-message-text: #17761d;
+
+  /* Campaign Footer Panel - Dark Mode */
+  --campaign-footer-panel-bg: #0b2f3a;
+  --campaign-footer-panel-border: #1e4e5e;
+
+  /* team inbox light mode */
+  --team-inbox-neutral-icons: #b0c4d3;
+  --team-inbox-active-color: #53bdeb;
+  --team-inbox-active-BG-color: rgba(83, 189, 235, 0.08);
+  --team-inbox-active-BG-color-hover: rgba(83, 189, 235, 0.12);
+  --team-inbox-BG-color-hover: rgba(255, 255, 255, 0.04);
+  --team-inbox-timestamp-color: rgba(255, 255, 255, 0.6);
+  --team-inbox-scrollbar-thumb: rgba(255, 255, 255, 0.2);
+  --team-inbox-scrollbar-thumb-hover: rgba(255, 255, 255, 0.3);
+
+  /* Subscription Plan Component - Dark Mode */
+  --subscription-plan-free-bg: linear-gradient(135deg, #1a1a1a 0%, #222222 100%);
+  --subscription-plan-free-border: #374151;
+  --subscription-plan-free-text: #9ca3af;
+  --subscription-plan-free-icon: #9ca3af;
+  --subscription-plan-free-button: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  --subscription-plan-free-button-hover: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  --subscription-plan-basic-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+  --subscription-plan-basic-border: #3b82f6;
+  --subscription-plan-basic-text: #60a5fa;
+  --subscription-plan-basic-icon: #60a5fa;
+  --subscription-plan-basic-button: #60a5fa;
+  --subscription-plan-basic-button-hover: #3b82f6;
+  --subscription-plan-standard-bg: linear-gradient(135deg, #581c87 0%, #7c2d12 100%);
+  --subscription-plan-standard-border: #a855f7;
+  --subscription-plan-standard-text: #c084fc;
+  --subscription-plan-standard-icon: #c084fc;
+  --subscription-plan-standard-button: #c084fc;
+  --subscription-plan-standard-button-hover: #a855f7;
+  --subscription-plan-pro-bg: linear-gradient(135deg, #92400e 0%, #b45309 100%);
+  --subscription-plan-pro-border: #f59e0b;
+  --subscription-plan-pro-text: #fbbf24;
+  --subscription-plan-pro-icon: #fbbf24;
+  --subscription-plan-pro-feature-text: #fcd34d;
+  --subscription-plan-pro-button: #fbbf24;
+  --subscription-plan-pro-button-hover: #f59e0b;
+  --subscription-plan-button-shadow: rgba(0, 0, 0, 0.3);
+
+}
+
+/* Support Table – align MUI DataGrid with theme tokens */
+.MuiDataGrid-root {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+.MuiDataGrid-columnHeaders,
+.MuiDataGrid-toolbarContainer {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.MuiDataGrid-withBorderColor {
+  border-color: var(--color-border);
+}
+
+/* Light mode row striping and hover */
+html .MuiDataGrid-row:nth-of-type(odd) {
+  background-color: var(--color-surface) !important;
+}
+
+html .MuiDataGrid-row:nth-of-type(even) {
+  background-color: var(--color-surface-muted) !important;
+}
+
+html .MuiDataGrid-row:hover {
+  background-color: var(--tasks-row-hover-bg) !important;
+}
+
+/* Dark mode overrides */
+.dark .MuiDataGrid-root,
+.dark .MuiDataGrid-columnHeaders,
+.dark .MuiDataGrid-toolbarContainer {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+.dark .MuiDataGrid-row:nth-of-type(odd) {
+  background-color: var(--color-surface) !important;
+}
+
+.dark .MuiDataGrid-row:nth-of-type(even) {
+  background-color: var(--color-surface-muted) !important;
+}
+
+.dark .MuiDataGrid-row:hover {
+  background-color: var(--tasks-row-hover-bg) !important;
+}
+
+.dark .MuiDataGrid-withBorderColor {
+  border-color: var(--color-border);
+}
+
+/* DataGrid footer / pagination */
+.MuiDataGrid-footerContainer {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border-top: 1px solid var(--color-border);
+}
+
+.MuiTablePagination-root {
+  color: var(--color-text);
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+  color: var(--color-text-muted);
+}
+
+.MuiTablePagination-select {
+  color: var(--color-text);
+}
+
+.MuiTablePagination-actions .MuiIconButton-root {
+  color: var(--color-text);
+}
+
+.MuiTablePagination-actions .MuiIconButton-root:hover {
+  background-color: var(--color-surface-muted);
+}
+
+.MuiTablePagination-actions .Mui-disabled {
+  color: var(--color-text-muted) !important;
+  opacity: 0.5;
+}
+
+/* Pagination select arrow and menu */
+.MuiTablePagination-toolbar .MuiSelect-select {
+  color: var(--color-text);
+}
+
+.MuiTablePagination-toolbar .MuiSelect-icon,
+.MuiTablePagination-toolbar .MuiSelect-iconOutlined,
+.MuiTablePagination-toolbar .MuiSvgIcon-root {
+  color: var(--color-text);
+  fill: var(--color-text);
+}
+
+/* Dropdown menu popup used by the rows-per-page select */
+.MuiMenu-paper {
+  background-color: var(--color-surface) !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.MuiMenu-paper .MuiMenuItem-root {
+  color: var(--color-text) !important;
+}
+
+.MuiMenu-paper .MuiMenuItem-root:hover {
+  background-color: var(--color-surface-muted) !important;
+}
+
+.MuiMenu-paper .MuiMenuItem-root.Mui-selected {
+  background-color: var(--color-surface-accent) !important;
+}
+
+/* Dark mode specific overrides */
+.dark .MuiMenu-paper {
+  background-color: var(--color-surface) !important;
+  color: var(--color-text) !important;
+  border-color: var(--color-border) !important;
+}
+
+.dark .MuiMenu-paper .MuiMenuItem-root {
+  color: var(--color-text) !important;
+}
+
+.dark .MuiMenu-paper .MuiMenuItem-root:hover {
+  background-color: var(--color-surface-muted) !important;
+  color: var(--color-text) !important;
+}
+
+/* Global placeholder styling */
+input::placeholder,
+textarea::placeholder {
+  color: var(--form-placeholder) !important;
+  opacity: 1 !important;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--form-placeholder) !important;
+  opacity: 1 !important;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: var(--form-placeholder) !important;
+  opacity: 1 !important;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: var(--form-placeholder) !important;
+  opacity: 1 !important;
+}
+
+/* * {
+  border-color: var(--color-border);
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+} */
+
+/* Support Table – align MUI DataGrid with theme tokens */
+
+
+
+/* Fix browser autofill styling to respect theme colors */
+
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-internal-autofill-selected {
+  appearance: none !important;
+  background-image: none !important;
+  background-color: var(--form-bg) !important;
+  color: var(--form-text) !important;
+  border: 1px solid var(--form-border) !important;
+  border-radius: inherit !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--form-bg) inset !important;
+  -webkit-text-fill-color: var(--form-text) !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+  box-shadow: 0 0 0 1000px var(--form-bg) inset !important;
+} */

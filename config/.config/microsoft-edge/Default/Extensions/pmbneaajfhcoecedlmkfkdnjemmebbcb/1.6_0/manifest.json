@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "UnSponsored.js" ],
+      "matches": [ "https://www.google.com/*" ]
+   } ],
+   "description": "Hide sponsored content on web pages.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwENfte/beA1sVK4iEoI4LN9DTZxXMh6vX16qtQ6JG0BzrQA20IS3s+GL/j9fwRWJ4T7T0E9+uXDwi+8I5WV+p6D3ORUOPB8h8hGRFzVroHWQF2lV9qv/qNueJ9hrU53KzXUlowpEhcYg5zIlkdwpxc7jbeaJ/jIGtIIaCuxrU5sBm3GWgQgqoSTMzhsGirr02bGvJhvTX3D9p8HiF0C1dbJuGhPwbcABat/9Bh8MnKS+tRVmhvlKwnNf4oVatHK53b7/eabw6mNbRxL+C8UYjK9JV4qLETNxojuEcZbUmeBVrhZoAloFG8ZIEsnuk40h3M5QmbxkOgPGZxTbfDb3YQIDAQAB",
+   "manifest_version": 3,
+   "name": "UnSponsored",
+   "options_ui": {
+      "page": "popup.html"
+   },
+   "permissions": [ "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

@@ -1,0 +1,680 @@
+{
+   "aboutDescription": {
+      "message": "VK.com, YouTube.com 및 기타 40 개 이상의 사이트에서 다운로드 링크를 직접 받을 수 있습니다."
+   },
+   "aboutDescriptionLite": {
+      "message": "VK.com, Vimeo 및 기타 40 개 이상의 사이트에서 다운로드 링크를 직접 받을 수 있습니다."
+   },
+   "aboutPage": {
+      "message": "확장 프로그램 정보"
+   },
+   "aboutSupported": {
+      "message": "지원되는 사이트"
+   },
+   "aboutTitle": {
+      "message": "SaveFrom.net 도우미"
+   },
+   "aboutVersion": {
+      "message": "버전"
+   },
+   "activate": {
+      "message": "활성화"
+   },
+   "activatePro": {
+      "message": "PRO 활성화"
+   },
+   "aliwizTopbarButton": {
+      "message": "보이기"
+   },
+   "aliwizTopbarTitle": {
+      "message": "\u003Cb>믿을 수 있는 판매자\u003C/b>와 \u003Cb>최고의 가격\u003C/b>을 Aliexpress에서 보여드립니다!"
+   },
+   "are_you_sure_interrupt_download": {
+      "message": "다운로드를 중단하시겠습니까?"
+   },
+   "authCheck": {
+      "message": "인증 정보 확인"
+   },
+   "beforeDownloadPopupWarn": {
+      "message": "주의: 다운로드를 취소하거나 일시 중지할 수 없습니다."
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "cancelDownload": {
+      "message": "다운로드 취소"
+   },
+   "close": {
+      "message": "닫기"
+   },
+   "completed": {
+      "message": "완료"
+   },
+   "continue": {
+      "message": "계속"
+   },
+   "conversionCompleted": {
+      "message": "변환 완료"
+   },
+   "copy": {
+      "message": "복사"
+   },
+   "disable": {
+      "message": "비활성화"
+   },
+   "disableModule": {
+      "message": "이 사이트에서 비활성화"
+   },
+   "doNotClosePage": {
+      "message": "파일이 다운로드될 때까지 페이지를 닫지 마십시오!"
+   },
+   "done": {
+      "message": "완료"
+   },
+   "dont_close_page": {
+      "message": "페이지를 닫지 마십시오. \u003Cbr/>이 몇 분 정도 소요됩니다"
+   },
+   "download": {
+      "message": "다운로드"
+   },
+   "downloadFromCurrentPage": {
+      "message": "SaveFrom.net으로 이동"
+   },
+   "downloadInfo": {
+      "message": "다운로드 정보"
+   },
+   "downloadMP3Files": {
+      "message": "MP3 파일 다운로드"
+   },
+   "downloadPhotos": {
+      "message": "사진 다운로드"
+   },
+   "downloadPlaylist": {
+      "message": "재생 목록 다운로드"
+   },
+   "downloadTitle": {
+      "message": "파일을 저장하려면 Alt 또는 Ctrl 키를 누른 채로 링크를 클릭하십시오."
+   },
+   "downloadWholePlaylist": {
+      "message": "전체 재생 목록 다운로드"
+   },
+   "download_button_and_click": {
+      "message": "그리고 클릭하세요"
+   },
+   "download_button_hold": {
+      "message": "누르고 유지하세요"
+   },
+   "downloadingBox_button": {
+      "message": "다운로드"
+   },
+   "downloadingBox_description": {
+      "message": "다운로드가 시작되지 않으면 다운로드 버튼을 클릭하세요"
+   },
+   "downloadingBox_fileName": {
+      "message": "파일 이름"
+   },
+   "downloadingBox_status_complete": {
+      "message": "완료"
+   },
+   "downloadingBox_status_converting": {
+      "message": "변환하다 "
+   },
+   "downloadingBox_status_loading": {
+      "message": "로딩 중"
+   },
+   "downloadingBox_status_prepare": {
+      "message": "준비하다"
+   },
+   "enableDisableModule": {
+      "message": "이 사이트에서 활성화/비활성화"
+   },
+   "enableModule": {
+      "message": "이 사이트에서 활성화"
+   },
+   "errors": {
+      "message": "오류"
+   },
+   "extDescription": {
+      "message": "1 클릭으로 VKontakte, YouTube, Odnoklassniki 및 40 개 이상의 사이트에서 다운로드하십시오."
+   },
+   "extDescriptionLite": {
+      "message": "1 클릭으로 VKontakte, Odnoklassniki 및 40 개 이상의 사이트에서 다운로드하십시오."
+   },
+   "extName": {
+      "message": "SaveFrom.net 도우미"
+   },
+   "extNameLite": {
+      "message": "SaveFrom.net 도우미 Lite"
+   },
+   "filelist": {
+      "message": "파일 목록"
+   },
+   "filelistInstruction": {
+      "message": "['모든 파일을 다운로드하려면 링크 목록을 복사하고 ',{a:{href:'http://ru.wikipedia.org/wiki/Менеджер_загрузок',text:'다운로드 관리자'}},'에 붙여 넣으십시오. 다운로드 관리자를 설치하지 않았다면 ',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'를 설치하는 것이 좋습니다.']"
+   },
+   "filelistTitle": {
+      "message": "찾은 파일 목록"
+   },
+   "files": {
+      "message": "파일"
+   },
+   "getFileSizeFailTitle": {
+      "message": "파일 크기를 확인할 수 없습니다. 다시 시도하십시오."
+   },
+   "getFileSizeTitle": {
+      "message": "파일 크기 확인"
+   },
+   "homePage": {
+      "message": "홈페이지"
+   },
+   "howActivateHelperPro": {
+      "message": "Helper Pro를 활성화하는 방법"
+   },
+   "installFullVersion": {
+      "message": "전체 버전 설치"
+   },
+   "instruction": {
+      "message": "사용 설명서"
+   },
+   "kbps": {
+      "message": "kbps"
+   },
+   "lang": {
+      "message": "ko"
+   },
+   "linksUpdated": {
+      "message": "링크가 업데이트되었습니다!"
+   },
+   "lmButtonTitle": {
+      "message": "직접 링크 얻기"
+   },
+   "login": {
+      "message": "Helper Pro에 로그인"
+   },
+   "loginAlreadyGmMessage": {
+      "message": "이미 로그인되어 있습니다. 페이지를 새로 고칩니다."
+   },
+   "loginGmMessage": {
+      "message": "로그인 페이지로 이동"
+   },
+   "loginIfPro": {
+      "message": "Pro 회원이라면 로그인하세요"
+   },
+   "logout": {
+      "message": "로그아웃"
+   },
+   "logoutAlreadyGmMessage": {
+      "message": "이미 로그아웃되어 있습니다. 페이지를 새로 고칩니다."
+   },
+   "logoutGmMessage": {
+      "message": "로그아웃 성공적으로 완료되었습니다"
+   },
+   "menuDisable": {
+      "message": "비활성화"
+   },
+   "menuDownloadFromCurrentPage": {
+      "message": "현재 페이지에서 SaveFrom.net을 사용하여 파일 다운로드"
+   },
+   "menuDownloadMP3Files": {
+      "message": "페이지에서 찾은 모든 오디오 파일 다운로드"
+   },
+   "menuDownloadPhotos": {
+      "message": "페이지에서 찾은 모든 사진 다운로드"
+   },
+   "menuDownloadPlaylist": {
+      "message": "링크가 있는 재생 목록 생성 및 다운로드"
+   },
+   "menuEnable": {
+      "message": "활성화"
+   },
+   "menuEnableExtension": {
+      "message": ""
+   },
+   "menuOpenPoll": {
+      "message": "SaveFrom.net 도우미 확장 프로그램의 품질을 평가해 주세요"
+   },
+   "menuReportBug": {
+      "message": "문제가 발생한 경우 알려주십시오"
+   },
+   "menuShowOptions": {
+      "message": "지원되는 사이트 및 도우미 기능 활성화/비활성화"
+   },
+   "menuUpdateLinks": {
+      "message": "다운로드 링크가 표시되지 않는 경우 클릭"
+   },
+   "minimize": {
+      "message": "최소화"
+   },
+   "minimizeDownloadPanel": {
+      "message": "비디오가 다운로드될 때 알려 드릴 때까지 다운로드 패널을 최소화하십시오."
+   },
+   "more": {
+      "message": "더보기"
+   },
+   "msg_data_invalid": {
+      "message": "잘못된 데이터가 전송되었습니다. 다시 시도하십시오"
+   },
+   "msg_no_premium": {
+      "message": "Pro를 활성화하지 않았습니다"
+   },
+   "msg_not_authorized": {
+      "message": "Pro를 사용하려면 로그인해야 합니다"
+   },
+   "msg_quality_not_found": {
+      "message": "지정된 품질을 찾을 수 없습니다"
+   },
+   "msg_video_exists": {
+      "message": "비디오가 이미 다운로드 중입니다"
+   },
+   "msg_video_not_found": {
+      "message": "지정된 비디오를 찾을 수 없습니다"
+   },
+   "no": {
+      "message": "아니요"
+   },
+   "noLinksFound": {
+      "message": "링크를 찾을 수 없습니다."
+   },
+   "noWarning": {
+      "message": "경고하지 않음"
+   },
+   "openPoll": {
+      "message": "더 나아지기"
+   },
+   "optionsAviaBarEnabled": {
+      "message": "싼 항공권 검색"
+   },
+   "optionsBitrate": {
+      "message": "비트율 표시"
+   },
+   "optionsDailymotion": {
+      "message": "Dailymotion"
+   },
+   "optionsDirectory": {
+      "message": "지정된 형식의 파일을 저장할 디렉토리 이름"
+   },
+   "optionsFacebook": {
+      "message": "Facebook"
+   },
+   "optionsFfmpegEnabled": {
+      "message": "ffmpeg 변환기 (알파 버전)"
+   },
+   "optionsFormats": {
+      "message": "지정된 디렉토리에 저장할 파일 형식을 공백으로 구분하여 입력하십시오"
+   },
+   "optionsGmNativeDownload": {
+      "message": "고급 다운로드 모드"
+   },
+   "optionsHandleLinks": {
+      "message": "링크 처리"
+   },
+   "optionsInstagram": {
+      "message": "Instagram"
+   },
+   "optionsMailru": {
+      "message": "Mail.ru"
+   },
+   "optionsMediaHostings": {
+      "message": "미디어 호스팅"
+   },
+   "optionsModules": {
+      "message": "모듈"
+   },
+   "optionsOdnoklassniki": {
+      "message": "Odnoklassniki"
+   },
+   "optionsRutube": {
+      "message": "Rutube"
+   },
+   "optionsSaveAsDialog": {
+      "message": "파일 저장 요청 항상 표시"
+   },
+   "optionsShowUmmyBtn": {
+      "message": "Ummy 버튼 표시"
+   },
+   "optionsShowUmmyInfo": {
+      "message": "Ummy Video Downloader에 대한 정보 표시"
+   },
+   "optionsSoundcloud": {
+      "message": "SoundCloud"
+   },
+   "optionsSovetnikEnabled": {
+      "message": "어시스턴트"
+   },
+   "optionsTiktok": {
+      "message": "Tiktok"
+   },
+   "optionsTitle": {
+      "message": "SaveFrom.net 도우미 - 설정"
+   },
+   "optionsVimeo": {
+      "message": "Vimeo"
+   },
+   "optionsVkontakte": {
+      "message": "VKontakte"
+   },
+   "optionsYTHideLinks": {
+      "message": "링크 숨기기"
+   },
+   "optionsYoutube": {
+      "message": "YouTube"
+   },
+   "options_Actions_title": {
+      "message": "동작"
+   },
+   "options_Directory_title": {
+      "message": "디렉토리"
+   },
+   "options_Formats_title": {
+      "message": "형식"
+   },
+   "options_button_add": {
+      "message": "추가"
+   },
+   "options_button_cancel": {
+      "message": "취소"
+   },
+   "options_button_delete": {
+      "message": "삭제"
+   },
+   "options_button_edit": {
+      "message": "편집"
+   },
+   "options_button_reset": {
+      "message": "재설정"
+   },
+   "options_button_save": {
+      "message": "저장"
+   },
+   "options_management": {
+      "message": "저장 관리 (파일을 디렉토리별로 정렬)"
+   },
+   "options_no_type_msg": {
+      "message": "유형이 정의되지 않았습니다"
+   },
+   "partnersLinksOnly": {
+      "message": "링크를 찾을 수 없습니다. 제휴 제품을 사용하십시오."
+   },
+   "playlist": {
+      "message": "재생 목록"
+   },
+   "playlistInstruction": {
+      "message": "저장한 재생 목록은 재생을 위해 플레이어에서 열 수 있습니다."
+   },
+   "playlistTitle": {
+      "message": "재생 목록"
+   },
+   "prepareDownload": {
+      "message": "다운로드 준비 중"
+   },
+   "pro": {
+      "message": "PRO"
+   },
+   "probannerAlreadyHave": {
+      "message": "이미 PRO를 갖고 계신가요?"
+   },
+   "probannerDescription": {
+      "message": "Helper PRO를 최대한 활용하세요"
+   },
+   "probannerFeature1": {
+      "message": "HD/4K 비디오 다운로드"
+   },
+   "probannerFeature2": {
+      "message": "MP3로만 저장"
+   },
+   "probannerFeature3": {
+      "message": "700개 이상의 사이트 지원"
+   },
+   "probannerFeature4": {
+      "message": "모든 기기에서 액세스"
+   },
+   "probannerLoginLink": {
+      "message": "로그인"
+   },
+   "probannerPrice": {
+      "message": "월 ₩6,500"
+   },
+   "probannerTitle": {
+      "message": "Savefrom Helper PRO로 무제한 다운로드!"
+   },
+   "probannerUpgradeButton": {
+      "message": "PRO 받기"
+   },
+   "quality": {
+      "message": "품질"
+   },
+   "qualityNote": {
+      "message": "원하는 품질의 비디오가 없으면 가능한 최상의 품질로 다운로드됩니다."
+   },
+   "readMore": {
+      "message": "자세히 알아보기..."
+   },
+   "reportBug": {
+      "message": "버그 신고"
+   },
+   "sendToButton": {
+      "message": "휴대폰으로 보내기"
+   },
+   "sendToEmailButton": {
+      "message": "이메일 남기기"
+   },
+   "sendToEmailInputError": {
+      "message": "오류"
+   },
+   "sendToEmailInputPlaceholder": {
+      "message": "이메일을 입력하세요"
+   },
+   "sendToEmailText": {
+      "message": "이 기능은 아직 개발 중입니다. 이 서비스가 시작되면 독점 초대장을 보내 드립니다!"
+   },
+   "sendToEmailTextComplete": {
+      "message": "감사합니다!"
+   },
+   "sendToEmailTitle": {
+      "message": "우리 서비스에 관심을 가져 주셔서 감사합니다!"
+   },
+   "sendToLinkGoBack": {
+      "message": "비디오 다운로드로 돌아가기"
+   },
+   "sendToLoginButton": {
+      "message": "로그인"
+   },
+   "sendToLoginText": {
+      "message": "선택한 비디오를 보내려면 Google을 통해 로그인하세요."
+   },
+   "sendToLoginTitle": {
+      "message": "당신의 휴대폰으로 비디오를 즉시 다운로드하세요!"
+   },
+   "sendToTextOr": {
+      "message": "또는"
+   },
+   "shareIn": {
+      "message": "%w에서 공유"
+   },
+   "showButton": {
+      "message": "확장 프로그램 버튼 표시"
+   },
+   "showHideButton": {
+      "message": "확장 프로그램 버튼 표시/숨기기"
+   },
+   "showOptions": {
+      "message": "옵션"
+   },
+   "size": {
+      "message": "크기"
+   },
+   "socialDesc": {
+      "message": "SaveFrom.net 도우미는 VK.com, YouTube.com, Odnoklassniki.ru 및 기타 40 개 이상의 사이트에서 무료로 다운로드 할 수 있도록 도와줍니다."
+   },
+   "someFilesNeedConverted": {
+      "message": "일부 파일을 변환해야 합니다. 작업이 완료될 때까지 창을 닫지 마십시오."
+   },
+   "somethingWentWrong": {
+      "message": "문제가 발생했습니다. 나중에 다시 시도하십시오."
+   },
+   "subtitles": {
+      "message": "자막"
+   },
+   "success": {
+      "message": "성공"
+   },
+   "televzrNotFound": {
+      "message": "Televzr를 찾을 수 없음"
+   },
+   "televzrNotFoundSubMessage": {
+      "message": "Televzr을 다운로드하고 열어보세요."
+   },
+   "titleDefault": {
+      "message": "SaveFrom.net 도우미"
+   },
+   "titleDesabled": {
+      "message": "SaveFrom.net 도우미 비활성화"
+   },
+   "tooltipHide": {
+      "message": "이 메시지를 더 이상 표시하지 않습니다."
+   },
+   "try_pro_button": {
+      "message": "PRO 사용해 보기"
+   },
+   "tutorialTooltipConfirm": {
+      "message": "확인"
+   },
+   "tutorialTooltipHeader": {
+      "message": "한 번의 클릭으로 비디오를 다운로드하세요!"
+   },
+   "tutorialTooltipText": {
+      "message": "버튼을 클릭하여 품질을 선택하고 비디오를 다운로드하세요."
+   },
+   "tzDownloadStarted": {
+      "message": "다운로드에 추가됨"
+   },
+   "tzPreparingToDownload": {
+      "message": "다운로드 준비 중"
+   },
+   "tzSearchApp": {
+      "message": "Televzr 검색"
+   },
+   "ummyMenuInfo": {
+      "message": "[{p:{append:['무료 프로그램', {br:{}}, 'Ummy Video Downloader를 사용하여 HD 및 MP3를 다운로드하십시오.']}},{p:{class:'center',append:[{a:{class:'green-btn-2 arrow',href:'{url}',target:'_blank',text:'설치'}}]}},{p:{append:['설치 후에는 ',{img:{src:'#'}},'을 클릭하면 다운로드가 자동으로 시작됩니다.']}}]"
+   },
+   "ummyMenuItem": {
+      "message": "[{span:{}},'를 사용하여 다운로드']"
+   },
+   "ummySfTitle": {
+      "message": "HD 또는 MP3"
+   },
+   "ummyTooltipConfirm": {
+      "message": "['이미',{br:{}},{img:{}},' Ummy Video Downloader를 설치했습니까?']"
+   },
+   "updateLinks": {
+      "message": "링크 업데이트"
+   },
+   "updateLinksNotification": {
+      "message": "링크가 업데이트되었습니다."
+   },
+   "updateTo": {
+      "message": "%d로 업데이트"
+   },
+   "upgrade": {
+      "message": "업그레이드"
+   },
+   "video": {
+      "message": "비디오"
+   },
+   "videoDownloaded": {
+      "message": "비디오 다운로드 성공"
+   },
+   "videoDownloading": {
+      "message": "비디오 다운로드 중"
+   },
+   "video_coming_ok": {
+      "message": "확인"
+   },
+   "video_coming_soon": {
+      "message": "비디오 다운로드가 곧 시작됩니다"
+   },
+   "vkDownloadAllPhotoAlbums": {
+      "message": "모든 앨범 다운로드"
+   },
+   "vkDownloadFromYoutube": {
+      "message": "['다운로드: ',{a:{href:'{url}',text:'비디오 페이지'}},'에서 비디오 위에 있는 \"다운로드\" 버튼을 클릭하십시오.']"
+   },
+   "vkDownloadPhotoAlbum": {
+      "message": "앨범 다운로드"
+   },
+   "vkFileSizeByte": {
+      "message": "B"
+   },
+   "vkFileSizeGByte": {
+      "message": "GB"
+   },
+   "vkFileSizeKByte": {
+      "message": "KB"
+   },
+   "vkFileSizeMByte": {
+      "message": "MB"
+   },
+   "vkFileSizeTByte": {
+      "message": "TB"
+   },
+   "vkFoundFiles": {
+      "message": "파일 찾음: %d"
+   },
+   "vkFoundLinks": {
+      "message": "링크 찾음"
+   },
+   "vkFoundOf": {
+      "message": "중"
+   },
+   "vkFoundPhotos": {
+      "message": "사진 찾음"
+   },
+   "vkInfo": {
+      "message": "설정"
+   },
+   "vkInfoTitle": {
+      "message": "파일 크기 및 비트레이트"
+   },
+   "vkKbps": {
+      "message": "kbps"
+   },
+   "vkListOfLinks": {
+      "message": "링크 목록"
+   },
+   "vkListOfLinksInstruction": {
+      "message": "['모든 사진을 다운로드하려면 링크 목록을 복사하고 ',{a:{href:'http://ru.wikipedia.org/wiki/Менеджер_загрузок',text:'다운로드 관리자'}},'에 붙여 넣으십시오. 다운로드 관리자를 설치하지 않았다면 ',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'를 설치하는 것이 좋습니다.']"
+   },
+   "vkListOfPhotos": {
+      "message": "사진 목록"
+   },
+   "vkListOfPhotosInstruction": {
+      "message": "사진을 다운로드하려면 마우스 왼쪽 버튼을 클릭하십시오."
+   },
+   "vkMp3LinksNotFound": {
+      "message": "MP3 링크를 찾을 수 없습니다."
+   },
+   "vkNotAvailablePhotos": {
+      "message": "일시적으로 사용 불가능한 사진 %d 장"
+   },
+   "vkPhotoLinksNotFound": {
+      "message": "사진 링크를 찾을 수 없습니다."
+   },
+   "vkShowAs": {
+      "message": "다음과 같이 표시"
+   },
+   "vkTableOfThumbnails": {
+      "message": "썸네일 테이블"
+   },
+   "warningPopupDesc": {
+      "message": "다운로드 할 때 폴더 선택이 비활성화되어야 합니다."
+   },
+   "warningPopupTitle": {
+      "message": "브라우저 설정 확인"
+   },
+   "withoutAudio": {
+      "message": "오디오 없음"
+   },
+   "yes": {
+      "message": "예"
+   }
+}

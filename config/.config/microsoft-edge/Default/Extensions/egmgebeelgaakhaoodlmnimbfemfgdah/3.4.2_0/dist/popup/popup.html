@@ -1,0 +1,235 @@
+<!--- Styles by https://github.com/Cristofer543 -->
+<html>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <link rel="stylesheet" href="popupStyles.css" />
+
+  <body>
+    <h1>Redirect Blocker</h1>
+    <span class="desc"
+      ><i style="font-size: 3.9vw">
+        <br />Stops Potential Malcious/Annoying Redirects<br /></i
+    ></span>
+    <div class="toggleContainer">
+      <button class="toggleBtn">Start</button>
+
+      <div class="shortCuts remove">
+        <div class="shortCut">
+          <p>
+            <span class="titleShortCut">Toggle Active Tab:</span>
+            <span id="shortCutSingleDisplay">alt + shift + s</span>
+          </p>
+          <p>
+            <span class="titleShortCut">Toggle All Tabs:</span>
+            <span id="shortCutAllDisplay">alt + shift + a</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="extensionModes">
+        <p>
+          <a href="#" class="currentTabExtMode selected">Current Tab</a>
+        </p>
+        <p>
+          <a href="#" class="allTabsExtMode">All Tabs</a>
+        </p>
+      </div>
+      <i id="error" style="color: red; display: block"></i>
+      <button id="shortCutBtn">Show Shortcuts</button>
+    </div>
+    <div class="settings">
+      <h2>Settings</h2>
+      <div data-settingIndex="0" class="settingsPage list active">
+        <div id="savedURLsPage">
+          <label
+            ><p style="font-size: 1rem">
+              Saved URLS
+              <i style="font-size: 0.69em; display: block"
+                >Automatically activate on a saved URL (one URL per line)</i
+              >
+            </p></label
+          >
+          <textarea id="savedURLs" class="urlsList"></textarea>
+          <p><a href="#" id="changeToAllowedURLPage">Show Allowed URLs</a></p>
+        </div>
+        <div id="allowedURLsPage" class="remove">
+          <label
+            ><p style="font-size: 1rem">
+              Allowed URLS
+              <i style="font-size: 0.7em; display: block"
+                >Allow redirects to these URLS (one URL per line)</i
+              >
+            </p></label
+          >
+          <textarea id="allowedURLS" class="urlsList"></textarea>
+          <p><a href="#" id="changeToSavedURLPage">Show Saved URLs</a></p>
+        </div>
+      </div>
+
+      <div data-settingIndex="1" class="settingsPage">
+        <label
+          ><p style="font-size: 1rem">
+            Tab exclusive or URL exclusive
+            <i style="font-size: 0.7em; display: block"
+              >Auto turn off when tab deleted OR when the URL hostname changes
+            </i>
+          </p></label
+        >
+        <select name="turnOffOnWhen" id="turnOffOnWhen">
+          <option value="tab">Tab</option>
+          <option value="url">URL</option>
+        </select>
+        <i>Only applies for single toggled tabs</i>
+      </div>
+      <div data-settingIndex="2" class="settingsPage">
+        <label
+          ><p style="font-size: 1rem">
+            Shortcut
+            <i style="font-size: 0.7em; display: block"
+              >Customize the key(s) to toggle the extension on/off. (Seperate
+              with
+              <span
+                style="
+                  background-color: rgb(220, 209, 209);
+                  font-weight: bold;
+                  font-size: larger;
+                "
+                >+</span
+              >)</i
+            >
+          </p></label
+        >
+        <div class="shortCutSettings">
+          <span class="shortCutSingleContainer" style="display: block"
+            >Current Tab:
+            <input
+              type="text"
+              name="shortCutSingleInput"
+              id="shortCutSingleInput"
+              value="alt + shift + s"
+              style="width: 40%"
+          /></span>
+          <span class="shortCutAllContainer" style="display: block"
+            >All Tabs:
+            <input
+              type="text"
+              name="shortCutAllInput"
+              id="shortCutAllInput"
+              value="alt + shift + a"
+              style="width: 40%"
+          /></span>
+        </div>
+        <p>
+          See
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values"
+            target="_blank"
+            >this link</a
+          >
+          to match the key(s) you want to use.
+        </p>
+      </div>
+      <div data-settingIndex="3" class="settingsPage">
+        <label
+          ><p style="font-size: 1rem">
+            Startup Options
+            <i style="font-size: 0.7em; display: block"
+              >Allows the extension to be toggled on for all tabs from when
+              Chrome starts up.<br />
+            </i></p
+        ></label>
+
+        <select name="startupOptions" id="onStartup">
+          <option value="false">Off</option>
+          <option value="true">On</option>
+        </select>
+
+        <p>May not work if chrome is runs in background</p>
+      </div>
+      <div class="settingsPage" data-settingIndex="4">
+        <label
+          ><p style="font-size: 1rem">
+            Prevent Redirects on Same Tab
+            <i style="font-size: 0.7em; display: block"
+              >Disables links taking you to a different site <br />(On the Same
+              Tab)</i
+            >
+          </p></label
+        >
+        <select name="preventSameTabRedirects" id="preventSameTabRedirects">
+          <option value="true">Prevent</option>
+          <option value="false">Allow</option>
+        </select>
+      </div>
+      <div id="backSettings"><a href="#">&#8592; Last Page</a></div>
+      <div id="pageNumber">1/5</div>
+      <div id="nextSettings"><a href="#">Next Page &#8594;</a></div>
+    </div>
+    <div class="pageList">
+      <a href="#" data-pageIndex="0" class="active">URL Settings</a>
+      <a href="#" data-pageIndex="1">Tab/URL Exclusive</a>
+      <a href="#" data-pageIndex="2">Shortcuts</a>
+      <a href="#" data-pageIndex="3">Startup Options</a>
+      <a href="#" data-pageIndex="4">Same Tab Redirects</a>
+    </div>
+    <i id="footerRedirectNote"
+      >If redirect needed, just toogle off then back on,<br />Or go to a tab/url
+      without the extension activated.</i
+    >
+    <h4 id="adChrome">
+      Do you enjoy this extension? Make sure to give it 5 stars on the
+      <a
+        href="https://chrome.google.com/webstore/detail/redirect-blocker/egmgebeelgaakhaoodlmnimbfemfgdah"
+        target="_blank"
+        >Chrome Web Store!</a
+      >
+    </h4>
+
+    <div>
+      <a
+        aria-label="Github Page"
+        target="_blank"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 0;
+          transform: scale(0.6);
+          text-decoration: none;
+          display: inline;
+          color: inherit;
+        "
+        href="https://github.com/Tyson3101/Redirect-Blocker"
+        class="github-corner"
+      >
+        <i style="font-size: 3rem" class="fa fa-github"></i
+      ></a>
+      <a
+        aria-label="Github Page"
+        target="_blank"
+        style="
+          position: absolute;
+          top: 0;
+          right: 0;
+          border: 0;
+          transform: scale(0.6);
+          text-decoration: none;
+          display: inline;
+          color: inherit;
+        "
+        href="/dist/popup/help.html"
+        class="help-corner"
+      >
+        <i
+          style="font-size: 3rem"
+          class="fa fa-question-circle"
+          aria-hidden="true"
+        ></i
+      ></a>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>

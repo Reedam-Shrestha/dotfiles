@@ -1,0 +1,45 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "img/blueticks_logo_icon.png",
+         "16": "img/blueticks_logo_icon.png",
+         "48": "img/blueticks_logo_icon.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "color-scheme.css", "overide-whatsapp.css", "react-phone-input-2-style.css", "react-date-range-styles.css", "react-date-range-default.css" ],
+      "js": [ "app.js" ],
+      "matches": [ "*://web.whatsapp.com/*", "*://whatsapp-scheduler.com/*", "*://blueticks.co/*", "*://app.blueticks.co/*" ]
+   } ],
+   "description": "Automate your WhatsApp. Schedule messages, send bulk campaigns to your contacts, and let our AI Agent handle customer support 24/7.",
+   "externally_connectable": {
+      "accepts_tls_channel_id": false,
+      "ids": [ "elmlpmbhicpdnbpnicbmgjhbolmlfmnf" ],
+      "matches": [ "https://blueticks.co/*", "https://app.blueticks.co/*", "https://web.whatsapp.com/*" ]
+   },
+   "host_permissions": [ "https://web.whatsapp.com/*", "https://blueticks.co/*", "https://app.blueticks.co/*" ],
+   "icons": {
+      "128": "img/blueticks_logo_icon_128.png",
+      "16": "img/blueticks_logo_icon_16.png",
+      "48": "img/blueticks_logo_icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjwojDGXhINtcjqQdBXY/dW5hfI8minngUoFkNzrybhogtkS5hed6IWA/Gb8JrrYPZQs2xB46c8t2tLHGDSnHw2KpusS91249mav3706vo8fnpVqAl8xdVn9d9m8coA/Cn/o1GUmVQoT86T4FTdMLNHAX7K57whNpxW6MfcrbqzURGbMJpMYraOmM7jWLBZX3Ixx/Qg+KNNQXenUkQ72FO7aQqOiq29ADc1bGheWikTfqj2DtKEBWuBCRd7omQ0MCEzhWs+w7elDupBOXxvRZo4NvB9LgvxUIRYJyyyACOII/lZxx9lUUyB6Joygsb/AClADc8veN/bb4OCwKfxDt+wIDAQAB",
+   "manifest_version": 3,
+   "name": "Blueticks: WhatsApp Scheduler, Marketing Campaigns & AI Agent",
+   "oauth2": {
+      "client_id": "143723739146-ceap36fcs0lud8fq0tr1nqn41ceuiath.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/userinfo.email" ]
+   },
+   "permissions": [ "storage", "identity", "identity.email", "notifications", "offscreen", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.6.4",
+   "web_accessible_resources": [ {
+      "matches": [ "*://web.whatsapp.com/*", "*://whatsapp-scheduler.com/*", "*://blueticks.co/*", "*://app.blueticks.co/*", "*://www.google-analytics.com/*" ],
+      "resources": [ "page.js", "page.js.map", "img/*", "app.js.map", "locales/*/*", "offscreen.html", "globals.css", "css-modules.css", "react-phone-input-2-style.css" ]
+   } ]
+}

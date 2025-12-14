@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/wp8861445-4k-japenese-wallpapers.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f1412",
+        "foreground": "#f4f0de",
+        "cursor": "#f4f0de"
+    },
+    "colors": {
+        "color0": "#0f1412",
+        "color1": "#6894C1",
+        "color2": "#99B099",
+        "color3": "#C7BD97",
+        "color4": "#EDDAAA",
+        "color5": "#93B5CF",
+        "color6": "#AAC9D5",
+        "color7": "#f4f0de",
+        "color8": "#aaa89b",
+        "color9": "#6894C1",
+        "color10": "#99B099",
+        "color11": "#C7BD97",
+        "color12": "#EDDAAA",
+        "color13": "#93B5CF",
+        "color14": "#AAC9D5",
+        "color15": "#f4f0de"
+    }
+}

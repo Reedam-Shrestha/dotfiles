@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/hH50fa9-japanese-wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D0304",
+        "foreground": "#e7ccb0",
+        "cursor": "#e7ccb0"
+    },
+    "colors": {
+        "color0": "#0D0304",
+        "color1": "#D56553",
+        "color2": "#BB8A53",
+        "color3": "#C5904B",
+        "color4": "#C99459",
+        "color5": "#CE9A64",
+        "color6": "#D6AA6D",
+        "color7": "#e7ccb0",
+        "color8": "#a18e7b",
+        "color9": "#D56553",
+        "color10": "#BB8A53",
+        "color11": "#C5904B",
+        "color12": "#C99459",
+        "color13": "#CE9A64",
+        "color14": "#D6AA6D",
+        "color15": "#e7ccb0"
+    }
+}

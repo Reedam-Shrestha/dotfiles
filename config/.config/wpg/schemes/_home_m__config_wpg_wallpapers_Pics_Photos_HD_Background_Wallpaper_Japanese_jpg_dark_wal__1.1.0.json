@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/Pics_Photos_HD_Background_Wallpaper_Japanese.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c1c1c",
+        "foreground": "#e9e4e4",
+        "cursor": "#e9e4e4"
+    },
+    "colors": {
+        "color0": "#1c1c1c",
+        "color1": "#B47D81",
+        "color2": "#8F8E8E",
+        "color3": "#AA9697",
+        "color4": "#AFAEAE",
+        "color5": "#D1ABAE",
+        "color6": "#D0CFCF",
+        "color7": "#e9e4e4",
+        "color8": "#a39f9f",
+        "color9": "#B47D81",
+        "color10": "#8F8E8E",
+        "color11": "#AA9697",
+        "color12": "#AFAEAE",
+        "color13": "#D1ABAE",
+        "color14": "#D0CFCF",
+        "color15": "#e9e4e4"
+    }
+}

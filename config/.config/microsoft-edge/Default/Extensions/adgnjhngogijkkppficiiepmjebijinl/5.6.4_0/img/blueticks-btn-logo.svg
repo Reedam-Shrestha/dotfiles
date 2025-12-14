@@ -1,0 +1,23 @@
+<svg width="48" height="52" viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_75_233)">
+<path d="M0 2H22C34.1503 2 44 11.8497 44 24C44 36.1503 34.1503 46 22 46H0V2Z" fill="url(#paint0_linear_75_233)" shape-rendering="crispEdges"/>
+<path d="M24.4935 18.3563C24.0279 17.8864 23.2693 17.8805 22.7965 18.3431L13.9264 27.0927L10.0706 23.1086C9.61067 22.6302 8.84931 22.6145 8.37004 23.0735C7.89072 23.5325 7.87499 24.2924 8.33488 24.7708C8.33696 24.7729 8.339 24.775 8.34108 24.7771L13.0425 29.6399C13.2675 29.869 13.575 29.9987 13.8964 30H13.9097C14.225 29.999 14.5274 29.8744 14.7516 29.6531L24.4827 20.0501C24.9528 19.5847 24.9576 18.8276 24.4935 18.3563Z" fill="white"/>
+<path d="M20.2587 29.6399C20.4832 29.8684 20.7897 29.998 21.1103 30H21.1235C21.4388 29.999 21.7412 29.8744 21.9654 29.6531L31.6965 20.0501C32.1376 19.5543 32.0926 18.7957 31.5959 18.3554C31.1457 17.9563 30.4691 17.9511 30.0127 18.3431L21.1463 27.0927L20.83 26.765C20.3702 26.2866 19.6088 26.2708 19.1295 26.7298C18.6502 27.1888 18.6344 27.9486 19.0943 28.427C19.0963 28.4292 19.0984 28.4314 19.1005 28.4335L20.2587 29.6399Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_75_233" x="-4" y="0" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_75_233"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_75_233" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_75_233" x1="6.5" y1="40" x2="37.5" y2="8.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#269BE9"/>
+<stop offset="1" stop-color="#6CD1F1"/>
+</linearGradient>
+</defs>
+</svg>

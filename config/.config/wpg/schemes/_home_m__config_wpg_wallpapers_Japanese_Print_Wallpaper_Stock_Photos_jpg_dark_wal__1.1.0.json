@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/Japanese_Print_Wallpaper_Stock_Photos.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#312114",
+        "foreground": "#e9e2cd",
+        "cursor": "#e9e2cd"
+    },
+    "colors": {
+        "color0": "#312114",
+        "color1": "#CEB078",
+        "color2": "#BBAD83",
+        "color3": "#D1B886",
+        "color4": "#E3BD86",
+        "color5": "#DDC28D",
+        "color6": "#E2C48F",
+        "color7": "#e9e2cd",
+        "color8": "#a39e8f",
+        "color9": "#CEB078",
+        "color10": "#BBAD83",
+        "color11": "#D1B886",
+        "color12": "#E3BD86",
+        "color13": "#DDC28D",
+        "color14": "#E2C48F",
+        "color15": "#e9e2cd"
+    }
+}

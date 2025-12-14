@@ -1,0 +1,680 @@
+{
+   "aboutDescription": {
+      "message": "允许您从VK.com、YouTube.com等40多个网站下载直链。"
+   },
+   "aboutDescriptionLite": {
+      "message": "允许您从VK.com、Vimeo等40多个网站下载直链。"
+   },
+   "aboutPage": {
+      "message": "关于扩展"
+   },
+   "aboutSupported": {
+      "message": "支持的资源"
+   },
+   "aboutTitle": {
+      "message": "SaveFrom.net助手"
+   },
+   "aboutVersion": {
+      "message": "版本"
+   },
+   "activate": {
+      "message": "激活"
+   },
+   "activatePro": {
+      "message": "激活 PRO"
+   },
+   "aliwizTopbarButton": {
+      "message": "显示"
+   },
+   "aliwizTopbarTitle": {
+      "message": "显示 \u003Cb>可靠的卖家\u003C/b> 和 \u003Cb>最佳价格\u003C/b> 在Aliexpress上！"
+   },
+   "are_you_sure_interrupt_download": {
+      "message": "您确定要中断下载吗？"
+   },
+   "authCheck": {
+      "message": "身份验证检查"
+   },
+   "beforeDownloadPopupWarn": {
+      "message": "注意：无法取消或暂停下载。"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "cancelDownload": {
+      "message": "取消下载"
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "completed": {
+      "message": "已完成"
+   },
+   "continue": {
+      "message": "继续"
+   },
+   "conversionCompleted": {
+      "message": "转换完成"
+   },
+   "copy": {
+      "message": "复制"
+   },
+   "disable": {
+      "message": "停用"
+   },
+   "disableModule": {
+      "message": "在此网站上停用"
+   },
+   "doNotClosePage": {
+      "message": "在文件下载完成之前，请不要关闭页面！"
+   },
+   "done": {
+      "message": "完成"
+   },
+   "dont_close_page": {
+      "message": "请勿关闭页面，这将需要一些时间"
+   },
+   "download": {
+      "message": "下载"
+   },
+   "downloadFromCurrentPage": {
+      "message": "前往SaveFrom.net下载"
+   },
+   "downloadInfo": {
+      "message": "下载信息"
+   },
+   "downloadMP3Files": {
+      "message": "下载音频文件"
+   },
+   "downloadPhotos": {
+      "message": "下载照片"
+   },
+   "downloadPlaylist": {
+      "message": "下载播放列表"
+   },
+   "downloadTitle": {
+      "message": "按住Alt或Ctrl键点击链接以保存文件。"
+   },
+   "downloadWholePlaylist": {
+      "message": "下载整个播放列表"
+   },
+   "download_button_and_click": {
+      "message": "然后点击"
+   },
+   "download_button_hold": {
+      "message": "按住"
+   },
+   "downloadingBox_button": {
+      "message": "下载"
+   },
+   "downloadingBox_description": {
+      "message": "如果下载未开始，请点击下载按钮"
+   },
+   "downloadingBox_fileName": {
+      "message": "文件名"
+   },
+   "downloadingBox_status_complete": {
+      "message": "已完成"
+   },
+   "downloadingBox_status_converting": {
+      "message": "转换"
+   },
+   "downloadingBox_status_loading": {
+      "message": "正在下载..."
+   },
+   "downloadingBox_status_prepare": {
+      "message": "准备"
+   },
+   "enableDisableModule": {
+      "message": "在此网站上启用/停用"
+   },
+   "enableModule": {
+      "message": "在此网站上启用"
+   },
+   "errors": {
+      "message": "错误"
+   },
+   "extDescription": {
+      "message": "一键下载来自VKontakte、YouTube、Odnoklassniki等40多个网站的内容。"
+   },
+   "extDescriptionLite": {
+      "message": "一键下载来自VKontakte、Odnoklassniki等40多个网站的内容。"
+   },
+   "extName": {
+      "message": "SaveFrom.net助手"
+   },
+   "extNameLite": {
+      "message": "SaveFrom.net助手 Lite"
+   },
+   "filelist": {
+      "message": "文件列表"
+   },
+   "filelistInstruction": {
+      "message": "['要下载所有文件，请复制链接列表并粘贴到',{a:{href:'http://ru.wikipedia.org/wiki/Менеджер_загрузок',text:'下载管理器'}},'中。如果您没有安装下载管理器，建议安装',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'。']"
+   },
+   "filelistTitle": {
+      "message": "已找到文件列表"
+   },
+   "files": {
+      "message": "文件"
+   },
+   "getFileSizeFailTitle": {
+      "message": "无法获取文件大小，请重试。"
+   },
+   "getFileSizeTitle": {
+      "message": "获取文件大小"
+   },
+   "homePage": {
+      "message": "主页"
+   },
+   "howActivateHelperPro": {
+      "message": "如何激活 Helper Pro"
+   },
+   "installFullVersion": {
+      "message": "安装完整版"
+   },
+   "instruction": {
+      "message": "使用说明"
+   },
+   "kbps": {
+      "message": "千比特/秒"
+   },
+   "lang": {
+      "message": "zh"
+   },
+   "linksUpdated": {
+      "message": "链接已更新！"
+   },
+   "lmButtonTitle": {
+      "message": "获取直链"
+   },
+   "login": {
+      "message": "登录 Helper Pro"
+   },
+   "loginAlreadyGmMessage": {
+      "message": "您已登录，请刷新页面"
+   },
+   "loginGmMessage": {
+      "message": "前往登录页面"
+   },
+   "loginIfPro": {
+      "message": "如果您是Pro用户，请登录"
+   },
+   "logout": {
+      "message": "登出"
+   },
+   "logoutAlreadyGmMessage": {
+      "message": "您已登出，请刷新页面"
+   },
+   "logoutGmMessage": {
+      "message": "您已成功登出"
+   },
+   "menuDisable": {
+      "message": "停用"
+   },
+   "menuDownloadFromCurrentPage": {
+      "message": "使用SaveFrom.net服务下载当前页面的文件"
+   },
+   "menuDownloadMP3Files": {
+      "message": "下载页面上的所有音频文件"
+   },
+   "menuDownloadPhotos": {
+      "message": "下载页面上的所有照片"
+   },
+   "menuDownloadPlaylist": {
+      "message": "生成并下载包含音频文件链接的播放列表"
+   },
+   "menuEnable": {
+      "message": "启用"
+   },
+   "menuEnableExtension": {
+      "message": ""
+   },
+   "menuOpenPoll": {
+      "message": "请评价“SaveFrom.net助手”的质量"
+   },
+   "menuReportBug": {
+      "message": "如果遇到问题，请告诉我们"
+   },
+   "menuShowOptions": {
+      "message": "启用/禁用支持的资源和助手功能"
+   },
+   "menuUpdateLinks": {
+      "message": "如果下载链接未显示，请点击此处"
+   },
+   "minimize": {
+      "message": "最小化"
+   },
+   "minimizeDownloadPanel": {
+      "message": "最小化下载面板，我们将通知您下载完成时"
+   },
+   "more": {
+      "message": "更多"
+   },
+   "msg_data_invalid": {
+      "message": "发送的数据无效，请重试"
+   },
+   "msg_no_premium": {
+      "message": "您尚未激活 Pro 版"
+   },
+   "msg_not_authorized": {
+      "message": "要使用 Pro 功能，请登录系统"
+   },
+   "msg_quality_not_found": {
+      "message": "未找到指定的质量"
+   },
+   "msg_video_exists": {
+      "message": "视频已在下载中"
+   },
+   "msg_video_not_found": {
+      "message": "未找到指定的视频"
+   },
+   "no": {
+      "message": "否"
+   },
+   "noLinksFound": {
+      "message": "未找到链接"
+   },
+   "noWarning": {
+      "message": "不再警告"
+   },
+   "openPoll": {
+      "message": "改进扩展"
+   },
+   "optionsAviaBarEnabled": {
+      "message": "搜索廉价机票"
+   },
+   "optionsBitrate": {
+      "message": "立即显示比特率"
+   },
+   "optionsDailymotion": {
+      "message": "Dailymotion"
+   },
+   "optionsDirectory": {
+      "message": "保存文件的目录名称，支持的格式："
+   },
+   "optionsFacebook": {
+      "message": "Facebook"
+   },
+   "optionsFfmpegEnabled": {
+      "message": "启用ffmpeg转换器（Alpha版本）"
+   },
+   "optionsFormats": {
+      "message": "通过空格分隔的要在指定目录中保存的文件格式"
+   },
+   "optionsGmNativeDownload": {
+      "message": "高级下载模式"
+   },
+   "optionsHandleLinks": {
+      "message": "处理链接"
+   },
+   "optionsInstagram": {
+      "message": "Instagram"
+   },
+   "optionsMailru": {
+      "message": "Moy Mir"
+   },
+   "optionsMediaHostings": {
+      "message": "媒体托管"
+   },
+   "optionsModules": {
+      "message": "模块"
+   },
+   "optionsOdnoklassniki": {
+      "message": "Odnoklassniki"
+   },
+   "optionsRutube": {
+      "message": "Rutube"
+   },
+   "optionsSaveAsDialog": {
+      "message": "始终提示文件保存请求"
+   },
+   "optionsShowUmmyBtn": {
+      "message": "显示Ummy按钮"
+   },
+   "optionsShowUmmyInfo": {
+      "message": "显示Ummy Video Downloader提示"
+   },
+   "optionsSoundcloud": {
+      "message": "SoundCloud"
+   },
+   "optionsSovetnikEnabled": {
+      "message": "助手"
+   },
+   "optionsTiktok": {
+      "message": "Tiktok"
+   },
+   "optionsTitle": {
+      "message": "SaveFrom.net助手 - 选项"
+   },
+   "optionsVimeo": {
+      "message": "Vimeo"
+   },
+   "optionsVkontakte": {
+      "message": "VKontakte"
+   },
+   "optionsYTHideLinks": {
+      "message": "隐藏链接"
+   },
+   "optionsYoutube": {
+      "message": "YouTube"
+   },
+   "options_Actions_title": {
+      "message": "操作"
+   },
+   "options_Directory_title": {
+      "message": "目录"
+   },
+   "options_Formats_title": {
+      "message": "格式"
+   },
+   "options_button_add": {
+      "message": "添加"
+   },
+   "options_button_cancel": {
+      "message": "取消"
+   },
+   "options_button_delete": {
+      "message": "删除"
+   },
+   "options_button_edit": {
+      "message": "编辑"
+   },
+   "options_button_reset": {
+      "message": "重置"
+   },
+   "options_button_save": {
+      "message": "保存"
+   },
+   "options_management": {
+      "message": "管理保存方式（按目录排序文件）"
+   },
+   "options_no_type_msg": {
+      "message": "未定义类型"
+   },
+   "partnersLinksOnly": {
+      "message": "未找到链接，请使用合作产品"
+   },
+   "playlist": {
+      "message": "播放列表"
+   },
+   "playlistInstruction": {
+      "message": "保存的播放列表可以在播放器中打开进行播放。"
+   },
+   "playlistTitle": {
+      "message": "播放列表"
+   },
+   "prepareDownload": {
+      "message": "准备下载"
+   },
+   "pro": {
+      "message": "PRO"
+   },
+   "probannerAlreadyHave": {
+      "message": "已有PRO？"
+   },
+   "probannerDescription": {
+      "message": "充分利用Helper PRO，仅需"
+   },
+   "probannerFeature1": {
+      "message": "下载HD/4K视频"
+   },
+   "probannerFeature2": {
+      "message": "仅保存为MP3"
+   },
+   "probannerFeature3": {
+      "message": "支持700多个网站"
+   },
+   "probannerFeature4": {
+      "message": "在所有设备上访问"
+   },
+   "probannerLoginLink": {
+      "message": "登录"
+   },
+   "probannerPrice": {
+      "message": "￥35/月"
+   },
+   "probannerTitle": {
+      "message": "使用Savefrom Helper PRO无限下载！"
+   },
+   "probannerUpgradeButton": {
+      "message": "获取PRO"
+   },
+   "quality": {
+      "message": "质量"
+   },
+   "qualityNote": {
+      "message": "如果没有所需质量的视频，将下载最佳质量的视频。"
+   },
+   "readMore": {
+      "message": "了解更多..."
+   },
+   "reportBug": {
+      "message": "报告问题"
+   },
+   "sendToButton": {
+      "message": "发送到手机"
+   },
+   "sendToEmailButton": {
+      "message": "留下邮箱"
+   },
+   "sendToEmailInputError": {
+      "message": "错误"
+   },
+   "sendToEmailInputPlaceholder": {
+      "message": "请输入您的邮箱"
+   },
+   "sendToEmailText": {
+      "message": "我们正在积极开发此功能。请留下您的电子邮件地址，我们将在服务推出时发送独家邀请！"
+   },
+   "sendToEmailTextComplete": {
+      "message": "谢谢！"
+   },
+   "sendToEmailTitle": {
+      "message": "感谢您对我们服务的关注！"
+   },
+   "sendToLinkGoBack": {
+      "message": "返回视频下载"
+   },
+   "sendToLoginButton": {
+      "message": "登录"
+   },
+   "sendToLoginText": {
+      "message": "请通过Google登录以发送所选视频"
+   },
+   "sendToLoginTitle": {
+      "message": "立即下载到您的手机！"
+   },
+   "sendToTextOr": {
+      "message": "或"
+   },
+   "shareIn": {
+      "message": "分享到%w"
+   },
+   "showButton": {
+      "message": "显示扩展按钮"
+   },
+   "showHideButton": {
+      "message": "显示/隐藏扩展按钮"
+   },
+   "showOptions": {
+      "message": "选项"
+   },
+   "size": {
+      "message": "大小"
+   },
+   "socialDesc": {
+      "message": "SaveFrom.net助手免费帮助您从VK.com、YouTube.com、Odnoklassniki.ru等40多个网站下载内容。"
+   },
+   "someFilesNeedConverted": {
+      "message": "一些文件需要进行转换，请在操作完成前不要关闭窗口"
+   },
+   "somethingWentWrong": {
+      "message": "出了点问题，请稍后再试"
+   },
+   "subtitles": {
+      "message": "字幕"
+   },
+   "success": {
+      "message": "成功"
+   },
+   "televzrNotFound": {
+      "message": "Televzr 未找到"
+   },
+   "televzrNotFoundSubMessage": {
+      "message": "尝试下载并打开 Televzr"
+   },
+   "titleDefault": {
+      "message": "SaveFrom.net助手"
+   },
+   "titleDesabled": {
+      "message": "已停用SaveFrom.net助手"
+   },
+   "tooltipHide": {
+      "message": "不再显示此消息"
+   },
+   "try_pro_button": {
+      "message": "尝试 Pro 版"
+   },
+   "tutorialTooltipConfirm": {
+      "message": "确定"
+   },
+   "tutorialTooltipHeader": {
+      "message": "一键下载视频！"
+   },
+   "tutorialTooltipText": {
+      "message": "点击按钮选择质量并下载视频。"
+   },
+   "tzDownloadStarted": {
+      "message": "已添加到下载"
+   },
+   "tzPreparingToDownload": {
+      "message": "准备下载"
+   },
+   "tzSearchApp": {
+      "message": "搜索 Televzr"
+   },
+   "ummyMenuInfo": {
+      "message": "[{p:{append:['使用免费的',{br:{}},'Ummy Video Downloader软件下载高清和MP3。']}},{p:{class:'center',append:[{a:{class:'green-btn-2 arrow',href:'{url}',target:'_blank',text:'安装'}}]}},{p:{append:['安装后，单击',{img:{src:'#'}},'将自动开始下载']}}]"
+   },
+   "ummyMenuItem": {
+      "message": "[{span:{}},' 使用Ummy下载']"
+   },
+   "ummySfTitle": {
+      "message": "高清或MP3"
+   },
+   "ummyTooltipConfirm": {
+      "message": "['您是否已安装',{br:{}},{img:{}},'Ummy Video Downloader？']"
+   },
+   "updateLinks": {
+      "message": "更新链接"
+   },
+   "updateLinksNotification": {
+      "message": "链接已更新"
+   },
+   "updateTo": {
+      "message": "升级至%d"
+   },
+   "upgrade": {
+      "message": "升级"
+   },
+   "video": {
+      "message": "视频"
+   },
+   "videoDownloaded": {
+      "message": "视频下载成功"
+   },
+   "videoDownloading": {
+      "message": "视频下载中"
+   },
+   "video_coming_ok": {
+      "message": "知道了"
+   },
+   "video_coming_soon": {
+      "message": "视频即将开始下载"
+   },
+   "vkDownloadAllPhotoAlbums": {
+      "message": "下载所有相册"
+   },
+   "vkDownloadFromYoutube": {
+      "message": "['要下载视频，请打开',{a:{href:'{url}',text:'视频页面'}},'并点击播放器上方的“下载”按钮。']"
+   },
+   "vkDownloadPhotoAlbum": {
+      "message": "下载相册"
+   },
+   "vkFileSizeByte": {
+      "message": "字节"
+   },
+   "vkFileSizeGByte": {
+      "message": "千兆字节"
+   },
+   "vkFileSizeKByte": {
+      "message": "千字节"
+   },
+   "vkFileSizeMByte": {
+      "message": "兆字节"
+   },
+   "vkFileSizeTByte": {
+      "message": "太字节"
+   },
+   "vkFoundFiles": {
+      "message": "找到%d个文件"
+   },
+   "vkFoundLinks": {
+      "message": "找到链接"
+   },
+   "vkFoundOf": {
+      "message": "的链接"
+   },
+   "vkFoundPhotos": {
+      "message": "找到照片"
+   },
+   "vkInfo": {
+      "message": "参数"
+   },
+   "vkInfoTitle": {
+      "message": "文件大小和比特率"
+   },
+   "vkKbps": {
+      "message": "千比特/秒"
+   },
+   "vkListOfLinks": {
+      "message": "链接列表"
+   },
+   "vkListOfLinksInstruction": {
+      "message": "['要下载所有照片，请复制链接列表并粘贴到',{a:{href:'http://ru.wikipedia.org/wiki/Менеджер_загрузок',text:'下载管理器'}},'中。如果您没有安装下载管理器，建议安装',{a:{href:'http://www.westbyte.com/dm/',text:'Download Master'}},'。']"
+   },
+   "vkListOfPhotos": {
+      "message": "照片列表"
+   },
+   "vkListOfPhotosInstruction": {
+      "message": "要下载照片，请单击照片以打开它。"
+   },
+   "vkMp3LinksNotFound": {
+      "message": "未找到MP3链接"
+   },
+   "vkNotAvailablePhotos": {
+      "message": "%d张照片当前不可用"
+   },
+   "vkPhotoLinksNotFound": {
+      "message": "未找到照片链接"
+   },
+   "vkShowAs": {
+      "message": "显示为"
+   },
+   "vkTableOfThumbnails": {
+      "message": "缩略图表格"
+   },
+   "warningPopupDesc": {
+      "message": "下载时必须禁用文件夹选择。"
+   },
+   "warningPopupTitle": {
+      "message": "检查浏览器设置"
+   },
+   "withoutAudio": {
+      "message": "无音频"
+   },
+   "yes": {
+      "message": "是"
+   }
+}

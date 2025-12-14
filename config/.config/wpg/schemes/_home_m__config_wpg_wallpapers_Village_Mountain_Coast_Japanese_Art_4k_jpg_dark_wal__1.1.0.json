@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/m/.config/wpg/wallpapers/Village_Mountain_Coast_Japanese_Art_4k.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E2425",
+        "foreground": "#c3d9db",
+        "cursor": "#c3d9db"
+    },
+    "colors": {
+        "color0": "#0E2425",
+        "color1": "#7DB2C3",
+        "color2": "#8FA38D",
+        "color3": "#8AB0B5",
+        "color4": "#A1C796",
+        "color5": "#EDDFAE",
+        "color6": "#8FBCC5",
+        "color7": "#c3d9db",
+        "color8": "#889799",
+        "color9": "#7DB2C3",
+        "color10": "#8FA38D",
+        "color11": "#8AB0B5",
+        "color12": "#A1C796",
+        "color13": "#EDDFAE",
+        "color14": "#8FBCC5",
+        "color15": "#c3d9db"
+    }
+}

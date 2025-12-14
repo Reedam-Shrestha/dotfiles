@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": "images/star48.png",
+      "default_popup": "popup/popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/star128.png",
+      "16": "images/star16.png",
+      "48": "images/star48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv3SbqCVSchUgfdLwkrMypciVNzeSMkofPtyRzG8tCS+C35t4VXKlBJdsG3pmF1RVyo5RarSLOV9gqgWNRELmyjhafxXTXlaGMMAaTmCc/xthPgwk3Zt3ZASfVICtHLxxaZf29Wf2JpiHLyj/fbk2ChRWTy0V7B3CkA+VLPOqzgROeQPWze8gDqigoCjpv3eey+ApmmhbVEmPnU0/QtPcxBp1Phhzk0Mnv9JnR+luloK5aXuvgb96PgNL8NbAAndT772WvB3ppS4jwFseVE2X/R3He6ZMmJeD4wiA6dUoDZyJ/sAjGEcqmzCxdn1eRg0qctDU/4gKr4g9AMcUEac0qQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0.0.0",
+   "name": "__MSG_appName__",
+   "permissions": [ "history", "tabs", "storage" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

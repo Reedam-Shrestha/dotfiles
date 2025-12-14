@@ -1,0 +1,742 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Web Historian - Visualize your web use to understand your habits."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Web Historian - Education Edition"
+   },
+   "appShortName": {
+      "description": "The name of the application.",
+      "message": "Web Historian Edu"
+   },
+   "change_study": {
+      "description": "Change Study",
+      "message": "Change Study"
+   },
+   "databaseChromeExtension": {
+      "description": "Chrome Extension",
+      "message": "Chrome Extension"
+   },
+   "databaseExtension": {
+      "description": "Extension",
+      "message": "Extension"
+   },
+   "databaseFirefoxExtension": {
+      "description": "Firefox Extension",
+      "message": "Firefox Extension"
+   },
+   "databaseLocalFile": {
+      "description": "Local File",
+      "message": "Local File"
+   },
+   "databaseUnknown": {
+      "description": "Unknown Authority",
+      "message": "Unknown Authority"
+   },
+   "homeLoadingDataTable": {
+      "description": "One moment please. Loading Data Table.",
+      "message": "One moment please. Loading Data Table."
+   },
+   "homeLoadingHeatmap": {
+      "description": "One moment please. Loading Time Heatmap.",
+      "message": "One moment please. Loading Time Heatmap."
+   },
+   "homeLoadingHome": {
+      "description": "One moment please. Loading Home.",
+      "message": "One moment please. Loading Home."
+   },
+   "homeLoadingNetwork": {
+      "description": "One moment please. Loading Network.",
+      "message": "One moment please. Loading Network."
+   },
+   "homeLoadingSearchWords": {
+      "description": "One moment please. Loading Search Words.",
+      "message": "One moment please. Loading Search Words."
+   },
+   "homeLoadingVisits": {
+      "description": "One moment please. Loading Web Visits.",
+      "message": "One moment please. Loading Web Visits."
+   },
+   "html0001": {
+      "description": "Web Historian | Community Edition",
+      "message": "Web Historian | Community Edition"
+   },
+   "html0002": {
+      "description": "Toggle navigation",
+      "message": "Toggle navigation"
+   },
+   "html0003": {
+      "description": "Web Historian: Community Edition",
+      "message": "Web Historian: Community Edition"
+   },
+   "html0004": {
+      "description": "Navigation: ",
+      "message": "Navigation: "
+   },
+   "html0005": {
+      "description": "Web Historian: Explore Your Data",
+      "message": "Web Historian: Explore Your Data"
+   },
+   "html0006": {
+      "description": "Web Visits",
+      "message": "Web Visits"
+   },
+   "html0007": {
+      "description": "Circles sized by number of days a site was visited, or total visits to the site.",
+      "message": "Circles sized by number of days a site was visited, or total visits to the site."
+   },
+   "html0008": {
+      "description": "Search Terms",
+      "message": "Search Terms"
+   },
+   "html0009": {
+      "description": "Words used in multiple web searches are larger.",
+      "message": "Words used in multiple web searches are larger."
+   },
+   "html0010": {
+      "description": "Network",
+      "message": "Network"
+   },
+   "html0011": {
+      "description": "Links between websites browsed from - to.",
+      "message": "Links between websites browsed from - to."
+   },
+   "html0012": {
+      "description": "Time Heatmap",
+      "message": "Time Heatmap"
+   },
+   "html0013": {
+      "description": "Hours of the day and days of the week when you browse the web the most.",
+      "message": "Hours of the day and days of the week when you browse the web the most."
+   },
+   "html0014": {
+      "description": "My Visits",
+      "message": "My Visits"
+   },
+   "html0015": {
+      "description": "My Habits",
+      "message": "My Habits"
+   },
+   "html0016": {
+      "description": "START",
+      "message": "START"
+   },
+   "html0017": {
+      "description": "NOW",
+      "message": "NOW"
+   },
+   "html0018": {
+      "description": "Pages",
+      "message": "Pages"
+   },
+   "html0019": {
+      "description": "Domains",
+      "message": "Domains"
+   },
+   "html0020": {
+      "description": "Loading",
+      "message": "Loading"
+   },
+   "html0021": {
+      "description": "CUSTOM: step 2 body",
+      "message": "[fill in html for your study]"
+   },
+   "html0029": {
+      "description": "CUSTOM: Step 1 body",
+      "message": "[fill in html for your study]"
+   },
+   "html0033": {
+      "description": "If you decide to participate in the research, the browsing history from your computer will be securely sent to the Web Historian server \u003Cstrong>after\u003C/strong> you have reviewed and filtered it.",
+      "message": ""
+   },
+   "html0034": {
+      "description": "Now, your web browsing history is on your computer, your ISP (Internet Service Provider), and part of it is on every website you visit.",
+      "message": "Now, your web browsing history is on your computer, your ISP, and part of it is on the websites you visit."
+   },
+   "html0035": {
+      "description": "You can clear the browsing history on your computer whenever you choose, but you have little control over the browsing history your ISP and other websites have unless you use a trustworthy VPN, which tends to come with a monthly price, or \u003Ca href=\"https://www.torproject.org/projects/torbrowser.html.en\" target=\"_blank\">Tor\u003C/a>, which can slow your browsing speed.",
+      "message": " "
+   },
+   "html0036": {
+      "description": "If you decide to participate in the research, the browsing history from your computer that you have reviewed and filtered will be securely sent to the Web Historian server once.",
+      "message": "If you decide to participate in the research, the browsing history from your computer that you have reviewed and filtered will be securely sent to the Web Historian server only when you click 'Participate,' never any other time."
+   },
+   "html0037": {
+      "description": "In 2017 the U.S. government revoked new rules that would have regulated how ISPs use your data. The ISPs claimed that the rules put them at a disadvantage since the rules did not apply to other companies that have similar data like Google and Facebook. \u003Ca href=\"https://www.washingtonpost.com/news/the-switch/wp/2017/03/28/republicans-are-poised-to-roll-back-landmark-fcc-privacy-rules-heres-what-you-need-to-know/\" target=\"_blank\">This article\u003C/a> has more details. The \u003Ca href=\"http://eff.org/\" target=\"_blank\">Electronic Frontier Foundation\u003C/a> (EFF) is a nonprofit organization dedicated to defending civil liberties in the digital world.",
+      "message": " "
+   },
+   "html0038": {
+      "description": "Tools like this browser extensions help people to better understand the web browsing data that is already on their computers, ISPs and in pieces throughout the web, giving people a concrete understanding of an issue that is often vague and hypothetical.",
+      "message": "Tools like this browser extensions help people to better understand the web browsing data that is already on their computers, ISPs and in pieces throughout the web, giving people a concrete understanding of an issue that is often vague and hypothetical."
+   },
+   "html0039": {
+      "description": "Please wait for the green progress bar at the top. \u003C/strong>\u003Cbr/>Next steps will become available when the data loading process completes.",
+      "message": "Please wait for the green progress bar at the top. \u003C/strong>\u003Cbr/>Next steps will become available when the data loading process completes."
+   },
+   "html0040": {
+      "description": "This is a visualization of your browsing habits. The larger sites are the ones you use most regularly on this browser. \u003Cbr/>Right-click to delete all visits to the selected domain.",
+      "message": "This is a visualization of your browsing habits. The larger sites are the ones you use most regularly on this browser. \u003Cbr/>Right-click to delete all visits to the selected domain."
+   },
+   "html0041": {
+      "description": "This is a visualization of your browsing habits. The larger sites are the ones you use most regularly on this browser.",
+      "message": "This is a visualization of your browsing habits. The larger sites are the ones you use most regularly on this browser."
+   },
+   "html0042": {
+      "description": "This visualization displays an example of web browsing data. Larger sites are visited most regularly in this example.",
+      "message": "This visualization displays an example of web browsing data. Larger sites are visited most regularly in this example."
+   },
+   "html0043": {
+      "description": "Visits",
+      "message": "Visits"
+   },
+   "html0044": {
+      "description": "This is a visualization of the sites that link you to other sites. \u003Cbr/>Right-click to delete all visits to the chosen domain.",
+      "message": "This is a visualization of the sites that link you to other sites. \u003Cbr/>Right-click to delete all visits to the chosen domain."
+   },
+   "html0045": {
+      "description": "This is a visualization of the sites that link you to other sites.",
+      "message": "This is a visualization of the sites that link you to other sites."
+   },
+   "html0046": {
+      "description": "This is a visualization of the sites that linked an example user to other sites. This visualization displays an example of web browsing data.",
+      "message": "This is a visualization of the sites that linked an example user to other sites. This visualization displays an example of web browsing data."
+   },
+   "html0047": {
+      "description": "These are the words typed into search engines like Google, Bing and Yahoo. Words used in different searches are larger. \u003Cbr/>Right click to delete all searches that contain the chosen term.",
+      "message": "These are the words typed into search engines like Google, Bing and Yahoo. Words used in different searches are larger. \u003Cbr/>Right click to delete all searches that contain the chosen term."
+   },
+   "html0048": {
+      "description": "These are the words typed into search engines like Google, Bing and Yahoo. Words used in different searches are larger.",
+      "message": "These are the words typed into search engines like Google, Bing and Yahoo. Words used in different searches are larger."
+   },
+   "html0049": {
+      "description": "These are the words typed into search engines like Google, Bing and Yahoo. Words used in multiple searches are larger. This visualization displays an example of web browsing data.",
+      "message": "These are the words typed into search engines like Google, Bing and Yahoo. Words used in multiple searches are larger. This visualization displays an example of web browsing data."
+   },
+   "html0050": {
+      "description": "This is the time of day and day of the week when you use this web browser.",
+      "message": "This is the time of day and day of the week when you use this web browser."
+   },
+   "html0051": {
+      "description": "This shows the time of day and day of the week when the sample user used this web browser.",
+      "message": "This shows the time of day and day of the week when the sample user used this web browser."
+   },
+   "html0052": {
+      "description": "Pages",
+      "message": "Pages"
+   },
+   "html0053": {
+      "description": "Domains",
+      "message": "Domains"
+   },
+   "html0054": {
+      "description": "Step 9 body - CUSTOM: [Your Consent Form]",
+      "message": "[fill in html for your study]"
+   },
+   "html0055": {
+      "description": "There is not enough web browsing data on this browser to continue the study.",
+      "message": "There is not enough web browsing data on this browser to continue the study"
+   },
+   "html0056": {
+      "description": "The browsing history may have been cleared recently, or the browser may have been used extremely infrequently. ",
+      "message": "The browsing history may have been cleared recently, or the browser may have been used extremely infrequently. "
+   },
+   "html0057": {
+      "description": "If you use the web on a different computer or laptop you may be able to participate using that browser.",
+      "message": "If you use the web on a different computer or laptop you may be able to participate using that browser."
+   },
+   "html0058": {
+      "description": "Next",
+      "message": "Next"
+   },
+   "html0059": {
+      "description": "Participate",
+      "message": "Participate"
+   },
+   "html0060": {
+      "description": "Return to Survey",
+      "message": "Return to Survey"
+   },
+   "html0061": {
+      "description": "Upload Data to the Research Project",
+      "message": "Upload Data to the Research Project"
+   },
+   "html0062": {
+      "description": "Click Participate to begin.",
+      "message": "Click Participate to begin."
+   },
+   "html0063": {
+      "description": "Survey",
+      "message": "Survey"
+   },
+   "html0064": {
+      "description": "You can begin the research survey that just opened in a new tab while your data uploads.",
+      "message": "You can begin the research survey that just opened in a new tab while your data uploads."
+   },
+   "html0065": {
+      "description": "Cancel",
+      "message": "Cancel"
+   },
+   "html0066": {
+      "description": "Participate",
+      "message": "Participate"
+   },
+   "html0067": {
+      "description": "Your Identifier",
+      "message": "Your Identifier"
+   },
+   "html0068": {
+      "description": "Back",
+      "message": "Back"
+   },
+   "html0069": {
+      "description": "Continue",
+      "message": "Continue"
+   },
+   "html0070": {
+      "description": "Welcome!",
+      "message": "Welcome!"
+   },
+   "html0071": {
+      "description": "Were you given a Web Historian ID to use as part of a research project?",
+      "message": "Were you given a Web Historian ID to use as part of a research project?"
+   },
+   "html0072": {
+      "description": "Yes",
+      "message": "Yes"
+   },
+   "html0073": {
+      "description": "No",
+      "message": "No"
+   },
+   "html0074": {
+      "description": "Have you installed Web Historian on another web browser previously?",
+      "message": "Have you installed Web Historian on another web browser previously?"
+   },
+   "html0075": {
+      "description": "Modal title",
+      "message": "Modal title"
+   },
+   "html0076": {
+      "description": "One fine body…",
+      "message": "One fine body…"
+   },
+   "html0077": {
+      "description": "Close",
+      "message": "Close"
+   },
+   "html0078": {
+      "description": "Save changes",
+      "message": "Save changes"
+   },
+   "html0079": {
+      "description": "Loading Content",
+      "message": "Loading Content"
+   },
+   "html0080": {
+      "description": "Loading Main Content",
+      "message": "Loading Main Content"
+   },
+   "html0081": {
+      "description": "You can view study information (Step 1-3) while data loads. Steps 4-9 appear when data are finished loading.",
+      "message": "You can view study information (Step 1-3) while data loads. Steps 4-9 appear when data are finished loading."
+   },
+   "html0082": {
+      "description": "Click anywhere to continue.",
+      "message": "Click anywhere to continue."
+   },
+   "html0083": {
+      "description": "Web Historian Settings",
+      "message": "Web Historian Settings"
+   },
+   "html0084": {
+      "description": "You may need to change your User ID or study if directed to do so by the research project or panel. If you change these settings without being directed to do so by the research project it may delay and complicate sending your compensation for this study.",
+      "message": "You may need to change your User ID or study \u003Cstrong>if directed to do so by the research project or panel\u003C/strong>. If you change these settings without being directed to do so by the research project it may delay and complicate sending your compensation for this study."
+   },
+   "html0085": {
+      "description": "User ID",
+      "message": "User ID"
+   },
+   "html0086": {
+      "description": "Save Changes",
+      "message": "Save Changes"
+   },
+   "html0087": {
+      "description": "Reset",
+      "message": "Reset"
+   },
+   "html0088": {
+      "description": "Resetting Web Historian",
+      "message": "Resetting Web Historian"
+   },
+   "html0089": {
+      "description": "Confirm Participation",
+      "message": "Confirm Participation"
+   },
+   "html0090": {
+      "description": "Participate in the research project by uploading your web history to the Web Historian servers and completing the survey?",
+      "message": "Participate in the research project by uploading your web history to the Web Historian servers and completing the survey?"
+   },
+   "html0091": {
+      "description": "UPLOADING",
+      "message": "UPLOADING"
+   },
+   "html0092": {
+      "description": "UPLOAD COMPLETE! THANK YOU!",
+      "message": "UPLOAD COMPLETE! THANK YOU!"
+   },
+   "html0093": {
+      "description": "UPLOAD FAILED - Check your Internet connection and try again.",
+      "message": "UPLOAD FAILED - Check your Internet connection and try again."
+   },
+   "html0094": {
+      "description": "\u003Cstrong>Please do not close this tab until the upload is complete.\u003C/strong>",
+      "message": "\u003Cstrong>Please do not close this tab until the upload is complete.\u003C/strong>"
+   },
+   "html0095": {
+      "description": "Cancel",
+      "message": "Cancel"
+   },
+   "html0096": {
+      "description": "Upload",
+      "message": "Upload"
+   },
+   "html0097": {
+      "description": "Return to Study Survey",
+      "message": "Return to Study Survey"
+   },
+   "html0098": {
+      "description": "I do NOT consent to upload any of my web browsing data to the study. ",
+      "message": "I do NOT consent to upload any of my web browsing data to the study. "
+   },
+   "html0099": {
+      "description": "Choose \"RETURN\" to complete the survey.",
+      "message": "Choose \"RETURN\" to complete the survey."
+   },
+   "html0100": {
+      "description": "A new tab will open with the survey.",
+      "message": "A new tab will open with the survey."
+   },
+   "html0101": {
+      "description": "Cancel",
+      "message": "Cancel"
+   },
+   "html0102": {
+      "description": "Return",
+      "message": "Return"
+   },
+   "html0103": {
+      "description": " A new tab will open with the survey.",
+      "message": " A new tab will open with the survey."
+   },
+   "imgtitles": {
+      "description": "subtitles for image in step 3",
+      "message": "\u003Ccenter>Your Computer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your ISP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'The Cloud' (the sites you visit)\u003C/center>"
+   },
+   "par_again": {
+      "description": "Only for multi-study. You will need to choose 'Participate' again.",
+      "message": "You will need to choose 'Participate' again."
+   },
+   "step1title": {
+      "description": "Step 1: Welcome to Web Historian - Community Edition",
+      "message": "Step 1"
+   },
+   "step2title": {
+      "description": "Step 2: Research Project",
+      "message": "Step 2"
+   },
+   "step3title": {
+      "description": "Step 3: Where is your web browsing history?",
+      "message": "Step 3: Where is your web browsing history?"
+   },
+   "step4title": {
+      "description": "Step 4: Review Your Data: Visits & Habits",
+      "message": "Step 4: Review Your Data: Visits & Habits"
+   },
+   "step5title": {
+      "description": "Step 5: Review Your Data: Site Links",
+      "message": "Step 5: Review Your Data: Site Links"
+   },
+   "step6title": {
+      "description": "Step 6: Review Your Data: Web Searches",
+      "message": "Step 6: Review Your Data: Web Searches"
+   },
+   "step7title": {
+      "description": "Step 7: When You Use the Web",
+      "message": "Step 7: When You Use the Web"
+   },
+   "step8title": {
+      "description": "Step 8: Your Web Usage History",
+      "message": "Step 8: Your Web Usage History"
+   },
+   "step9title": {
+      "description": "Step 9: Informed Consent",
+      "message": "Step 9: Consent Form"
+   },
+   "study": {
+      "description": "Study",
+      "message": "Study:"
+   },
+   "study_set": {
+      "description": "Question in the pop-up when the study is unclear. CUSTOM",
+      "message": "[fill in only for projects with multiple studies]"
+   },
+   "study_set_title": {
+      "description": "Title of the pop-up when the study is unclear.",
+      "message": "Web Historian Study Settings"
+   },
+   "svr": {
+      "description": "View on Server",
+      "message": "View on Server"
+   },
+   "tableDate": {
+      "description": "Date",
+      "message": "Date"
+   },
+   "tableDomain": {
+      "description": "Domain",
+      "message": "Domain"
+   },
+   "tableTitle": {
+      "description": "Title",
+      "message": "Title"
+   },
+   "timeAllData1": {
+      "description": "All x Weeks",
+      "message": "All "
+   },
+   "timeAllData2": {
+      "description": "All x Weeks",
+      "message": " Weeks"
+   },
+   "timeAllDataTitle": {
+      "description": "Browsing by hour of the day &amp; day of the week, start - end",
+      "message": "Browsing by hour of the day &amp; day of the week, "
+   },
+   "timeHeatmap": {
+      "description": "Time Heatmap",
+      "message": "Time Heatmap"
+   },
+   "timeHeatmap2": {
+      "description": "Browsing by hour of the day &amp; day of the week, ",
+      "message": "Browsing by hour of the day &amp; day of the week, "
+   },
+   "timeHeatmap3": {
+      "description": "Is this visualization incomplete? If you also use Internet Explorer or Firefox, you can import your browsing history to include it. Just follow these steps",
+      "message": "Is this visualization incomplete? If you also use Internet Explorer or Firefox, you can import your browsing history to include it. Just follow "
+   },
+   "timeHeatmap4": {
+      "description": "Is this visualization incomplete? If you also use Internet Explorer or Firefox, you can import your browsing history to include it. Just follow these steps",
+      "message": "these steps"
+   },
+   "timeHeatmap5": {
+      "description": "Week",
+      "message": "Week"
+   },
+   "timeHeatmapTooltip1": {
+      "description": "Visits ... on ... ...  - Right-click to see what these visits are.",
+      "message": "Visits: "
+   },
+   "timeHeatmapTooltip2": {
+      "description": "Visits ... on ... ...  - Right-click to see what these visits are.",
+      "message": " on "
+   },
+   "timeHeatmapTooltip3": {
+      "description": "Visits ... on ... ...  - Right-click to see what these visits are.",
+      "message": "Right-click to see what these visits are."
+   },
+   "timeMenu1": {
+      "description": "View in Data Table",
+      "message": "View in Data Table"
+   },
+   "timeMenu1Title": {
+      "description": "N visits - To return to a visualization please use the Navigation above.",
+      "message": " visits - To return to a visualization please use the Navigation above."
+   },
+   "timeMenu1VizTitle1": {
+      "description": "All Visits on dd at hh:00 (24 hr format)",
+      "message": "All Visits on "
+   },
+   "timeMenu1VizTitle2": {
+      "description": "All Visits on dd at hh:00 (24 hr format)",
+      "message": " at "
+   },
+   "timeMenu1VizTitle3": {
+      "description": "All Visits on dd at hh:00 (24 hr format)",
+      "message": ":00 (24 hr format)"
+   },
+   "timeMenu2": {
+      "description": "View in Web Visits",
+      "message": "View in Web Visits"
+   },
+   "timeMenu2Title": {
+      "description": "N visits - To return to a visualization please use the Navigation above.",
+      "message": " visits - To return to a visualization please use the Navigation above."
+   },
+   "timeMenu2VizTitle1": {
+      "description": "All Visits on dd at hh:00 (24 hr format)",
+      "message": "All Visits on "
+   },
+   "timeMenu2VizTitle2": {
+      "description": "All Visits on dd at hh:00 (24 hr format)",
+      "message": " at "
+   },
+   "timeMenu2VizTitle3": {
+      "description": "All Visits on dd at hh:00 (24 hr format)",
+      "message": ":00 (24 hr format)"
+   },
+   "timeThisWeek": {
+      "description": "This Week - Default",
+      "message": "This Week - Default"
+   },
+   "timeWeek": {
+      "description": "Browsing by hour of the day &amp; day of the week, x - x",
+      "message": "Browsing by hour of the day &amp; day of the week, "
+   },
+   "usrset": {
+      "description": "User Settings",
+      "message": "User Settings"
+   },
+   "utilsStopwordsRx": {
+      "description": "regular expression of which common words to remove from the search word wordle",
+      "message": "^(i|me|my|myself|we|us|our|ours|ourselves|you|your|yours|yourself|yourselves|he|him|his|himself|she|her|hers|herself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|whose|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|will|would|should|can|could|ought|i'm|you're|he's|she's|it's|we're|they're|i've|you've|we've|they've|i'd|you'd|he'd|she'd|we'd|they'd|i'll|you'll|he'll|she'll|we'll|they'll|isn't|aren't|wasn't|weren't|hasn't|haven't|hadn't|doesn't|don't|didn't|won't|wouldn't|shan't|shouldn't|can't|cannot|couldn't|mustn't|let's|that's|who's|what's|here's|there's|when's|where's|why's|how's|a|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|upon|down|in|out|on|off|over|under|again|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|such|no|nor|not|only|own|same|so|than|too|very|say|says|said|shall|http|https|com)$"
+   },
+   "wdtConfirmModalBody": {
+      "description": "Would you like to remove the selected pages from Web Historian?",
+      "message": "Would you like to remove the selected pages from Web Historian?"
+   },
+   "wdtConfirmModalBody2": {
+      "description": "Would you like to remove the selected domains from Web Historian?",
+      "message": "Would you like to remove the selected domains from Web Historian?"
+   },
+   "wdtConfirmModalCancel": {
+      "description": "No",
+      "message": "No"
+   },
+   "wdtConfirmModalConfirm": {
+      "description": "Yes",
+      "message": "Yes"
+   },
+   "wdtConfirmModalTitle": {
+      "description": "Remove URLs?",
+      "message": "Remove URLs?"
+   },
+   "wdtConfirmModalTitle2": {
+      "description": "Remove domains?",
+      "message": "Remove domains?"
+   },
+   "wdtPanelTitle1": {
+      "description": "Web Historian: Explore Your Data",
+      "message": "Web Historian: Explore Your Data"
+   },
+   "wdtPanelTitle2": {
+      "description": "Web Historian: Exploring data from domname",
+      "message": "Web Historian: Exploring data from "
+   },
+   "wnMenu1Confirm1": {
+      "description": "Do you want to PERMANENTLY remove ALL visits to URLs from ",
+      "message": "Do you want to PERMANENTLY remove ALL visits to URLs from "
+   },
+   "wnMenu1Confirm2": {
+      "description": " from your local browser history?",
+      "message": " from your local browser history?"
+   },
+   "wnMenu1Title": {
+      "description": "Permanently Delete",
+      "message": "Permanently Delete"
+   },
+   "wnTooltip1": {
+      "description": " Category: ",
+      "message": " Category: "
+   },
+   "wtTooltip1": {
+      "description": "Visits: ",
+      "message": "Visits: "
+   },
+   "wtTooltip2": {
+      "description": "on",
+      "message": " on "
+   },
+   "wtTooltip3": {
+      "description": " -- Right-click to see what these visits are.",
+      "message": " -- Right-click to see what these visits are."
+   },
+   "wvMenu1SubTitle": {
+      "description": "To return to a visualization please use the Navigation above.",
+      "message": "To return to a visualization please use the Navigation above."
+   },
+   "wvMenu1Title": {
+      "description": "View in Data Table",
+      "message": "View in Data Table"
+   },
+   "wvMenu1VizTitle": {
+      "description": "All Visits to ",
+      "message": "All Visits to "
+   },
+   "wvMenu2SubTitle": {
+      "description": "To return to a visualization please use the Navigation above.",
+      "message": "To return to a visualization please use the Navigation above."
+   },
+   "wvMenu2Title": {
+      "description": "View in Time Heatmap",
+      "message": "View in Time Heatmap"
+   },
+   "wvMenu2VizTitle": {
+      "description": "All Visits to ",
+      "message": "All Visits to "
+   },
+   "wvMenu3Confirm1": {
+      "description": "Do you want to remove ALL visits to URLs from from Web Historian?",
+      "message": "Do you want to remove ALL visits to URLs from "
+   },
+   "wvMenu3Confirm2": {
+      "description": "Do you want to remove ALL visits to URLs from from Web Historian?",
+      "message": " from Web Historian?"
+   },
+   "wvMenu3Title": {
+      "description": "Delete",
+      "message": "Delete"
+   },
+   "wvTooltip1": {
+      "description": ", Visits: ",
+      "message": ", Visits: "
+   },
+   "wvTooltip2": {
+      "description": ", Category: ",
+      "message": ", Category: "
+   },
+   "wvTooltip3": {
+      "description": ". Right-click for more options",
+      "message": ". Right-click for more options"
+   },
+   "wvTooltip4": {
+      "description": ", Days Visited: ",
+      "message": ", Days Visited: "
+   },
+   "wvTooltip5": {
+      "description": ", Category: ",
+      "message": ", Category: "
+   },
+   "wwcAlert": {
+      "description": "No URLs were removed. ",
+      "message": "No URLs were removed. "
+   },
+   "wwcConfirm1": {
+      "description": "Do you want to PERMANENTLY remove all URLs with the search term \"ccc\" from your local browser history?",
+      "message": "Do you want to PERMANENTLY remove all URLs with the search term \""
+   },
+   "wwcConfirm2": {
+      "description": "Do you want to PERMANENTLY remove all URLs with the search term \"ccc\" from your local browser history?",
+      "message": "\" from your local browser history?"
+   },
+   "wwcMenu1Title": {
+      "description": "Permanently Delete",
+      "message": "Permanently Delete"
+   },
+   "wwcSearchTermsInc": {
+      "description": "Search terms including \"ccc\"",
+      "message": "Search terms including \""
+   }
+}

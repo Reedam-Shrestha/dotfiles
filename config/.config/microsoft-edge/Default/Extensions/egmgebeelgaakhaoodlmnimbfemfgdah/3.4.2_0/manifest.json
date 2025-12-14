@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": "./img/popupIcon128.png",
+      "default_popup": "/dist/popup/popup.html",
+      "default_title": "Redirect Blocker"
+   },
+   "background": {
+      "service_worker": "./dist/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "./dist/content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Redirect Blocker saves you from facing potential malicious/annoying redirects.",
+   "icons": {
+      "128": "./img/Icon128.png",
+      "16": "./img/Icon16.png",
+      "32": "./img/Icon32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgeyqoI2VCZ7rbTTpnRzrDf8FH8rn66LDu2CMMrnjBKAKKMf257aY7qHRU+RoeA508IxblVf7H81ah68cykcw7ZGMZVVK2A5CuUQcy2C6a2tgbpktaECitsXeLzFaZasnU1PzAmx846QfNwGFcXpeJLg/J/LeWJLqrlqOI5zPqhDgaRXqPWtVGdGNhcV5OWBJDqmTvP/2JX+mBagGYEMnCaAKSti607RNys/V312n/5Tug211oa/7p4qNg9884FeMBA0gkyp5EbKPPhJ2xLHnGoyRb9SKWw68bZgZKMIq6kao7J2qyjddTaVsVn59DE4FV1vJbwldYhynJw/AhP+cEQIDAQAB",
+   "manifest_version": 3,
+   "name": "Redirect Blocker",
+   "permissions": [ "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4.2"
+}

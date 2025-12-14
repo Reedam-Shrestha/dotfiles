@@ -1,0 +1,1308 @@
+{
+    "common": {
+        "add": "Ajouter",
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "save": "Enregistrer",
+        "saveChanges": "Enregistrer les modifications",
+        "remove": "Retirer",
+        "loading": "Chargement...",
+        "error": "Erreur",
+        "success": "Succès",
+        "confirm": "Confirmer",
+        "yes": "Oui",
+        "no": "Non",
+        "ok": "OK",
+        "back": "Retour",
+        "next": "Suivant",
+        "previous": "Précédent",
+        "search": "Rechercher",
+        "filter": "Filtrer",
+        "clear": "Effacer",
+        "apply": "Appliquer",
+        "update": "Mettre à jour",
+        "create": "Créer",
+        "submit": "Soumettre"
+    },
+    "accountSecurityView": {
+        "changePasswordButton": "Changer le mot de passe",
+        "changePasswordLabel": "Changer le mot de passe",
+        "currentPasswordLabel": "Mot de passe actuel",
+        "currentPasswordPlaceholder": "Mot de passe actuel ",
+        "newPasswordAgainPlaceholder": "Nouveau mot de passe à nouveau",
+        "newPasswordPlaceholder": "Nouveau mot de passe ",
+        "pageTitle": "Paramètres de sécurité",
+        "passwordChangeSuccess": "Mot de passe modifié avec succès",
+        "passwordLengthError": "Le mot de passe doit contenir au moins 6 caractères",
+        "passwordMismatchError": "Les mots de passe ne sont pas identiques",
+        "verifyPasswordLabel": "Vérifier le mot de passe"
+    },
+    "accountSubscriptionView": {
+        "buySubscription": "Acheter un abonnement",
+        "mustSelectWorkspace": "Vous devez sélectionner un espace de travail pour acheter un abonnement.",
+        "selectWorkspace": "Sélectionner un espace de travail"
+    },
+    "accountView": {
+        "emailLabel": "E-mail",
+        "emailPlaceholder": "Votre e-mail",
+        "firstNameLabel": "Prénom",
+        "firstNamePlaceholder": "Votre prénom",
+        "lastNameLabel": "Nom",
+        "lastNamePlaceholder": "Votre nom",
+        "pageTitle": "Informations personnelles",
+        "phoneLabel": "Téléphone",
+        "phonePlaceholder": "Votre téléphone",
+        "saveChangesButton": "Enregistrer les modifications",
+        "snackbarErrorMessage": "Quelque chose s'est mal passé",
+        "snackbarSuccessMessage": "Informations personnelles mises à jour",
+        "yourImageLabel": "Votre image"
+    },
+    "accountWorkspacesView": {
+        "currentWorkspace": "Espace de travail actuel",
+        "editWorkspaceTooltip": "Modifier l'espace de travail",
+        "editWorkspaceTooltipDisabled": "Seul le propriétaire peut modifier l'espace de travail",
+        "newWorkspace": "Nouvel espace de travail",
+        "owner": "Propriétaire",
+        "pageTitle": "Espaces de travail",
+        "switchWorkspace": "Changer d'espace de travail"
+    },
+    "addLink": {
+        "placeholderExample": "www.exemple.com",
+        "save": "Enregistrer",
+        "textToDisplay": "Texte à afficher",
+        "url": "URL"
+    },
+    "adminBillingView": {
+        "address": "Adresse",
+        "amount": "Montant",
+        "billingPeriod": "Période de facturation",
+        "cancelled": "Annulé",
+        "cancelSubscription": "Annuler l'abonnement",
+        "changePaymentMethod": "Changer le mode de paiement",
+        "changePlan": "Changer de plan",
+        "companyName": "Nom de l'entreprise",
+        "currentPlan": "Plan actuel",
+        "documentTitle": "Facturation",
+        "editInvoiceDetails": "Modifier les détails de la facture",
+        "editTeamSize": "Modifier la taille de l'équipe",
+        "endingWith": "se terminant par",
+        "expired": "Expiré",
+        "expires": "Expire",
+        "fullName": "Nom complet",
+        "invoiceDetails": "Détails de la facture",
+        "invoices": "Factures",
+        "motnhly": "Mensuel",
+        "noSubscription": "Vous n'avez pas encore d'abonnement",
+        "paymentMethod": "Mode de paiement",
+        "renewalTime": "Heure de renouvellement",
+        "teamSize": "Taille de l'équipe",
+        "upgrade": "Mettre à niveau",
+        "viewDownloadInvoices": "Consultez et téléchargez toutes vos factures depuis un seul endroit.",
+        "viewInvoices": "Voir les factures",
+        "viewOldInvoices": "Voir les anciennes factures",
+        "viewTitle": "Facturation",
+        "yearly": "Annuel"
+    },
+    "advancedFilterRow": {
+        "where": "Où"
+    },
+    "blueticksForm": {
+        "addDescription": "Cliquez pour ajouter une description à votre formulaire",
+        "formLogoAlt": "Logo du formulaire",
+        "isHidden": "est masqué sur ce formulaire",
+        "required": "Obligatoire",
+        "submit": "Soumettre",
+        "theColumn": "La colonne",
+        "unsupportedColumnsInfoFirstLine": "Certaines colonnes du tableau ne sont pas encore prises en charge dans nos formulaires.",
+        "unsupportedColumnsInfoSecondLine": "Essayez plutôt d'utiliser d'autres colonnes, de nature plus générale, telles que texte ou nombre."
+    },
+    "boardListTable": {
+        "addButton": "Ajouter",
+        "addMoreSeats": "Ajouter plus de sièges",
+        "addNewUserToBoard": "Ajouter un nouvel utilisateur à ce tableau",
+        "cantRemoveOwner": "Vous ne pouvez pas supprimer le propriétaire",
+        "chooseTeamMember": "Choisir un membre de l'équipe",
+        "copyInviteLink": "Copier le lien d'invitation",
+        "emailInvalidAlert": "L'e-mail est invalide",
+        "emailPlaceholder": "E-mail",
+        "inviteAsGuest": "Inviter en tant qu'invité",
+        "inviteAsMember": "Inviter en tant que membre",
+        "nameEmail": "Nom / E-mail",
+        "namePlaceholder": "Nom",
+        "noMembersToAdd": "Aucun membre à ajouter",
+        "notAllowedToShareBoard": "Vous n'êtes pas autorisé à partager ce tableau",
+        "pending": "En attente",
+        "permissions": "Permissions",
+        "removeUserFromBoard": "Retirer l'utilisateur du tableau",
+        "resend": "Renvoyer",
+        "selectTeamMember": "Sélectionner un membre de l'équipe",
+        "userLabel": "Utilisateur",
+        "virtualMemberLabel": "Membre virtuel",
+        "workspaceUserLabel": "Utilisateur de l'espace de travail"
+    },
+    "boardMenuOptions": {
+        "deleteBoard": "Supprimer le tableau",
+        "exportBoardToExcel": "Exporter le tableau vers Excel",
+        "import": "Importer",
+        "openBoardInNewTab": "Ouvrir le tableau dans un nouvel onglet",
+        "renameBoard": "Renommer le tableau"
+    },
+    "boardsPanel": {
+        "homeTooltip": "Accueil",
+        "myWork": "Mon travail",
+        "newBoardButton": "Nouveau tableau",
+        "searchPlaceholder": "Rechercher des tableaux..."
+    },
+    "boardsSelectors": {
+        "board": "Tableau"
+    },
+    "boardTabList": {
+        "addView": "Ajouter une vue"
+    },
+    "btCheckboxList": {
+        "allColumns": "Toutes les colonnes"
+    },
+    "btUploadLogo": {
+        "fileTooBigError": "Vous ne pouvez pas télécharger de fichiers plus grands que 4 Mo",
+        "fileTypeError": "Seuls les fichiers image peuvent être téléchargés",
+        "maxSizeText": "Taille max : 4 Mo",
+        "uploadImageButtonText": "Télécharger une image"
+    },
+    "columnContextMenuDialog": {
+        "delete": "Supprimer"
+    },
+    "columnHeaderBoardView": {
+        "titleCannotBeEdited": "Ce titre ne peut pas être modifié"
+    },
+    "dateFormCell": {
+        "selectDate": "Sélectionner une date"
+    },
+    "dropDown": {
+        "applyButton": "Appliquer",
+        "createNewLabelButton": "+ Créer un nouvel étiquette",
+        "createOrFindLabelsPlaceholder": "Créer ou trouver des étiquettes...",
+        "delete": "Supprimer",
+        "deleteLabelTooltip": "Impossible de supprimer l'étiquette en cours d'utilisation",
+        "editLabelsButton": "Modifier les étiquettes",
+        "labelOptionExists": "Cette option d'étiquette existe",
+        "searchCreateLabels": "Rechercher / créer des étiquettes...",
+        "searchTasksPlaceholder": "Rechercher des tâches..."
+    },
+    "editableColumnHeaderCell": {
+        "tooltipTitle": "Ce titre ne peut pas être modifié"
+    },
+    "editableOptions": {
+        "complexityPlaceholder": "Complexité",
+        "defaultLabelRemoveTooltip": "Vous ne pouvez pas supprimer l'étiquette par défaut",
+        "defaultLabelTooltip": "Vous ne pouvez pas changer la couleur de l'étiquette par défaut",
+        "labelPlaceholder": "Étiquette",
+        "newLabel": "Nouvelle étiquette",
+        "save": "Enregistrer"
+    },
+    "exportExcel": {
+        "exportButton": "Exporter",
+        "exportHeader": "Exporter vers Excel",
+        "exportQuestion": "Souhaitez-vous exporter",
+        "subTaskPrefix": "Sous-tâche",
+        "toExcelFile": "vers un fichier Excel ?"
+    },
+    "extraDataFiles": {
+        "download": "Télécharger",
+        "dropHereToUpload": "Déposer ici pour télécharger",
+        "dragAndDropFiles": "Glisser-déposer les fichiers ici",
+        "orClickToUpload": "ou cliquer pour parcourir",
+        "filesZip": "fichiers en zip",
+        "generalFiles": "Fichiers généraux",
+        "tasksCellsFiles": "Fichiers de cellules de tâches",
+        "updatesFiles": "Fichiers de mises à jour",
+        "uploadFiles": "Télécharger les fichiers"
+    },
+    "extraDataMenu": {
+        "copiedUpdateLinkToClipboard": "Lien de mise à jour copié dans le presse-papiers",
+        "copyLink": "Copier le lien",
+        "deleteUpdate": "Supprimer la mise à jour",
+        "editUpdate": "Modifier la mise à jour",
+        "pinToTop": "Épingler en haut",
+        "unpin": "Détacher"
+    },
+    "extraDataPanelChat": {
+        "filesLabel": "Fichiers",
+        "updatesLabel": "Mises à jour"
+    },
+    "extraPanelData": {
+        "nextTask": "Tâche suivante",
+        "previousTask": "Tâche précédente"
+    },
+    "filesCell": {
+        "addFiles": "Ajouter des fichiers"
+    },
+    "filterSection": {
+        "advancedFilters": "Filtres avancés",
+        "allItems": "tous",
+        "clearAll": "Tout effacer",
+        "items": "éléments",
+        "ofItems": "de",
+        "quickFilters": "Filtres rapides",
+        "saveAsNewView": "Enregistrer comme nouvelle vue",
+        "showingItems": "Affichage",
+        "switchTo": "passer à"
+    },
+    "forgotPassword": {
+        "accountEmail": "E-mail du compte",
+        "backTo": "Retour à la",
+        "emailIsRequired": "L'e-mail est obligatoire !",
+        "emailSent": "E-mail envoyé",
+        "followInstructions": "Veuillez suivre les instructions dans l'e-mail pour réinitialiser votre mot de passe",
+        "forgotPassword": "Mot de passe oublié",
+        "insertEmail": "Entrez votre adresse e-mail pour recevoir un lien de réinitialisation du mot de passe.",
+        "login": "Se connecter",
+        "page": "page",
+        "sendEmail": "ENVOYER LE LIEN DE RÉINITIALISATION",
+        "title": "Vous avez oublié votre mot de passe",
+        "yourEmail": "Votre e-mail"
+    },
+    "formColumnCell": {
+        "addColumnDescription": "Ajouter une description de colonne",
+        "required": "Obligatoire"
+    },
+    "formPreview": {
+        "formSent": "Formulaire envoyé",
+        "loadingForm": "Chargement du formulaire...",
+        "notActiveFormMessage": "Ce formulaire n'est pas actif",
+        "submitButtonText": "Soumettre",
+        "submitFailMessage": "Vous devez remplir tous les champs obligatoires avant de soumettre le formulaire"
+    },
+    "formSettingsDrawer": {
+        "customizeSuccessMessage": "Personnaliser le titre et le message affichés pour la soumission réussie du formulaire",
+        "formSettings": "Paramètres du formulaire",
+        "groupForAnswersTitle": "Groupe pour les réponses",
+        "includeQuestionNamesInFormLabel": "Inclure les noms de questions dans le formulaire",
+        "includeQuestionTooltip": "Inclure un champ de saisie pour le nom de l'élément généré dans votre formulaire",
+        "published": "Publié",
+        "questionNamesTitle": "Noms des questions",
+        "redirectLinkLabel": "Lien",
+        "redirectLinkTitle": "Lien de redirection",
+        "selectGroup": "Sélectionner un groupe",
+        "selectPriorityList": "Sélectionner la liste de priorité",
+        "selectToWhichGroup": "Sélectionner le groupe auquel les réponses seront assignées",
+        "sendToDifferentWebsite": "Envoyer vers un site Web différent après la soumission du formulaire",
+        "successMessageContentLabel": "Message",
+        "successMessageContentPlaceholder": "Contenu du message de succès",
+        "successMessageTitle": "Message de succès",
+        "successMessageTitleLabel": "Titre",
+        "successMessageTitlePlaceholder": "Titre du message de succès",
+        "unnamedGroup": "Groupe sans nom"
+    },
+    "formShare": {
+        "copyButtonLabel": "Copier",
+        "copySuccessMessage": "Lien du formulaire copié dans le presse-papiers",
+        "embedCopySuccessMessage": "Ligne de code copiée dans le presse-papiers",
+        "embedSectionLabel": "Intégrer",
+        "headerDescription": "Les réponses généreront une nouvelle tâche dans votre tableau",
+        "headerTitle": "Partagez votre formulaire avec un lien privé",
+        "regenerateLinkButtonLabel": "Régénérer le lien",
+        "shareableLink": "Lien partageable"
+    },
+    "formView": {
+        "colorButton": "Couleur",
+        "columnsButton": "Colonnes",
+        "editFormButton": "Modifier le formulaire",
+        "previewButton": "Aperçu",
+        "settingsButton": "Paramètres",
+        "shareButton": "Partager"
+    },
+    "groupMenu": {
+        "addGroup": "Ajouter un groupe",
+        "archive": "Archiver",
+        "changeGroupColor": "Changer la couleur du groupe",
+        "collapseAllGroups": "Réduire tous les groupes",
+        "collapseAllSubitems": "Réduire tous les sous-éléments",
+        "collapseThisGroup": "Réduire ce groupe",
+        "delete": "Supprimer",
+        "deleteGroupPromptTitle": "Supprimer le groupe",
+        "duplicateGroup": "Dupliquer le groupe",
+        "expandAllSubitems": "Développer tous les sous-éléments",
+        "exportToExcel": "Exporter vers Excel",
+        "moveTo": "Déplacer vers",
+        "moveToBoard": "Déplacer vers le tableau",
+        "moveToTop": "Déplacer en haut",
+        "newGroupName": "Nouveau groupe",
+        "renameGroup": "Renommer le groupe",
+        "selectAllItems": "Sélectionner tous les éléments",
+        "uncollapseAllGroups": "Développer tous les groupes",
+        "uncollapseThisGroup": "Développer ce groupe"
+    },
+    "importExcelToBlueticks": {
+        "back": "Retour",
+        "download": "Télécharger",
+        "excelColumns": "Colonnes Excel",
+        "excludeFirstRow": "Exclure la première ligne de la feuille de calcul de l'importation",
+        "existingBoardColumns": "Colonnes du tableau existantes",
+        "import": "Importer",
+        "importItemsFromSpreadsheet": "Importer des éléments depuis une feuille de calcul",
+        "itemName": "Nom de l'élément",
+        "mapColumnsFromExcel": "Mapper les colonnes d'Excel",
+        "newAudience": "Nouveau public",
+        "next": "Suivant",
+        "sampleExcelFile": "un fichier Excel exemple",
+        "toColumnsInBoard": "vers les colonnes de ce tableau",
+        "transferRecords": "Transférer les enregistrements d'une feuille de calcul vers des éléments dans ce tableau",
+        "wonderingHowToGetStarted": "Vous vous demandez comment commencer ?",
+        "yourFileHasBeenUploadedSuccessfully": "Votre fichier a été téléchargé avec succès",
+        "dropFilesHereOr": "Déposez les fichiers ici ou",
+        "browseYourDevice": "parcourez votre appareil",
+        "invalidFileExtension": "Extension de fichier invalide ({{extension}}). Seuls {{formats}} sont autorisés.",
+        "somethingWentWrong": "Quelque chose s'est mal passé !"
+    },
+    "inviteUserModal": {
+        "addMockUsersInfo": "Vous pouvez ajouter des utilisateurs fictifs uniquement pour votre usage interne",
+        "approveOrDecline": "Ici, vous pouvez voir, approuver ou refuser toutes les demandes de personnes qui souhaitent rejoindre votre tableau.",
+        "clickHereToAccept": "Cliquez ici pour accepter l'invitation",
+        "guests": "Invités",
+        "guestsCan": "ne peuvent que créer et mettre à jour des tâches.",
+        "hi": "Salut",
+        "invitationToCollaborate": "Ceci est une invitation à collaborer sur mon tableau :",
+        "makeSureForExtension": "Assurez-vous d'avoir l'extension Blueticks installée, sinon vous pouvez l'installer depuis ici :",
+        "members": "Membres",
+        "membersAndGuests": "Membres et invités",
+        "membersCan": "peuvent ajouter de nouvelles colonnes et inviter d'autres personnes",
+        "mockUsers": "Utilisateurs fictifs",
+        "newMockUser": "Nouvel utilisateur fictif",
+        "requestsToJoin": "Demandes de rejoindre",
+        "shareMyTaskBoard": "Je souhaite partager mon tableau de tâches avec vous.",
+        "users": "Utilisateurs",
+        "virtualMembers": "Membres virtuels",
+        "virtualMembersAre": "sont uniquement pour usage interne et ne recevront aucune notification.",
+        "workspaceMembers": "Membres de l'espace de travail",
+        "workspaceMembersAre": "sont des utilisateurs qui existent déjà dans votre espace de travail."
+    },
+    "kanbanSettingsDrawer": {
+        "customizeView": "Personnaliser la vue",
+        "pickYourPickerLabel": "Choisissez votre sélecteur",
+        "unnamedColumn": "Sans nom"
+    },
+    "kanbanView": {
+        "columnsButton": "Colonnes",
+        "kanbanInfoText": " Vous <b>devez</b> avoir une colonne de priorité/statut pour générer la vue kanban !",
+        "settingsButton": "Paramètres"
+    },
+    "loginForm": {
+        "dontHaveAccount": "Je n'ai pas de compte ?",
+        "emailLabel": "E-mail",
+        "emailPlaceholder": "Votre e-mail",
+        "emailRequired": "L'e-mail est obligatoire !",
+        "forgotPassword": "Mot de passe oublié ?",
+        "header": "Se connecter",
+        "loginButton": "SE CONNECTER",
+        "loggingIn": "Connexion en cours...",
+        "orContinueWith": "Ou continuer avec",
+        "pageTitle": "Connexion",
+        "passwordLabel": "Mot de passe",
+        "passwordPlaceholder": "Votre mot de passe",
+        "passwordRequired": "Le mot de passe est obligatoire !",
+        "signUp": "S'inscrire"
+    },
+    "mappedOptions": {
+        "editLabel": "Modifier les étiquettes"
+    },
+    "moveGroupToBoardSelector": {
+        "searchPlaceholder": "Rechercher un tableau"
+    },
+    "moveTaskToBoard": {
+        "searchPlaceholder": "Rechercher un tableau"
+    },
+    "moveTaskToGroup": {
+        "searchGroup": "Rechercher un groupe"
+    },
+    "moveToMenu": {
+        "back": "Retour",
+        "choose": "Choisir",
+        "moveToBoard": "Déplacer vers le tableau",
+        "moveToGroup": "Déplacer vers le groupe"
+    },
+    "newComplexityColumnButton": {
+        "addColumn": "Ajouter une colonne de complexité"
+    },
+    "newExtraData": {
+        "writeAnUpdate": "Écrire une mise à jour..."
+    },
+    "newFormButton": {
+        "formAfterSubmitMessage": "Merci pour vos commentaires",
+        "formAfterSubmitTitle": "Soumis avec succès",
+        "newTaskDescription": "Nommer la nouvelle tâche",
+        "newTaskTitle": "Nom de la tâche"
+    },
+    "newPersonColumnButton": {
+        "addPersonColumn": "Ajouter une colonne de personne"
+    },
+    "newTaskGroupButton": {
+        "newGroup": "Nouveau groupe"
+    },
+    "newWorkloadButton": {
+        "workload": "Charge de travail"
+    },
+    "openFilterPanelButton": {
+        "filterButtonLabel": "Filtrer",
+        "filterTooltip": "Filtrer par n'importe quoi"
+    },
+    "personButtonFilter": {
+        "noAssignedMembers": "Personne n'est assigné à ce tableau pour le moment",
+        "personButton": "Personne",
+        "tooltipTitle": "Filtrer par personne"
+    },
+    "personPickerMappedOptions": {
+        "hold": "Maintenir",
+        "noResultsFound": "Aucun résultat trouvé",
+        "searchPerson": "Rechercher une personne...",
+        "toPickMultiple": "pour sélectionner plusieurs"
+    },
+    "photoOrColorSelect": {
+        "cannotUploadBigFiles": "Vous ne pouvez pas télécharger de fichiers plus grands que 4 Mo",
+        "onlyImages": "Seuls les fichiers image peuvent être téléchargés",
+        "uploadImage": "Télécharger une image"
+    },
+    "planSelection": {
+        "annually": "Annuellement",
+        "billedAnnually": "Facturé annuellement",
+        "billingPeriod": "Période de facturation",
+        "contactSales": "Contacter les ventes",
+        "currentPlan": "Plan actuel",
+        "downgrade": "Rétrograder",
+        "enterprise": "Entreprise",
+        "entitlementBranding": "Campagnes white-label - pas de marque \"Propulsé par\" 🎯",
+        "entitlementMessages": "Messages illimités",
+        "entitlementOffline": "Fonctionne hors ligne 🔥",
+        "entitlementTasks": "Tâches et tableaux illimités",
+        "extensionPricing": [
+            {
+                "name": "Gratuit",
+                "key": "Free",
+                "planKey": "free",
+                "limitations": [
+                    "<span>Planifier 1 message à la fois </span>",
+                    "<span>Jusqu'à 2 tableaux</span>",
+                    "<span>Jusqu'à 10 tâches par tableau</span>",
+                    "<span>Campagnes illimitées <br /><u>avec la marque \"Propulsé par blueticks.co\"</u></span>",
+                    "<span>Les messages planifiés seront <br /><u>envoyés uniquement lorsque WhatsApp Web est ouvert et connecté.</u></span>"
+                ],
+                "benefits": [],
+                "common": [
+                    "<span>Support e-mail illimité</span>"
+                ]
+            },
+            {
+                "name": "Basique",
+                "key": "Scheduler",
+                "planKey": "Basic",
+                "limitations": [
+                    "<span>Jusqu'à 2 tableaux</span>",
+                    "<span>Jusqu'à 10 tâches par tableau</span>",
+                    "<span>Campagnes illimitées <br /><u>avec la marque \"Propulsé par blueticks.co\"</u></span>",
+                    "<span>Les messages planifiés seront <br /><u>envoyés uniquement lorsque WhatsApp Web est ouvert et connecté.</u></span>"
+                ],
+                "benefits": [
+                    "<span><b>Planifier des messages illimités </b></span>"
+                ],
+                "common": [
+                    "<span>Support e-mail illimité</span>"
+                ],
+                "tip": "*Idéal si vous devez planifier des messages illimités et pouvez garder WhatsApp Web actif."
+            },
+            {
+                "best": false,
+                "name": "Standard",
+                "key": "Manager",
+                "planKey": "StandardNew",
+                "limitations": [
+                    "<span>Campagnes illimitées <br /><U>avec la marque \"Propulsé par blueticks.co\"</U></span>",
+                    "<span>Les messages planifiés seront <br /><u>envoyés uniquement lorsque WhatsApp Web est ouvert et connecté.</u></span>"
+                ],
+                "benefits": [
+                    "<span><b>Planifier des messages illimités</b> </span>",
+                    "<span><b>Tableaux illimités</b></span>",
+                    "<span><b>Tâches illimitées</b></span>"
+                ],
+                "common": [
+                    "<span>Support e-mail illimité</span>"
+                ],
+                "tip": "*Parfait pour ceux qui veulent gérer à la fois des messages et des tâches illimités de manière transparente."
+            },
+            {
+                "best": true,
+                "name": "Pro",
+                "key": "Campaigner",
+                "planKey": "Pro",
+                "limitations": [],
+                "benefits": [
+                    "<span><b>Planifier des messages illimités </b></span>",
+                    "<span><b>Tableaux illimités</b></span>",
+                    "<span><b>Tâches illimitées</b></span>",
+                    "<span><b>Campagnes illimitées sans marque \"Propulsé par blueticks.co\"</b></span>",
+                    "<span><b>Les messages planifiés seront envoyés que WhatsApp Web soit fermé ou non.</b></span>"
+                ],
+                "common": [
+                    "<span>Support e-mail illimité</span>"
+                ],
+                "tip": "*Meilleur pour les utilisateurs avancés qui ont besoin d'envoyer des campagnes sans marque et préfèrent la flexibilité de planifier des messages sans garder leur ordinateur allumé."
+            }
+        ],
+        "freeLimitMessages": "Planifier 1 message à la fois",
+        "freeLimitOffline": "Envoi uniquement via navigateur - Doit garder WhatsApp Web ouvert",
+        "freeLimitTasks": "Jusqu'à 2 tableaux, 10 tâches par tableau",
+        "loginToBuy": "SE CONNECTER POUR ACHETER",
+        "month": "mois",
+        "monthly": "Mensuel",
+        "mostPopular": "Le plus populaire",
+        "perMonth": "Par mois",
+        "taskPricing": [
+            {
+                "name": "Gratuit pour toujours !",
+                "key": "Free",
+                "limitations": [
+                    "<span>Jusqu'à <b>2 tableaux</b></span>",
+                    "<span>Jusqu'à <b>10 tâches</b> par tableau</span>"
+                ],
+                "benefits": [],
+                "common": [
+                    "<span><b>Support e-mail illimité</b></span>"
+                ]
+            },
+            {
+                "best": true,
+                "name": "Manager",
+                "key": "Manager",
+                "limitations": [],
+                "benefits": [
+                    "<span>Tableaux illimités</span>",
+                    "<span>Tâches illimitées</span>"
+                ],
+                "common": [
+                    "<span><b>Support e-mail illimité</b></span>"
+                ]
+            },
+            {
+                "best": false,
+                "name": "Entreprise",
+                "key": "Enterprise",
+                "limitations": [],
+                "benefits": [
+                    "<span>Installation sur site</span>",
+                    "<span>Gestionnaire de compte dédié</span>"
+                ],
+                "common": [
+                    "<span><b>Support e-mail et téléphone illimité</b></span>"
+                ],
+                "enterprise": true
+            }
+        ],
+        "teamSize": "Taille de l'équipe",
+        "update": "Mettre à jour",
+        "upgrade": "Mettre à niveau"
+    },
+    "pricing": {
+        "freeForever": "Pour toujours !"
+    },
+    "priorityStatusFormCell": {
+        "empty": "Vide",
+        "label": "Étiquette"
+    },
+    "quickFilterPanel": {
+        "allColumns": "Toutes les colonnes"
+    },
+    "renderImportLastStep": {
+        "cardIllustrationAlt": "type d'importation",
+        "chooseExistingGroup2Paragraph": "Choisir un groupe existant, ignore les colonnes existantes",
+        "chooseExistingGroupHeading": "Choisir un groupe existant",
+        "chooseExistingGroupParagraph": "Choisir un groupe existant et ajouter des éléments Excel",
+        "chooseHowFileIsImportedDescription": "Vous pouvez choisir de créer un nouveau groupe et tous les éléments ou choisir un groupe existant pour ajouter les éléments importés",
+        "chooseHowFileIsImportedHeading": "Choisir comment le fichier est importé",
+        "defaultCreateNewGroupHeading": "Créer un nouveau groupe",
+        "defaultCreateNewGroupParagraph": "Crée un nouveau groupe et ajoute les éléments Excel"
+    },
+    "rowSuffixHeader": {
+        "addColumn": "Ajouter une nouvelle colonne"
+    },
+    "searchInput": {
+        "filterColumns": "Filtrer les colonnes..."
+    },
+    "searchTasks": {
+        "searchTasks": "Rechercher des tâches...",
+        "searchAudience": "Rechercher un public..."
+    },
+    "selectParentTask": {
+        "chooseParentTask": "Choisir la tâche parente",
+        "searchTaskPlaceholder": "Rechercher une tâche"
+    },
+    "sideBar": {
+        "adminBilling": "Facturation Admin",
+        "api": "API",
+        "backToTasks": "Retour aux tâches",
+        "buySubscription": "Acheter un abonnement",
+        "creditsUsage": "Crédits et utilisation",
+        "engineManagement": "Gestion des moteurs",
+        "logout": "Déconnexion",
+        "myAccount": "Mon compte",
+        "personalInformation": "Informations personnelles",
+        "security": "Sécurité",
+        "userManagement": "Gestion des utilisateurs",
+        "workspaces": "Espaces de travail"
+    },
+    "signupForm": {
+        "continueWith": "Ou continuer avec",
+        "emailError": "L'e-mail est obligatoire !",
+        "emailLabel": "E-mail",
+        "emailPlaceholder": "Votre e-mail",
+        "existingAccount": "Vous avez déjà un compte ?",
+        "firstNameError": "Le prénom est obligatoire !",
+        "firstNameLabel": "Prénom",
+        "firstNamePlaceholder": "Prénom",
+        "formTitle": "S'inscrire gratuitement",
+        "lastNameError": "Le nom est obligatoire !",
+        "lastNameLabel": "Nom",
+        "lastNamePlaceholder": "Nom",
+        "loginLink": "Se connecter",
+        "passwordError": "Le mot de passe est obligatoire !",
+        "passwordLabel": "Mot de passe",
+        "passwordPlaceholder": "Votre mot de passe",
+        "signingUp": "Inscription en cours...",
+        "signupButton": "S'inscrire",
+        "termsAndConditions": "J'ai lu et j'accepte les",
+        "termsLink": "Conditions générales",
+        "title": "S'inscrire"
+    },
+    "signupStatus": {
+        "default": "INSCRIPTION",
+        "statusOne": "Initiation du processus d'inscription...",
+        "statusThree": "Construction de votre premier tableau de tâches...",
+        "statusTwo": " Personnalisation de votre espace de travail..."
+    },
+    "slateEditor": {
+        "addFiles": "Ajouter des fichiers",
+        "cancel": "Annuler",
+        "save": "Enregistrer",
+        "update": "Mettre à jour"
+    },
+    "smallUserMenu": {
+        "changeToDarkMode": "Passer en mode sombre",
+        "changeToLightMode": "Passer en mode clair",
+        "invitePeople": "Inviter des personnes",
+        "logOut": "Se déconnecter",
+        "ltr": "LTR",
+        "myAccount": "Mon compte",
+        "rtl": "RTL",
+        "switchWorkspace": "Changer d'espace de travail",
+        "upgrade": "Mettre à niveau"
+    },
+    "sortButton": {
+        "clearButton": "Effacer",
+        "saveButton": "Enregistrer",
+        "sortTooltip": "Trier"
+    },
+    "tabsMoreButton": {
+        "more": "Plus",
+        "searchPlaceholder": "Rechercher une fonctionnalité..."
+    },
+    "taskHeaderTab": {
+        "delete": "Supprimer",
+        "rename": "Renommer"
+    },
+    "taskMenu": {
+        "addSubitemButtonText": "Ajouter un sous-élément",
+        "convertTo": "Convertir en",
+        "convertToItemButtonText": "élément",
+        "convertToSubitemButtonText": "sous-élément",
+        "copyNameButtonText": "Copier le nom",
+        "copyTaskLinkToClipboard": "Lien de la tâche copié dans le presse-papiers",
+        "copyTaskUrlButtonText": "Copier l'URL de la tâche",
+        "copyToClipboardConfirmation": "Copié dans le presse-papiers",
+        "createNewItemBelowButtonText": "Créer un nouvel élément en dessous",
+        "deleteButtonText": "Supprimer",
+        "duplicateButtonText": "Dupliquer",
+        "itemsWithSubitemsCannotBeConvertedTooltip": "Les éléments avec des sous-éléments ne peuvent pas être convertis",
+        "moveToBoardButtonText": "Déplacer vers le tableau",
+        "moveToButtonText": "Déplacer vers",
+        "moveToGroupButtonText": "Déplacer vers le groupe",
+        "moveToTopButtonText": "Déplacer en haut",
+        "newItem": "nouvel élément 😍",
+        "newSubitem": "nouveau sous-élément 🙂",
+        "openButtonText": "Ouvrir",
+        "promptDeleteActionTitle": "Supprimer la tâche ?"
+    },
+    "tasksHeader": {
+        "activity": "Activité",
+        "boardOptions": "Options du tableau",
+        "shareBoard": "Partager le tableau",
+        "upgrade": "mettre à niveau"
+    },
+    "tasksPanelHeader": {
+        "columns": "Colonnes",
+        "export": "Exporter",
+        "exportDataTooltip": "Exporter les données vers Excel",
+        "exportToExcel": "Exporter vers Excel",
+        "hideColumnsTooltip": "Masquer les colonnes",
+        "import": "Importer",
+        "importDataTooltip": "Importer depuis Excel"
+    },
+    "taskUpdateModal": {
+        "group": "Groupe",
+        "inBoard": "dans"
+    },
+    "taskView": {
+        "creatingBoard": "Création de votre premier tableau..."
+    },
+    "thankYouView": {
+        "confirmationMessage": "Nous vous avons envoyé une confirmation et un reçu de votre achat.",
+        "documentTitle": "Merci",
+        "getStartedButton": "Commencer",
+        "successfully": "Avec succès",
+        "updated": "mis à jour",
+        "yourAccount": "votre compte"
+    },
+    "timelineCell": {
+        "setDates": "Définir les dates"
+    },
+    "timelineFormCell": {
+        "endDate": "Date de fin",
+        "startDate": "Date de début"
+    },
+    "toggleDarkMode": {
+        "darkMode": "Mode sombre",
+        "lightMode": "Mode clair",
+        "switchTo": "Passer à"
+    },
+    "userCapacity": {
+        "editCapacity": "Modifier la capacité",
+        "editCapacityPlaceholder": "Modifier la capacité "
+    },
+    "userManagementFilter": {
+        "filterButton": "Filtrer",
+        "filterTooltip": "Filtrer par type et statut",
+        "userStatusActive": "Actif",
+        "userStatusDisabled": "Désactivé",
+        "userStatusHeader": "Statut de l'utilisateur",
+        "userStatusPending": "En attente",
+        "userTypeGuest": "Invité",
+        "userTypeHeader": "Type d'utilisateur",
+        "userTypeMember": "Membre",
+        "userTypeOwner": "Propriétaire"
+    },
+    "userManagementHeader": {
+        "cancelButton": "Annuler",
+        "emailAddressLabel": "Adresse e-mail",
+        "guestsFree": "invités (gratuit)",
+        "invite": "inviter",
+        "inviteButton": "Inviter",
+        "inviteDialogDescription": "Entrez l'adresse e-mail de l'utilisateur",
+        "inviteDialogTitle": "Inviter l'utilisateur à ",
+        "members": "membres",
+        "searchMembersPlaceholder": "Rechercher des membres...",
+        "seatLimitExceeded": "Limite de sièges dépassée",
+        "snackbarAddMoreSeats": "Ajouter plus de sièges",
+        "upgrade": "Mettre à niveau",
+        "workspace": "espace de travail"
+    },
+    "userManagementView": {
+        "members": "Membres",
+        "title": "Gestion des utilisateurs"
+    },
+    "workloadSettingsDrawer": {
+        "complexityColumnTitle": "Colonne de complexité",
+        "complexityColumnTooltip": "Sélectionner les options de complexité pour les tâches",
+        "defaultCapacityTitle": "Capacité par défaut",
+        "defaultCapacityTooltip": "Capacité par défaut pour toutes les personnes",
+        "drawerTitle": "Paramètres de charge de travail",
+        "membersTitle": "Membres",
+        "membersTooltip": "Gérer les options de colonne de personne",
+        "newMockUserButton": "Nouvel utilisateur fictif",
+        "optionsTitle": "Options",
+        "optionsTooltip": "Gérer les options de colonne de complexité",
+        "personColumnTitle": "Colonne de personne",
+        "personColumnTooltip": "Sélectionner les options de personne pour les tâches",
+        "unnamedGroup": "Groupe sans nom"
+    },
+    "workloadView": {
+        "columnsButton": "Colonnes",
+        "complexityAndPersonRequired": " Vous <b>devez</b> avoir une colonne de complexité <b>et</b> une colonne de personne pour générer la vue de charge de travail !",
+        "complexityRequired": " Vous <b>devez</b> avoir une colonne de complexité pour générer la vue de charge de travail !",
+        "personRequired": " Vous <b>devez</b> avoir une colonne de personne pour générer la vue de charge de travail !",
+        "settingsButton": "Paramètres"
+    },
+    "workspace": {
+        "addWorkspace": "Ajouter un espace de travail",
+        "backToWorkspaces": "Retour aux espaces de travail",
+        "browseAll": "Parcourir tout",
+        "deleteWorkspace": "Supprimer l'espace de travail",
+        "myWorkspaces": "Mes espaces de travail",
+        "title": "Espaces de travail",
+        "workspaceImage": "Image de l'espace de travail",
+        "workspaceName": "Nom de l'espace de travail",
+        "workspaceNamePlaceholder": "Nom de votre espace de travail",
+        "urlPlaceholder": "URL de votre espace de travail"
+    },
+    "workspaceUsersMembers": {
+        "copyInviteLink": "Copier le lien d'invitation",
+        "emptyStateDescription": "Commencez par inviter des membres de l'équipe à collaborer sur votre espace de travail.",
+        "emptyStateTitle": "Aucun membre trouvé",
+        "headerActions": "Actions",
+        "headerEmail": "E-mail",
+        "headerName": "Nom",
+        "headerStatus": "Statut",
+        "headerType": "Type",
+        "inviteLinkCopied": "Lien d'invitation copié dans le presse-papiers !",
+        "inviteLinkCopyError": "Échec de la copie du lien d'invitation",
+        "inviteResent": "Invitation renvoyée et lien copié dans le presse-papiers !",
+        "inviteResendError": "Échec du renvoi de l'invitation",
+        "removeUserPrompt": "Retirer",
+        "resendInvite": "Renvoyer l'invitation",
+        "statusInactive": "Inactif",
+        "statusPending": "En attente"
+    },
+    "enginesManagement": {
+        "pageTitle": "Gestion des moteurs WhatsApp",
+        "pageDescription": "Gérez vos moteurs de session WhatsApp et connexions navigateur",
+        "deployNewEngine": "Déployer un nouveau moteur",
+        "deployNewEngineTitle": "Déployer un nouveau moteur WhatsApp",
+        "deployNewEngineDescription": "Créer un nouveau moteur de session avec un pod Kubernetes dédié et un stockage persistant.",
+        "storage": "Stockage",
+        "memory": "Mémoire",
+        "cpu": "CPU",
+        "nodePool": "Pool de nœuds",
+        "gatewayPool": "Pool de passerelles",
+        "engineSettingsNote": "Les paramètres du moteur sont optimisés et gérés automatiquement.",
+        "deployEngine": "Déployer le moteur",
+        "totalEngines": "Moteurs totaux",
+        "connected": "Connecté",
+        "startingUp": "Démarrage",
+        "needsAttention": "Nécessite une attention",
+        "errorLoadingEngines": "Erreur de chargement des moteurs",
+        "errorLoadingEnginesDescription": "Échec du chargement des moteurs. Veuillez essayer de rafraîchir la page.",
+        "noEnginesConnected": "Aucun moteur connecté",
+        "noEnginesConnectedDescription": "Connectez WhatsApp Web dans votre navigateur ou déployez un moteur de passerelle pour commencer à envoyer des messages.",
+        "connectEngineInstructions": "Vous pouvez connecter WhatsApp Web via votre extension de navigateur ou déployer un moteur de passerelle dédié.",
+        "deployFirstEngine": "Déployez votre premier moteur",
+        "connectedEngines": "Moteurs connectés",
+        "connectedEnginesDescription": "Vos moteurs WhatsApp actifs et connexions navigateur",
+        "engine": "Moteur",
+        "status": "Statut",
+        "connection": "Connexion",
+        "lastSeen": "Dernière vue",
+        "actions": "Actions",
+        "readOnly": "Lecture seule",
+        "legacyReadOnly": "Moteur hérité",
+        "legacyWarning": "Mise à niveau recommandée",
+        "restartEngine": "Redémarrer le moteur",
+        "deleteEngine": "Supprimer le moteur",
+        "podBased": "Basé sur pod",
+        "legacy": "Hérité",
+        "pod": "Pod",
+        "node": "Nœud",
+        "pool": "Pool",
+        "qrCodeTitle": "Code QR WhatsApp",
+        "qrCodeDescription": "Scannez ce code QR avec votre application mobile WhatsApp pour connecter votre session.",
+        "qrCodeNotAvailable": "Code QR non disponible",
+        "qrCodeGenerating": "Le code QR est en cours de génération...",
+        "qrCodeInstructions1": "Ouvrez WhatsApp sur votre téléphone",
+        "qrCodeInstructions2": "Allez dans Paramètres → Appareils liés → Lier un appareil",
+        "qrCodeInstructions3": "Pointez votre caméra vers cet écran pour scanner le code",
+        "statusLabels": {
+            "connected": "Connecté",
+            "qrcode": "Code QR prêt",
+            "initializing": "Démarrage",
+            "browser_started": "Navigateur démarré",
+            "navigating": "Chargement de WhatsApp",
+            "waiting_for_whatsapp_page": "En attente de WhatsApp",
+            "logout": "Déconnecté",
+            "unpaired": "Appariement requis",
+            "syncing": "Synchronisation des données",
+            "disconnected": "Déconnecté",
+            "error": "Erreur"
+        },
+        "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce moteur ? Cela détruira le pod et le PVC.",
+        "deleteEngineTitle": "Supprimer le moteur",
+        "deleteEngineError": "Échec de la suppression du moteur",
+        "restartEngineError": "Échec du redémarrage du moteur",
+        "createEngineError": "Échec de la création du moteur",
+        "unauthorizedCreate": "Non autorisé : L'utilisateur doit être authentifié pour créer des moteurs",
+        "allowedEngines": "Moteurs autorisés",
+        "currentEngines": "Moteurs actuels",
+        "subscriptionRequired": "Abonnement requis",
+        "subscriptionRequiredDescription": "Vous avez besoin d'un abonnement actif avec droit offline-socket pour créer des moteurs.",
+        "engineLimitReached": "Limite de moteurs atteinte",
+        "engineLimitReachedDescription": "Vous avez atteint votre limite de moteurs ({{current}}/{{allowed}}). Mettez à niveau votre abonnement pour créer plus de moteurs.",
+        "offlineEngineTitle": "Travailler hors ligne avec Blueticks",
+        "offlineEngineDescription": "Vous voulez que Blueticks fonctionne même lorsque vous êtes hors ligne ? Mettez à niveau maintenant !",
+        "offlineEngineUpgrade": "Mettre à niveau le plan",
+        "offlineEngineLearnMore": "En savoir plus sur les moteurs hors ligne"
+    },
+    "welcome": {
+        "title": "Bienvenue sur Blueticks !",
+        "subtitle": "Commencez par vous connecter à WhatsApp pour envoyer votre premier message planifié.",
+        "chooseConnection": "Choisissez votre méthode de connexion :",
+        "chromeExtension": "Extension Chrome",
+        "chromeExtensionDesc": "Gratuit • Fonctionne avec WhatsApp Web • Nécessite que le navigateur soit ouvert",
+        "chromeExtensionDetails": "Parfait pour un usage personnel. Installez l'extension et gardez WhatsApp Web ouvert pour envoyer des messages.",
+        "installExtension": "Installer l'extension",
+        "whatsappGateway": "Passerelle WhatsApp",
+        "whatsappGatewayDesc": "Plan Pro • Envoi hors ligne 24/7 • Aucun navigateur requis",
+        "whatsappGatewayDetails": "Idéal pour les entreprises. Envoyez des messages même lorsque votre ordinateur est éteint.",
+        "setupGateway": "Configurer la passerelle",
+        "skip": "Ignorer pour l'instant, je configurerai cela plus tard",
+        "videoTitle": "Regardez : Types de moteurs expliqués",
+        "videoDescription": "Voir la différence"
+    },
+    "navigation": {
+        "messagePlanner": "Planificateur de messages",
+        "launchCampaign": "Lancer une campagne",
+        "tasks": "Tâches",
+        "agents": "Agents",
+        "knowledgeBase": "Base de connaissances",
+        "support": "Support",
+        "aiAssistant": "Assistant IA",
+        "new": "NOUVEAU"
+    },
+    "calendar": {
+        "title": "Planificateur de messages",
+        "month": "Mois",
+        "week": "Semaine",
+        "day": "Jour",
+        "today": "Aujourd'hui",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "agenda": "Ordre du jour",
+        "calendar": "Calendrier"
+    },
+    "sidebar": {
+        "searchScheduledMessages": "Rechercher des messages planifiés..."
+    },
+    "status": {
+        "proPlan": "Plan Pro",
+        "unlimited": "Illimité",
+        "offline": "Hors ligne",
+        "premium": "Premium",
+        "unlimitedPlusOfflinePlusPremium": "Illimité + Hors ligne + Premium",
+        "unlimitedPlusAdvanced": "Illimité + Avancé",
+        "unlimitedMessages": "Messages illimités",
+        "botActive": "Bot actif",
+        "botsActive": "Bots actifs",
+        "noBotsCreated": "Aucun bot créé",
+        "botsInactive": "Bots inactifs",
+        "noWhatsAppConnected": "Aucun WhatsApp connecté",
+        "whatsAppConnected": "WhatsApp connecté",
+        "whatsAppReadyOfflineOk": "WhatsApp prêt (Hors ligne OK)",
+        "scanQrCodeToConnect": "Scanner le code QR pour se connecter",
+        "whatsAppGatewayStarting": "Passerelle WhatsApp en démarrage...",
+        "whatsAppWebOnly": "WhatsApp Web uniquement",
+        "notConnected": "Non connecté",
+        "freePlan": "Plan gratuit",
+        "basicPlan": "Plan basique",
+        "standardPlan": "Plan standard",
+        "oneParallelMessage": "1 message parallèle",
+        "parallelMessages": "{{count}} messages parallèles",
+        "seats": "{{count}} sièges",
+        "active": "Actif",
+        "goPro": "Passer à Pro",
+        "upgrade": "Mettre à niveau",
+        "connectedFrom": "Connecté depuis",
+        "latestConnection": "Dernière connexion"
+    },
+    "campaign": {
+        "title": "Gestion des campagnes",
+        "manageCampaigns": "Gérer les campagnes",
+        "manageAudiences": "Gérer les publics",
+        "manageTemplates": "Gérer les modèles",
+        "manageCampaignsSubtitle": "Créez, mettez en pause, reprenez, annulez et consultez vos journaux de campagne.",
+        "manageTemplatesSubtitle": "Créer, modifier, dupliquer et supprimer des modèles",
+        "manageAudiencesSubtitle": "Créer, modifier, dupliquer et supprimer des publics",
+        "whoToSend": "À qui envoyer ?",
+        "selectAudiencesSubtitle": "Sélectionnez les publics cibles pour votre campagne.",
+        "searchPlaceholder": "Rechercher des campagnes...",
+        "newCampaign": "Nouvelle campagne",
+        "reset": "Réinitialiser",
+        "file": "Fichier",
+        "link": "Lien",
+        "poll": "Sondage : {{question}}",
+        "unnamed": "Campagne sans nom",
+        "contacts": "{{count}} contacts",
+        "contact": "contact",
+        "started": "Démarré {{date}} - {{time}}",
+        "startTimeUnavailable": "Heure de début indisponible à afficher",
+        "unknownContacts": "Nombre de contacts inconnu",
+        "stuckMessagesTitle": "Attention requise - messages bloqués",
+        "messagesSent": "messages envoyés",
+        "stuckMessagesDescription": "Malheureusement, certains messages de campagne n'ont pas pu être envoyés.",
+        "sendAllMessages": "Envoyer tous les messages",
+        "selectTargetAudience": "Sélectionner le public cible",
+        "writeYourMessage": "Écrire votre message",
+        "setLaunchTime": "Définir l'heure de lancement",
+        "launchCampaign": "Lancer la campagne",
+        "launchCampaignNowOrSchedule": "Lancer la campagne maintenant ou planifier pour plus tard ?",
+        "readyForLaunch": "Votre campagne est prête à être lancée.",
+        "doubleCheckMessage": "Veuillez vérifier votre public cible et votre message<br>puis appuyez sur le bouton \"Lancer la campagne\""
+    },
+    "campaignStatus": {
+        "completed": "Terminé",
+        "running": "En cours",
+        "paused": "En pause",
+        "aborted": "Abandonné",
+        "pending": "En attente",
+        "sending": "Envoi : {{count}}",
+        "delivered": "Livré : {{count}}",
+        "read": "Lu : {{count}}",
+        "interacted": "Interagi : {{count}}",
+        "failed": "Échoué : {{count}}"
+    },
+    "campaignActions": {
+        "viewLogs": "Voir les journaux",
+        "duplicate": "Dupliquer la campagne",
+        "pause": "Mettre en pause la campagne",
+        "resume": "Reprendre la campagne",
+        "abort": "Abandonner la campagne",
+        "summary": "Résumé de la campagne"
+    },
+    "messageEditor": {
+        "placeholder": "Taper un message",
+        "writeMessage": "Écrire votre message",
+        "addTextEmojisLinksLabelsAndFiles": "Ajouter du texte, des emojis, des liens, des étiquettes et des fichiers"
+    },
+    "dateTime": {
+        "datePlaceholder": "jj/mm/aaaa",
+        "timePlaceholder": "HH:mm",
+        "whenToSend": "Quand envoyer ?",
+        "startTime": "Heure de début",
+        "endTime": "Heure de fin",
+        "now": "Maintenant",
+        "schedule": "Planifier"
+    },
+    "contacts": {
+        "addMore": "Ajouter plus de contacts...",
+        "searchPlaceholder": "Rechercher des contacts ou entrer un numéro de téléphone"
+    },
+    "audiences": {
+        "searchPlaceholder": "Rechercher des publics...",
+        "newAudience": "Nouveau public",
+        "selected": "{{count}} publics sélectionnés",
+        "noneSelected": "Aucun public sélectionné",
+        "duplicate": "Dupliquer le public",
+        "editAudience": "Modifier le public",
+        "deleteAudience": "Supprimer le public",
+        "importTitle": "Importer des contacts dans votre public",
+        "importDescription": "Importer des contacts depuis CSV ou Google Sheets pour créer ou mettre à jour un public"
+    },
+    "templates": {
+        "manageTemplates": "Gérer les modèles",
+        "noMessage": "Ce modèle n'a pas de message",
+        "unnamed": "Modèle sans nom",
+        "searchPlaceholder": "Rechercher des modèles...",
+        "newTemplate": "Nouveau modèle",
+        "newTemplateDefaultName": "Nouveau modèle"
+    },
+    "aiAssistant": {
+        "title": "Connecter votre assistant IA",
+        "subtitle": "Laissez Claude, ChatGPT ou d'autres LLM contrôler votre automatisation WhatsApp",
+        "feature1": {
+            "title": "Automatisation en langage naturel",
+            "example": "Planifier des souhaits d'anniversaire pour les contacts nés ce mois-ci"
+        },
+        "feature2": {
+            "title": "Insights alimentés par l'IA",
+            "example": "Analyser les performances de ma campagne et suggérer des améliorations"
+        },
+        "feature3": {
+            "title": "Création de campagne intelligente",
+            "example": "Rédiger un message promotionnel pour notre nouveau produit"
+        },
+        "choosePlatform": "Choisissez votre plateforme IA :",
+        "popular": "Populaire",
+        "comingSoon": "Bientôt disponible",
+        "connectViaMCP": "Se connecter via le protocole MCP",
+        "integrationInDevelopment": "Intégration en développement",
+        "footerInfo": "Vous ne voyez pas votre LLM ? Toute plateforme prenant en charge les connecteurs MCP peut se connecter à Blueticks en utilisant notre URL de connecteur personnalisée.",
+        "connectTitle": "Connecter Blueticks à {{platform}}",
+        "connectDescription": "Suivez ces étapes pour donner à {{platform}} l'accès à votre automatisation WhatsApp",
+        "step1": {
+            "title": "Copier l'URL MCP",
+            "label": "Votre point de terminaison de serveur MCP unique"
+        },
+        "step2": {
+            "title": "Ouvrir les connecteurs",
+            "button": "Aller à la page des connecteurs {{platform}}"
+        },
+        "step3": {
+            "title": "Ajouter un connecteur",
+            "inPlatform": "Dans {{platform}} :",
+            "instruction1": "Cliquez sur \"Ajouter un connecteur personnalisé\"",
+            "instruction2": "Entrez le nom : Blueticks",
+            "instruction3": "Collez l'URL du serveur MCP que vous avez copiée",
+            "instruction4": "Cliquez sur \"Ajouter\" ou \"Connecter\""
+        },
+        "step4": {
+            "title": "Autoriser l'accès",
+            "description": "Vous serez redirigé pour vous connecter à Blueticks et autoriser {{platform}} à accéder à vos données WhatsApp. Cela utilise l'authentification OAuth sécurisée."
+        },
+        "capabilities": {
+            "title": "Ce que {{platform}} pourra faire",
+            "message": "Planifier et envoyer des messages WhatsApp",
+            "contacts": "Voir et gérer vos contacts",
+            "campaigns": "Créer et gérer des campagnes"
+        },
+        "back": "Retour",
+        "done": "Terminé"
+    },
+    "knowledgeBase": {
+        "title": "Bases de connaissances",
+        "subtitle": "Gérez vos connaissances et documentations d'entreprise",
+        "searchPlaceholder": "Rechercher des bases de connaissances...",
+        "allKnowledgeBases": "Toutes les bases de connaissances",
+        "newKnowledgeBase": "Nouvelle base de connaissances",
+        "creating": "Création...",
+        "documents": "Documents",
+        "totalSize": "Taille totale",
+        "lastUpdated": "Dernière mise à jour",
+        "unknown": "Inconnu",
+        "botsCount": "{{count}} bots",
+        "deleteTitle": "Supprimer la base de connaissances",
+        "deleteDescription": "Êtes-vous sûr de vouloir supprimer \"{{name}}\" ? Cette action ne peut pas être annulée et supprimera tous les documents associés.",
+        "cancel": "Annuler",
+        "deleting": "Suppression...",
+        "delete": "Supprimer",
+        "deleteSuccess": "Base de connaissances supprimée",
+        "deleteSuccessDescription": "{{name}} a été supprimé avec succès",
+        "deleteError": "Échec de la suppression",
+        "deleteErrorDescription": "Échec de la suppression de la base de connaissances. Veuillez réessayer.",
+        "emptyState": "Aucune base de connaissances trouvée. Créez-en une pour commencer.",
+        "defaultDescription": "Ajoutez une description pour votre base de connaissances"
+    },
+    "api": {
+        "title": "API",
+        "warningMessage": "Attention, le message ne sera envoyé que si le navigateur est ouvert. Connectez votre appareil pour envoyer des messages lorsque le navigateur est fermé",
+        "tokenLabel": "Votre jeton API",
+        "tokenPlaceholder": "Aucun jeton API - Générer un nouveau",
+        "regenerate": "Régénérer",
+        "generate": "Générer",
+        "copy": "Copier",
+        "documentationText": "La documentation de l'API peut être trouvée",
+        "documentationLink": "ici",
+        "copySuccess": "Le jeton API a été copié avec succès",
+        "generateSuccess": "Le jeton API a été généré avec succès",
+        "regenerateTitle": "Régénérer le jeton API",
+        "regenerateConfirm": "Êtes-vous sûr de vouloir régénérer le jeton API ?",
+        "tabApi": "API",
+        "tabWebhooks": "Webhooks",
+        "playgroundTitle": "Testez l'API et commencez à l'utiliser pour planifier des messages.",
+        "playgroundTokenLabel": "Votre jeton API - REQUIS",
+        "playgroundPhoneLabel": "Insérer le numéro de téléphone complet (avec préfixe pays) - REQUIS",
+        "playgroundDivider": "Tapez un message, ajoutez une pièce jointe, ou faites les deux",
+        "playgroundMessageLabel": "Tapez un message",
+        "playgroundFileUrlLabel": "Insérer l'URL du fichier (optionnel)",
+        "playgroundMimeTypeLabel": "Insérer le type MIME du fichier (optionnel)",
+        "playgroundMimeTypeLink": "Liste des types MIME",
+        "playgroundOptional": "Optionnel",
+        "playgroundDueDateLabel": "Date d'échéance - chaîne ISO (optionnel)",
+        "playgroundCallbackLabel": "URL de rappel (optionnel)",
+        "playgroundSendButton": "Envoyer le message",
+        "playgroundCopyButton": "Copier dans le presse-papiers",
+        "playgroundCopySuccess": "Copié avec succès dans le presse-papiers",
+        "playgroundScheduleSuccess": "Planifié avec succès",
+        "playgroundDueDateDialogTitle": "Date d'échéance",
+        "playgroundDialogDescription": "Sélectionnez quand envoyer le message",
+        "playgroundOk": "OK",
+        "subtitle": "Gérez votre jeton API et testez l'envoi de messages par programmation",
+        "tokenDescription": "Utilisez ce jeton pour authentifier vos requêtes API",
+        "testApiTitle": "Tester l'API",
+        "testApiDescription": "Testez l'API et commencez à l'utiliser pour planifier des messages",
+        "generateError": "Échec de la génération du jeton API",
+        "webhooksTitle": "Automatisez vos conversations avec les webhooks.",
+        "webhooksMakeText": "Le tutoriel Make peut être trouvé",
+        "webhooksZapierText": "Le tutoriel Zapier peut être trouvé",
+        "webhooksAddressLabel": "Insérer l'adresse webhook",
+        "webhooksAddButton": "Ajouter un webhook",
+        "webhooksNoWebhooks": "Aucun webhook ajouté pour le moment"
+    },
+    "recentBoards": {
+        "accentInvite": "Accepter l'invitation",
+        "boardWorkspace": "Espace de travail",
+        "newBoard": "nouveau tableau",
+        "pageTitleDefault": "Bienvenue",
+        "pendingInvites": "Invitations de tableaux en attente",
+        "recentBoardsTitle": "Tableaux récents",
+        "title": "Tableaux récents",
+        "welcomeGreeting": "👋 Bonjour"
+    },
+    "agents": {
+        "title": "Agents",
+        "subtitle": "Gérez et surveillez vos flux de travail automatisés",
+        "newAgent": "Nouvel agent",
+        "searchPlaceholder": "Rechercher des agents...",
+        "allStatus": "Tous les statuts",
+        "loading": "Chargement de vos agents...",
+        "emptyState": "Aucun agent trouvé. Créez-en un pour commencer.",
+        "activeSessions": "Sessions actives",
+        "todaySessions": "Sessions d'aujourd'hui",
+        "lastDeployed": "Dernier déploiement",
+        "never": "Jamais",
+        "statusDraft": "brouillon",
+        "statusPublished": "publié",
+        "noDescription": "Aucune description",
+        "deleteBot": "Supprimer le bot"
+    },
+    "logs": {
+        "messageLogs": "Journaux de messages",
+        "campaignLogs": "Journaux de campagnes",
+        "teamInbox": "Boîte de réception de l'équipe"
+    },
+    "importContacts": {
+        "title": "Importer des contacts dans votre audience",
+        "titleBoard": "Importer des données dans votre tableau",
+        "subtitle": "Choisissez comment vous souhaitez importer vos contacts",
+        "audienceNameLabel": "Nom de l'audience",
+        "audienceNamePlaceholder": "Entrez le nom de l'audience",
+        "selectMethodLabel": "Sélectionnez la méthode d'importation :",
+        "methodCsv": "CSV, XLSX, XLS",
+        "methodGoogleSheets": "Google Sheets",
+        "methodWhatsApp": "Contacts WhatsApp",
+        "selectAll": "Tout sélectionner",
+        "contactSelected": "contact",
+        "contactsSelected": "contacts",
+        "searchPlaceholder": "Rechercher des contacts…",
+        "showSelected": "Afficher la sélection"
+    },
+    "botManagement": {
+        "title": "Gestion des bots",
+        "outOfCredits": "Crédits épuisés",
+        "runningLowOnCredits": "Crédits faibles",
+        "outOfCreditsMessage": "Vos bots peuvent cesser de fonctionner. Ajoutez des crédits immédiatement.",
+        "runningLowMessage": "Ajoutez-en plus pour maintenir vos bots en fonctionnement",
+        "createNewBot": "Créer un nouveau bot",
+        "manageAllBots": "Gérer tous les bots"
+    },
+    "messageScheduling": {
+        "multipleRecipientsInfo": "Lorsque vous ajoutez plusieurs destinataires, le message sera planifié individuellement pour chacun.",
+        "addFiles": "Ajouter des fichiers",
+        "setPoll": "Définir un sondage",
+        "switchToMessage": "Passer au message",
+        "noValidUrl": "URL non valide",
+        "cancelWhenReceived": "Annuler lorsqu'un message est reçu",
+        "scheduleTime": "Heure de planification",
+        "setRecurrence": "Définir la récurrence",
+        "editRecurrence": "Modifier la récurrence",
+        "setDeliveryOptions": "Définir les options de livraison",
+        "willBeSentOn": "Ce message sera envoyé le {{date}} à {{time}}",
+        "willBeSentEveryWeekday": "Ce message sera envoyé tous les {{weekdays}} à {{time}}",
+        "willBeSentMonthly": "Ce message sera envoyé le {{ordinal}} de chaque mois à {{time}}",
+        "willBeSentYearly": "Ce message sera envoyé le {{date}}, chaque année à {{time}}",
+        "willBeSentHourly": "Ce message sera envoyé toutes les heures à partir du {{date}}, à {{time}}",
+        "willBeSentMinutely": "Ce message sera envoyé toutes les minutes à partir du {{date}}, à {{time}}",
+        "willBeSentDaily": "Ce message sera envoyé tous les jours à partir du {{date}}, à {{time}}",
+        "until": "jusqu'au {{date}}",
+        "scheduleSend": "Planifier l'envoi",
+        "cancel": "Annuler",
+        "processing": "Traitement...",
+        "whatsappPreview": "Aperçu WhatsApp"
+    },
+    "linkPreview": {
+        "cancel": "Annuler l'aperçu du lien",
+        "update": "Mettre à jour l'aperçu du lien"
+    }
+}

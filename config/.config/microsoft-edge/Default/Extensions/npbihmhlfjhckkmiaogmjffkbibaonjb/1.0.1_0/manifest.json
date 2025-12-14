@@ -1,0 +1,55 @@
+{
+   "default_locale": "en_US",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtEin7wA9RTH98foyPM7VOPTJJwaVkut5cNYGySpRh7iEvAptewDR76NDJ3EOFOTlBPV9DOj4YSgM3Vo0PZyC6kbfIHkncKEtvda218r1fBhNiS/rtQb64MkAotFM0WOcH8SaUCMdH/6AsyJQSe3PqQcvfrtLeoxXsz8qjArs0731pQeNAXgbAZtvnlYLcnnpXAm5Y07RE9BYlzfKV+vGJt8pWJhSO3BdjNl7o0QPxBarjSxOQH1aXrRpnTHhGRTb9Jni9wzkmx5LQt5/Z4vUqODpZxq8Z+SBfjVNN02seY93dht4da5XY1GtH7Z8psPPaQ7TD0SOK/RO79AxYm+O3wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_themeName__",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 45, 80, 111 ],
+         "frame_inactive": [ 45, 80, 111 ],
+         "frame_incognito": [ 45, 80, 111 ],
+         "frame_incognito_inactive": [ 45, 80, 111 ],
+         "ntp_background": [ 14, 24, 50 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "omnibox_background": [ 22, 34, 65 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 14, 24, 50 ],
+         "toolbar_button_icon": [ 255, 255, 255 ],
+         "vertical_active_tab": [ 14, 24, 50 ],
+         "vertical_active_tab_incognito": [ 14, 24, 50 ],
+         "vertical_frame": [ 47, 17, 28 ],
+         "vertical_frame_incognito": [ 47, 17, 28 ],
+         "vertical_tab_background_text": [ 255, 255, 255 ],
+         "vertical_tab_text": [ 255, 255, 255 ],
+         "vertical_tab_text_incognito": [ 255, 255, 255 ],
+         "vertical_toolbar_button_icon": [ 255, 255, 255 ],
+         "vertical_toolbar_button_icon_incognito": [ 255, 255, 255 ]
+      },
+      "images": {
+         "theme_frame": "frame_background.png",
+         "theme_frame_inactive": "frame_background_inactive.png",
+         "theme_frame_incognito": "frame_background.png",
+         "theme_frame_incognito_inactive": "frame_background_inactive.png",
+         "theme_ntp_background": "theme_ntp_background.png",
+         "vertical_theme_frame": "frame_background_vertical.png",
+         "vertical_theme_frame_incognito": "frame_background_vertical.png"
+      },
+      "properties": {
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "background_tab": [ -1, -1, -1 ],
+         "buttons": [ -1, -1, -1 ],
+         "frame": [ -1, -1, -1 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.0.1"
+}

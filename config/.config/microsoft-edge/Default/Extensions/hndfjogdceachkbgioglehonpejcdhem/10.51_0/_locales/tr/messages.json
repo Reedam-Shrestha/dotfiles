@@ -1,0 +1,680 @@
+{
+   "aboutDescription": {
+      "message": "Kullanıcıların, Dailymotion.com, YouTube.com, VK.com ve diğerleri de dahil olmak üzere 40'dan fazla web sitesinden dosya indirmek için doğrudan bağlantılar almalarını sağlar."
+   },
+   "aboutDescriptionLite": {
+      "message": "Kullanıcıların, Dailymotion.com, VK.com ve diğerleri de dahil olmak üzere 40'dan fazla web sitesinden dosya indirmek için doğrudan bağlantılar almalarını sağlar."
+   },
+   "aboutPage": {
+      "message": "Hakkında"
+   },
+   "aboutSupported": {
+      "message": "Desteklenen kaynaklar"
+   },
+   "aboutTitle": {
+      "message": "SaveFrom.net Asistan"
+   },
+   "aboutVersion": {
+      "message": "Versiyon"
+   },
+   "activate": {
+      "message": "Aktifkan"
+   },
+   "activatePro": {
+      "message": "Aktifkan PRO"
+   },
+   "aliwizTopbarButton": {
+      "message": "Dapatkan secara gratis"
+   },
+   "aliwizTopbarTitle": {
+      "message": "Asisten Aliexpress menampilkan \u003Cb>harga terbaik\u003C/b> & \u003Cb>penjual terpercaya!\u003C/b>"
+   },
+   "are_you_sure_interrupt_download": {
+      "message": "Apakah Anda yakin ingin menghentikan unduhan?"
+   },
+   "authCheck": {
+      "message": "Memeriksa kredensial"
+   },
+   "beforeDownloadPopupWarn": {
+      "message": "Uyarı! İndirme işlemi iptal edilemez ya da ertelenemez."
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "cancelDownload": {
+      "message": "Batalkan unduhan"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "completed": {
+      "message": "Selesai"
+   },
+   "continue": {
+      "message": "Devam"
+   },
+   "conversionCompleted": {
+      "message": "Konversi selesai"
+   },
+   "copy": {
+      "message": "Kopyala"
+   },
+   "disable": {
+      "message": "Devre dışı"
+   },
+   "disableModule": {
+      "message": "Bu web sitesinde devre dışı bırak"
+   },
+   "doNotClosePage": {
+      "message": "Jangan tutup halaman ini sampai file selesai diunduh"
+   },
+   "done": {
+      "message": "Selesai"
+   },
+   "dont_close_page": {
+      "message": "Jangan tutup halaman ini, \u003Cbr/> ini akan memakan beberapa menit"
+   },
+   "download": {
+      "message": "İndir"
+   },
+   "downloadFromCurrentPage": {
+      "message": "SaveFrom.net'e git"
+   },
+   "downloadInfo": {
+      "message": "Informasi Unduhan"
+   },
+   "downloadMP3Files": {
+      "message": "Ses dosyalarını indir"
+   },
+   "downloadPhotos": {
+      "message": "Resimleri indir"
+   },
+   "downloadPlaylist": {
+      "message": "Çalma listesini indir"
+   },
+   "downloadTitle": {
+      "message": "Dosyayı indirmek için Alt/Option veya Ctrl tuşuna basılı tutarak bağlantıyı tıklayın."
+   },
+   "downloadWholePlaylist": {
+      "message": "Tüm çalma listesini indir"
+   },
+   "download_button_and_click": {
+      "message": "ve tıklayın"
+   },
+   "download_button_hold": {
+      "message": "Basılı Tutun"
+   },
+   "downloadingBox_button": {
+      "message": "İndir"
+   },
+   "downloadingBox_description": {
+      "message": "İndirme başlamadıysa İndir düğmesine tıklayın"
+   },
+   "downloadingBox_fileName": {
+      "message": "Dosya adı"
+   },
+   "downloadingBox_status_complete": {
+      "message": "Tamamlandı"
+   },
+   "downloadingBox_status_converting": {
+      "message": "dönüştürme"
+   },
+   "downloadingBox_status_loading": {
+      "message": "Yükleniyor..."
+   },
+   "downloadingBox_status_prepare": {
+      "message": "Hazırlamak"
+   },
+   "enableDisableModule": {
+      "message": "Bu sitede etkin/devre dışı"
+   },
+   "enableModule": {
+      "message": "Bu web sitesinde etkinleştir"
+   },
+   "errors": {
+      "message": "Kesalahan"
+   },
+   "extDescription": {
+      "message": "Sadece bir tıklama ile YouTube, Facebook, VK.com ve 40'dan fazla siteden dosya indirin."
+   },
+   "extDescriptionLite": {
+      "message": "Sadece bir tıklama ile Facebook, VK.com ve 40'dan fazla siteden dosya indirin"
+   },
+   "extName": {
+      "message": "SaveFrom.net asistan"
+   },
+   "extNameLite": {
+      "message": "SaveFrom.net asistan lite"
+   },
+   "filelist": {
+      "message": "Dosya listesi"
+   },
+   "filelistInstruction": {
+      "message": "['Tüm dosyalarını indirmek için bağlantı listesini kopyalayın ve ',{a:{href:'http://en.wikipedia.org/wiki/Download_manager',text:'indirme yöneticisine'}},' yapıştırın. Kurulu bir indirme yöneticiniz yoksa ',{a:{href:'http://www.freedownloadmanager.org/',text:'Free Download Manager'}},' yüklemenizi tavsiye ederiz.']"
+   },
+   "filelistTitle": {
+      "message": "Bulunan dosyalarını listesi"
+   },
+   "files": {
+      "message": "File"
+   },
+   "getFileSizeFailTitle": {
+      "message": "Dosya boyutu alınamadı. Lütfen tekrar deneyiniz."
+   },
+   "getFileSizeTitle": {
+      "message": "Dosya boyutunu al"
+   },
+   "homePage": {
+      "message": "Ana Sayfa"
+   },
+   "howActivateHelperPro": {
+      "message": "Cara mengaktifkan Helper Pro"
+   },
+   "installFullVersion": {
+      "message": "Tam versiyonu kur"
+   },
+   "instruction": {
+      "message": "Instruksi penggunaan"
+   },
+   "kbps": {
+      "message": "kbps"
+   },
+   "lang": {
+      "message": "tr"
+   },
+   "linksUpdated": {
+      "message": "Bağlantılar güncellendi!"
+   },
+   "lmButtonTitle": {
+      "message": "Doğrudan bağlantı al"
+   },
+   "login": {
+      "message": "Masuk ke Helper Pro"
+   },
+   "loginAlreadyGmMessage": {
+      "message": "Anda sudah masuk, harap segarkan halaman"
+   },
+   "loginGmMessage": {
+      "message": "Pergi ke halaman masuk"
+   },
+   "loginIfPro": {
+      "message": "Masuk jika Anda memiliki Pro"
+   },
+   "logout": {
+      "message": "Keluar"
+   },
+   "logoutAlreadyGmMessage": {
+      "message": "Anda sudah keluar, segarkan halaman"
+   },
+   "logoutGmMessage": {
+      "message": "Anda telah berhasil keluar"
+   },
+   "menuDisable": {
+      "message": "Devre dışı"
+   },
+   "menuDownloadFromCurrentPage": {
+      "message": "SaveFrom.net'i kullanarak geçerli sayfadan dosya indirin"
+   },
+   "menuDownloadMP3Files": {
+      "message": "Geçerli sayfada bulunan tüm ses dosyalarını indirin"
+   },
+   "menuDownloadPhotos": {
+      "message": "Geçerli sayfada bulunan tüm resimleri indirin"
+   },
+   "menuDownloadPlaylist": {
+      "message": "Ses dosyalarından oluşan bir çalma listesi oluşturur ve indirir"
+   },
+   "menuEnable": {
+      "message": "Etkin"
+   },
+   "menuEnableExtension": {
+      "message": ""
+   },
+   "menuOpenPoll": {
+      "message": ""
+   },
+   "menuReportBug": {
+      "message": "Herhangi bir sorun olması durumunda bize bildirin"
+   },
+   "menuShowOptions": {
+      "message": "Desteklenen kaynakları ve Helper seçeneklerini AÇ/KAPAT"
+   },
+   "menuUpdateLinks": {
+      "message": "Download düğmesi görünmüyorsa tıklayın"
+   },
+   "minimize": {
+      "message": "Kecilkan"
+   },
+   "minimizeDownloadPanel": {
+      "message": "Kecilkan jendela unduhan, kami akan memberi tahu Anda ketika video telah diunduh"
+   },
+   "more": {
+      "message": "Daha fazla"
+   },
+   "msg_data_invalid": {
+      "message": "Data yang tidak valid dikirimkan, silakan coba lagi"
+   },
+   "msg_no_premium": {
+      "message": "Anda belum mengaktifkan Pro"
+   },
+   "msg_not_authorized": {
+      "message": "Untuk menggunakan pro, Anda perlu masuk"
+   },
+   "msg_quality_not_found": {
+      "message": "Tidak dapat menemukan kualitas yang ditentukan"
+   },
+   "msg_video_exists": {
+      "message": "Video sudah sedang diunduh"
+   },
+   "msg_video_not_found": {
+      "message": "Tidak dapat menemukan video yang ditentukan"
+   },
+   "no": {
+      "message": "Hayır"
+   },
+   "noLinksFound": {
+      "message": "Hiçbir bağlantı bulunamadı"
+   },
+   "noWarning": {
+      "message": "Bildirme"
+   },
+   "openPoll": {
+      "message": "Become better"
+   },
+   "optionsAviaBarEnabled": {
+      "message": "Ucuz uçak bileti arama"
+   },
+   "optionsBitrate": {
+      "message": "Bit hızını anlık olarak göster"
+   },
+   "optionsDailymotion": {
+      "message": "Dailymotion"
+   },
+   "optionsDirectory": {
+      "message": "Listelenen formatlardan birinin dosyalarının kaydedileceği dizinin adı."
+   },
+   "optionsFacebook": {
+      "message": "Facebook"
+   },
+   "optionsFfmpegEnabled": {
+      "message": "ffmpeg için dönüştürücü (Alpha version)"
+   },
+   "optionsFormats": {
+      "message": "Belirtilen dizine kaydedilecek dosya formatlarını boşlukla ayırarak belirtiniz"
+   },
+   "optionsGmNativeDownload": {
+      "message": "Gelişmiş indirme modu"
+   },
+   "optionsHandleLinks": {
+      "message": "Linkleri taşı"
+   },
+   "optionsInstagram": {
+      "message": "Instagram"
+   },
+   "optionsMailru": {
+      "message": "Moy Mir"
+   },
+   "optionsMediaHostings": {
+      "message": "Medya paylaşıma"
+   },
+   "optionsModules": {
+      "message": "Modüller"
+   },
+   "optionsOdnoklassniki": {
+      "message": "Odnoklassniki"
+   },
+   "optionsRutube": {
+      "message": "Rutube"
+   },
+   "optionsSaveAsDialog": {
+      "message": "Dosyaların nereye kaydedileceğini her seferinde sor"
+   },
+   "optionsShowUmmyBtn": {
+      "message": "Ummy düğmesini göster"
+   },
+   "optionsShowUmmyInfo": {
+      "message": "UVD için ipuçlarını göster"
+   },
+   "optionsSoundcloud": {
+      "message": "SoundCloud"
+   },
+   "optionsSovetnikEnabled": {
+      "message": "Advisor"
+   },
+   "optionsTiktok": {
+      "message": "Tiktok"
+   },
+   "optionsTitle": {
+      "message": "SaveFrom.net Asistan - Tercihler"
+   },
+   "optionsVimeo": {
+      "message": "Vimeo"
+   },
+   "optionsVkontakte": {
+      "message": "VK"
+   },
+   "optionsYTHideLinks": {
+      "message": "Bağlantıları gizle"
+   },
+   "optionsYoutube": {
+      "message": "YouTube"
+   },
+   "options_Actions_title": {
+      "message": "Hareketler"
+   },
+   "options_Directory_title": {
+      "message": "Dizin"
+   },
+   "options_Formats_title": {
+      "message": "Formatlar"
+   },
+   "options_button_add": {
+      "message": "Ekle"
+   },
+   "options_button_cancel": {
+      "message": "İptal"
+   },
+   "options_button_delete": {
+      "message": "Sil"
+   },
+   "options_button_edit": {
+      "message": "Düzenle"
+   },
+   "options_button_reset": {
+      "message": "Sıfırla"
+   },
+   "options_button_save": {
+      "message": "Kaydet"
+   },
+   "options_management": {
+      "message": "Depo Yönetimi (Dosyaları dizinlere göre sıralama)"
+   },
+   "options_no_type_msg": {
+      "message": "Herhangi bir tür atanmamış"
+   },
+   "partnersLinksOnly": {
+      "message": "Bağlantı bulunamadı, bağlı kuruluş ürünlerini kullanın"
+   },
+   "playlist": {
+      "message": "Çalma listesi"
+   },
+   "playlistInstruction": {
+      "message": "Artık kaydedilen çalma listenizi yürütmek için müzik çalarınızda açabilirsiniz."
+   },
+   "playlistTitle": {
+      "message": "Çalma Listesi"
+   },
+   "prepareDownload": {
+      "message": "Menyiapkan untuk mengunduh"
+   },
+   "pro": {
+      "message": "PRO"
+   },
+   "probannerAlreadyHave": {
+      "message": "Zaten PRO'nuz var mı?"
+   },
+   "probannerDescription": {
+      "message": "Helper PRO'nun tüm özelliklerinden yararlanın, sadece"
+   },
+   "probannerFeature1": {
+      "message": "HD/4K videolar indirin"
+   },
+   "probannerFeature2": {
+      "message": "Sadece MP3 olarak kaydedin"
+   },
+   "probannerFeature3": {
+      "message": "700+ site desteği"
+   },
+   "probannerFeature4": {
+      "message": "Tüm cihazlarda erişim"
+   },
+   "probannerLoginLink": {
+      "message": "Giriş yap"
+   },
+   "probannerPrice": {
+      "message": "₺149,99/ay"
+   },
+   "probannerTitle": {
+      "message": "Savefrom Helper PRO ile sınırsız indirin!"
+   },
+   "probannerUpgradeButton": {
+      "message": "PRO Edinin"
+   },
+   "quality": {
+      "message": "Kalite"
+   },
+   "qualityNote": {
+      "message": "Herhangi bir seçilebilir kalitenin olmaması durumunda mevcut olan en iyi video indirilecektir."
+   },
+   "readMore": {
+      "message": "Daha fazla"
+   },
+   "reportBug": {
+      "message": "Hata bildir"
+   },
+   "sendToButton": {
+      "message": "Kirim ke ponsel"
+   },
+   "sendToEmailButton": {
+      "message": "Kirim email"
+   },
+   "sendToEmailInputError": {
+      "message": "Kesalahan"
+   },
+   "sendToEmailInputPlaceholder": {
+      "message": "Ketik email Anda di sini"
+   },
+   "sendToEmailText": {
+      "message": "Pekerjaan pada fitur ini sedang berlangsung. Kirimkan email kami dan kami akan mengirimkan undangan begitu fitur siap."
+   },
+   "sendToEmailTextComplete": {
+      "message": "Terima kasih!"
+   },
+   "sendToEmailTitle": {
+      "message": "Terima kasih atas minat Anda!"
+   },
+   "sendToLinkGoBack": {
+      "message": "Kembali ke pengunduhan video"
+   },
+   "sendToLoginButton": {
+      "message": "Masuk"
+   },
+   "sendToLoginText": {
+      "message": "Silakan Masuk dengan Google untuk mentransfer video yang dipilih"
+   },
+   "sendToLoginTitle": {
+      "message": "Transfer video langsung ke ponsel Anda!"
+   },
+   "sendToTextOr": {
+      "message": "atau"
+   },
+   "shareIn": {
+      "message": "%w üzerinden paylaş"
+   },
+   "showButton": {
+      "message": "Eklenti düğmesini göster"
+   },
+   "showHideButton": {
+      "message": "Eklenti butonunu göster/gizle"
+   },
+   "showOptions": {
+      "message": "Ayarlar"
+   },
+   "size": {
+      "message": "boyut"
+   },
+   "socialDesc": {
+      "message": "SaveFrom.net Helper, sadece bir tıklama ile YouTube.com, Facebook.com, VK.com ve 40'dan fazla siteden ücretsiz olarak dosya indirmenizi sağlar."
+   },
+   "someFilesNeedConverted": {
+      "message": "Beberapa file perlu dikonversi, jangan tutup jendela sampai konversi selesai."
+   },
+   "somethingWentWrong": {
+      "message": "Terjadi kesalahan. Coba lagi nanti."
+   },
+   "subtitles": {
+      "message": "Alt yazı"
+   },
+   "success": {
+      "message": "Berhasil"
+   },
+   "televzrNotFound": {
+      "message": "Televzr tidak ditemukan"
+   },
+   "televzrNotFoundSubMessage": {
+      "message": "Coba unduh dan buka Televzr"
+   },
+   "titleDefault": {
+      "message": "SaveFrom.net asistan"
+   },
+   "titleDesabled": {
+      "message": "SaveFrom.net asistan devre dışı"
+   },
+   "tooltipHide": {
+      "message": "Bu mesajı tekrar gösterme"
+   },
+   "try_pro_button": {
+      "message": "PRO'YU DENEYİN"
+   },
+   "tutorialTooltipConfirm": {
+      "message": "tamam"
+   },
+   "tutorialTooltipHeader": {
+      "message": "Bir tıklama ile videoları indirin!"
+   },
+   "tutorialTooltipText": {
+      "message": "Videoyu indirmek ve kaliteyi seçmek için düğmeye tıklayın."
+   },
+   "tzDownloadStarted": {
+      "message": "Ditambahkan ke unduhan"
+   },
+   "tzPreparingToDownload": {
+      "message": "Menyiapkan untuk mengunduh"
+   },
+   "tzSearchApp": {
+      "message": "Cari Televzr"
+   },
+   "ummyMenuInfo": {
+      "message": "[{p:{text:'Ummy Video İndirici\\'yi yükleyin ve en sevdiğiniz HD videoları ya da MP3\\'leri hemen indirin.'}},{p:{class:'center',append:[{a:{class:'green-btn-2 arrow',href:'{url}',target:'_blank',text:'İndir'}}]}},{p:{append:['Kurulumdan sonra ',{img:{src:'#'}},' simgesine tıklayarak dosya indirme işlemini otomatik olarak başlatabilirsiniz.']}}]"
+   },
+   "ummyMenuItem": {
+      "message": "['Ummy ile ',{span:{}}]"
+   },
+   "ummySfTitle": {
+      "message": "HD veya MP3"
+   },
+   "ummyTooltipConfirm": {
+      "message": "[{img:{}},' Ummy Video Downloader programını daha önce yüklediniz mi?']"
+   },
+   "updateLinks": {
+      "message": "Bağlantıları yenile"
+   },
+   "updateLinksNotification": {
+      "message": "Bağlantılar güncellendi"
+   },
+   "updateTo": {
+      "message": "%d sürümüne güncelle"
+   },
+   "upgrade": {
+      "message": "Yükselt"
+   },
+   "video": {
+      "message": "Video"
+   },
+   "videoDownloaded": {
+      "message": "Video berhasil diunggah"
+   },
+   "videoDownloading": {
+      "message": "Mengunduh video"
+   },
+   "video_coming_ok": {
+      "message": "Lanjutkan"
+   },
+   "video_coming_soon": {
+      "message": "Video segera mulai diunduh"
+   },
+   "vkDownloadAllPhotoAlbums": {
+      "message": "Tüm albümleri indir"
+   },
+   "vkDownloadFromYoutube": {
+      "message": "['İndirme: ',{a:{href:'{url}',text:'video sayfasını'}},' açın ve oynatıcı üzerindeki \"İndir\" dümesine basın']"
+   },
+   "vkDownloadPhotoAlbum": {
+      "message": "Albümü indir"
+   },
+   "vkFileSizeByte": {
+      "message": "B"
+   },
+   "vkFileSizeGByte": {
+      "message": "GB"
+   },
+   "vkFileSizeKByte": {
+      "message": "kB"
+   },
+   "vkFileSizeMByte": {
+      "message": "MB"
+   },
+   "vkFileSizeTByte": {
+      "message": "TB"
+   },
+   "vkFoundFiles": {
+      "message": "Bulunan dosyalar: %d"
+   },
+   "vkFoundLinks": {
+      "message": "Bulunan bağlantılar"
+   },
+   "vkFoundOf": {
+      "message": "den"
+   },
+   "vkFoundPhotos": {
+      "message": "Bulunan fotoğraflar"
+   },
+   "vkInfo": {
+      "message": "Bilgi"
+   },
+   "vkInfoTitle": {
+      "message": "Dosya boyutu ve bit hızı"
+   },
+   "vkKbps": {
+      "message": "kbps"
+   },
+   "vkListOfLinks": {
+      "message": "Bağlantı listesi"
+   },
+   "vkListOfLinksInstruction": {
+      "message": "['Tüm fotoğrafları indirmek için bağlantı listesini kopyalayın ve ',{a:{href:'http://en.wikipedia.org/wiki/Download_manager',text:'indirme yöneticisine'}},' yapıştırın. Kurulu bir indirme yöneticiniz yoksa ',{a:{href:'http://www.freedownloadmanager.org/',text:'Free Download Manager'}},' yüklemenizi tavsiye ederiz.']"
+   },
+   "vkListOfPhotos": {
+      "message": "Fotoğraf listesi"
+   },
+   "vkListOfPhotosInstruction": {
+      "message": "İndirmek için fotoğrafın üzerine tıklayın."
+   },
+   "vkMp3LinksNotFound": {
+      "message": "MP3 dosyaları için bağlantılar bulunamıyor"
+   },
+   "vkNotAvailablePhotos": {
+      "message": "%d resim geçici olarak kullanılamıyor"
+   },
+   "vkPhotoLinksNotFound": {
+      "message": "Fotoğraflar bulunamadı"
+   },
+   "vkShowAs": {
+      "message": "Olarak göster"
+   },
+   "vkTableOfThumbnails": {
+      "message": "Küçükk resimler tablosu"
+   },
+   "warningPopupDesc": {
+      "message": "\"Dosyaların nereye kaydedileceğini her seferinde sor\" seçeneği kapalı olmalıdır."
+   },
+   "warningPopupTitle": {
+      "message": "Tarayıcı ayarlarını kontrol edin"
+   },
+   "withoutAudio": {
+      "message": "without audio"
+   },
+   "yes": {
+      "message": "Evet"
+   }
+}
